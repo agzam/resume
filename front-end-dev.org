@@ -1,0 +1,161 @@
+# Ag Ibragimov
+[agzam.ibragimov@gmail.com](mail-to:agzam.ibragimov@gmail.com) 
+
+[Walnut Creek, CA](https://goo.gl/maps/1RrnrxnpFFH2)
+
+## Objective
+
+To acquire a front-end focused software engineering role in a team aimed to deliver awesome products, driven by people who are not afraid to use cutting-edge platforms, tools and standards, understand importance of automated testing and strive for perfection in the code and in the final product.
+
+Preferably would be considering full-time, permanent positions where could be participating in building modern web/hybrid apps backed by Clojurescript/Clojure and/or Node.js.
+ 
+### Currently not looking for:
+
+* .net C# based projects
+* projects heavily based on Python (Django/Flask etc.) or Ruby (Rails, Sinatra, etc.)
+* strictly back-end projects - with very few visual components
+
+## Summary
+
+* I am experienced in making interactive, responsive and adaptive web apps and building multi-tiered, scalable, enterprise level desktop apps with sophisticated UI and complex logic, cloud based services and mobile apps
+* Fanatic of unit-testing, decoupling code fractions and creating reusable components
+* I prefer declarative, functional paradigms rather than imperative ways of code-writing
+* Skilled in all stages of software development process:
+ * architecture, modeling project’s structure by abstracting business domain, employing design patterns and finding suitable algorithms
+ * UI composition, coding and code refactoring
+ * debugging, profiling, detecting "bottlenecks", improving performance
+ * unit testing (mocks, stubs, code coverage), integration testing, end-to-end test automation
+* My portfolio includes (but not limited to) the following languages: JavaScript, Coffeescript, Typescript, Livescript, Clojurescript/Clojure, C#, Python. I am Familiar with Ruby, Java and Lisp. Really hoping to extend my exposure into languages with strong functional emphasis e.g. Haskell, Clojure and F#
+
+## Key skills
+
+#### Web
+
+Competent in popular JavaScript frameworks like: Angular, Express, jQuery, Bootstrap, Lodash etc.; various module loaders; testing frameworks; CSS preprocessors; templating engines; automation tools; package managers. Familiar with latest language features introduced in ES2015
+
+#### Desktop and Back-end
+
+Node.js, Couchbase, Mongo DB, mySQL, SQL Server. Windows services. WPF and Silverlight applications. XAML, MVVM frameworks. Xamarin tools.
+
+#### Cloud
+
+Amazon Web Services: S3, DynamoDB, SQS, EC2 etc. Heroku, Docker
+ 
+#### Mobile
+
+Firefox OS, iPhone and iPad apps, Xamarin tools, xCode. Connected devices – Google Chromecast, Apple TV
+
+
+## Professional experience
+
+### [ Mobitor ] Lead Front-end Developer 
+`Apr 2015-current` `Walnut Creek, CA`
+
+##### Responsibilities:
+
+* Suite for managing medical devices (orthopedic and spine devices and implants)
+
+### [ Invitae ] Lead Front-end Developer 
+`May 2014-Apr 2015` `San Francisco, CA`
+
+##### Responsibilities:
+
+* Building node/angular based web applications
+
+### [ VEVO ] Senior Software Developer
+`Jan 2012-May 2014` `New York and San Francisco`
+
+##### Responsibilities:
+
+* Implemented cloud-based, task-driven, scalable, 10x more efficient (than previous versions) video encoding system
+* Lead a group of developers on a web project that used internally and by company's partners
+* Google Chromecast integration with Vevo apps - in Chrome browser, on iOS and Android
+* Apple TV App
+* Participated in redesigning vevo.com from scratch, switching from asp.net mvc to node/angular 
+
+### [ Bunk1.com ] Web Developer
+`2011` `461 Park Avenue South, New York`
+
+##### Responsibilities:
+
+* Building lightweight, responsive web apps on asp.net mvc, backbone.js and jquery
+* iPhone and iPad apps using Xamarin tools
+ 
+### [ USeDirect ] Software Developer
+`2010` `Roslyn Heights, NY`
+
+##### Responsibilities:
+
+* WPF Metro UI shell to manage custom Microsoft Dynamics solution
+ 
+### [ Focus Solutions ] Software Developer
+`2010` `Melville, NY`
+
+##### Responsibilities:
+
+* Software suite for military facilities, for reliably and safely identify, track and maintain arms, ammunition and explosives using automatic identification technology based on RFID tracking
+ 
+### Freelance Programmer
+`2009` `New York City, NY`
+
+##### Responsibilities:
+
+* Daytrading stock market app for Dimension Capital LLC
+* Building fast, highly responsive, secured decision-making tool for automated stock trading based on monitored accounts of other stockbrokers.
+* Q&A automation for RI Communications group
+* A few web projects for Exotag
+
+
+### [ Educational Services & Products ] Web Developer
+`2008-2009` `Brooklyn, NY`
+
+asp.net web apps
+ 
+### [ CodeLuxe ] Game Developer
+`2008` `Moscow, Russia`
+
+Developing casual games based on Silverlight
+ 
+### [ DENISE Fashion Stores ] Head of IT Department, Software Engineer
+`2007-2008` `Moscow, Russia`
+
+Maintaining ERP, Sales and Retail management systems
+
+##### Responsibilities:
+* Maintaining distributed Sales management system 
+* Software maintenance on POS terminals
+ 
+### [ PlusSoft ] Software Developer
+`2003-2006` `Tashkent, Uzbekistan`
+
+* Ticket booking software suite for Uzbekistan Airways
+* Project for National broadcasting company for planning, allocation and monitoring TV commercials
+ 
+### [ A&A Software ] Software Developer
+`2005-2006` `Dubai, UAE`
+
+Commissioned as a consultant by "PlusSoft"
+
+##### Responsibilities:
+
+* Bookkeeping software for air-cargo companies ("Aerovista" and "RusAviation")
+* Car renting suite for rent-a-car facilities in Dubai
+ 
+### [ Spektr ] Support 
+`2001-2003` `Pyatigorsk, Russia`
+
+ERP suite. Staff and salary modules
+ 
+### [ National Broadcasting Company ] Support
+`1999-2001` `Tashkent, Uzbekistan`
+ 
+### State Tax Committee Support 
+`1996-1999` `Tashkent, Uzbekistan`
+ 
+## EDUCATION
+ 
+#### Tashkent City College of Information Technologies
+Bachelor of Science in Information Technology `1992-1996`
+ 
+
+_updated: September 2015_
