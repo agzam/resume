@@ -1,0 +1,25 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agzam/resume.git"
+  },
+  "author": "Ag Ibragimov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agzam/resume/issues"
+  },
+  "homepage": "https://github.com/agzam/resume#readme",
+  "devDependencies": {
+    "coffee-script": "^1.10.0",
+    "gulp": "^3.9.0",
+    "gulp-jade": "^1.1.0",
+    "gulp-rename": "^1.2.2"
+  }
+}

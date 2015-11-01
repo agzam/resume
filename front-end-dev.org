@@ -1,161 +1,151 @@
 # Ag Ibragimov
-[agzam.ibragimov@gmail.com](mail-to:agzam.ibragimov@gmail.com) 
-
+[agzam.ibragimov@gmail.com](mail-to:agzam.ibragimov@gmail.com)
 [Walnut Creek, CA](https://goo.gl/maps/1RrnrxnpFFH2)
 
-## Objective
+## About me:
 
-To acquire a front-end focused software engineering role in a team aimed to deliver awesome products, driven by people who are not afraid to use cutting-edge platforms, tools and standards, understand importance of automated testing and strive for perfection in the code and in the final product.
+I am a software developer, moved to the US about seven years ago from Moscow. For the past couple of years I have been mostly focusing on front-end (web) side of things and working full-time on developing proprietary products. To my regret I generally do not have time to participate in open-source projects.
 
-Preferably would be considering full-time, permanent positions where could be participating in building modern web/hybrid apps backed by Clojurescript/Clojure and/or Node.js.
- 
-### Currently not looking for:
+Currently I am quite gainfully employed, yet I would love to discuss front-end focused software engineering roles. 
 
-* .net C# based projects
-* projects heavily based on Python (Django/Flask etc.) or Ruby (Rails, Sinatra, etc.)
-* strictly back-end projects - with very few visual components
+I like teams aimed to deliver awesome products, driven by those who are not afraid to use cutting-edge platforms, tools and standards, to work with people who understand importance of automated testing and strive for perfection in the code and in the final product.
 
-## Summary
+My preference lies in considering full-time, permanent positions, where I could participate in building modern web/hybrid apps backed by Clojurescript/Clojure and/or Node.js. Recently I fell in love with Clojure and I would like to extend my exposure into that amazing language. Also I would be interested in exploring other languages with strong functional emphasis like Elm, Purescript, Scala or Haskell.
 
-* I am experienced in making interactive, responsive and adaptive web apps and building multi-tiered, scalable, enterprise level desktop apps with sophisticated UI and complex logic, cloud based services and mobile apps
-* Fanatic of unit-testing, decoupling code fractions and creating reusable components
-* I prefer declarative, functional paradigms rather than imperative ways of code-writing
-* Skilled in all stages of software development process:
- * architecture, modeling project’s structure by abstracting business domain, employing design patterns and finding suitable algorithms
- * UI composition, coding and code refactoring
- * debugging, profiling, detecting "bottlenecks", improving performance
- * unit testing (mocks, stubs, code coverage), integration testing, end-to-end test automation
-* My portfolio includes (but not limited to) the following languages: JavaScript, Coffeescript, Typescript, Livescript, Clojurescript/Clojure, C#, Python. I am Familiar with Ruby, Java and Lisp. Really hoping to extend my exposure into languages with strong functional emphasis e.g. Haskell, Clojure and F#
+#### For various reasons, currently I am not very excited about:
 
-## Key skills
+* .net C# based projects *- Although I have done it before and still love C#, even If I have given no choice but to build .net compatible solution I would probably try to use F# or Clojure*
+* projects heavily based on Java, Python (Django/Flask etc.) or Ruby (Rails, Sinatra, etc.) *- Let me clarify: I am fine with maintaining legacy code, however If asked to start a brand new project using Java, I would probably try to convince stakeholders otherwise*
 
-#### Web
-
-Competent in popular JavaScript frameworks like: Angular, Express, jQuery, Bootstrap, Lodash etc.; various module loaders; testing frameworks; CSS preprocessors; templating engines; automation tools; package managers. Familiar with latest language features introduced in ES2015
-
-#### Desktop and Back-end
-
-Node.js, Couchbase, Mongo DB, mySQL, SQL Server. Windows services. WPF and Silverlight applications. XAML, MVVM frameworks. Xamarin tools.
-
-#### Cloud
-
-Amazon Web Services: S3, DynamoDB, SQS, EC2 etc. Heroku, Docker
- 
-#### Mobile
-
-Firefox OS, iPhone and iPad apps, Xamarin tools, xCode. Connected devices – Google Chromecast, Apple TV
-
+#### What do I do:
+* I am capable of making interactive, responsive and adaptive web apps, scalable, enterprise level solutions with complex UI and logic, mobile apps and cloud based services
+* Fanatic of automated testing, decoupling code fractions and creating reusable components and when needed - microservices
+* I am in constant search of ways to improve my productivity - I never regret time spent on learning Vim and Emacs
+* I have done stuff and played with following languages: JavaScript, Coffeescript, Typescript, Livescript, Clojure, C#, Python. I am Familiar with Ruby, Java and Lisps
 
 ## Professional experience
 
-### [ Mobitor ] Lead Front-end Developer 
+### [Mobitor](http://www.mobitor.com)
 `Apr 2015-current` `Walnut Creek, CA`
 
 ##### Responsibilities:
+* Suite for managing medical devices (orthopedic, spine devices and implants)
 
-* Suite for managing medical devices (orthopedic and spine devices and implants)
+###### Components
+* ES6, coffeescript, node, couchbase, angular, karma, gulp, rxjs
 
-### [ Invitae ] Lead Front-end Developer 
+### [Invitae](https://www.invitae.com)
 `May 2014-Apr 2015` `San Francisco, CA`
 
 ##### Responsibilities:
+* Building asset tracking/dashboard web app
 
-* Building node/angular based web applications
+###### Components
+* coffeescript, python, node, angular, karma, protractor, gulp, rxjs, d3, browserify
 
-### [ VEVO ] Senior Software Developer
+### [VEVO](http://www.vevo.com)
 `Jan 2012-May 2014` `New York and San Francisco`
 
 ##### Responsibilities:
 
-* Implemented cloud-based, task-driven, scalable, 10x more efficient (than previous versions) video encoding system
+* Implemented cloud-based, task-driven, scalable, 10x more efficient (than the old one) video encoding system
 * Lead a group of developers on a web project that used internally and by company's partners
 * Google Chromecast integration with Vevo apps - in Chrome browser, on iOS and Android
 * Apple TV App
-* Participated in redesigning vevo.com from scratch, switching from asp.net mvc to node/angular 
+* Participated in redesigning vevo.com from scratch, switching from asp.net mvc to node/angular
 
-### [ Bunk1.com ] Web Developer
+###### Components
+* coffeescript, c#, node, asp.net, angular, Amazon Web Services
+
+### [Bunk1.com](https://www.bunk1.com)
 `2011` `461 Park Avenue South, New York`
 
 ##### Responsibilities:
 
-* Building lightweight, responsive web apps on asp.net mvc, backbone.js and jquery
+* Web apps and various widgets (e.g. calendar)
 * iPhone and iPad apps using Xamarin tools
- 
-### [ USeDirect ] Software Developer
+
+###### Components
+* c#, javascript, objective-c, asp.net, backbone, jquery, mono touch 
+
+### [USeDirect](https://www.usedirect.com)
 `2010` `Roslyn Heights, NY`
 
 ##### Responsibilities:
 
-* WPF Metro UI shell to manage custom Microsoft Dynamics solution
- 
-### [ Focus Solutions ] Software Developer
+* Desktop UI shell to manage custom Microsoft Dynamics solution
+
+### Focus Solutions
 `2010` `Melville, NY`
 
 ##### Responsibilities:
 
 * Software suite for military facilities, for reliably and safely identify, track and maintain arms, ammunition and explosives using automatic identification technology based on RFID tracking
- 
+
+###### Components
+* c#, WPF, entity framework
+
 ### Freelance Programmer
 `2009` `New York City, NY`
 
 ##### Responsibilities:
 
-* Daytrading stock market app for Dimension Capital LLC
-* Building fast, highly responsive, secured decision-making tool for automated stock trading based on monitored accounts of other stockbrokers.
-* Q&A automation for RI Communications group
-* A few web projects for Exotag
+* High-frequency trading app for Dimension Capital LLC
+    * Building fast, highly responsive, secured decision-making tool for automated stock trading based on monitored accounts of other stockbrokers.
+* QA automation for RI Communications group
+* a few web projects for Exotag
 
+###### Components
+* c#, javascript, php 
 
-### [ Educational Services & Products ] Web Developer
+### [Educational Services & Products](http://www.esp-sgs.com)
 `2008-2009` `Brooklyn, NY`
 
 asp.net web apps
- 
-### [ CodeLuxe ] Game Developer
+
+### CodeLuxe
 `2008` `Moscow, Russia`
 
 Developing casual games based on Silverlight
- 
-### [ DENISE Fashion Stores ] Head of IT Department, Software Engineer
+
+### DENISE Fashion Stores
 `2007-2008` `Moscow, Russia`
 
 Maintaining ERP, Sales and Retail management systems
 
-##### Responsibilities:
-* Maintaining distributed Sales management system 
-* Software maintenance on POS terminals
- 
-### [ PlusSoft ] Software Developer
+### [PlusSoft](http://plussoft.uz) 
 `2003-2006` `Tashkent, Uzbekistan`
 
 * Ticket booking software suite for Uzbekistan Airways
 * Project for National broadcasting company for planning, allocation and monitoring TV commercials
- 
-### [ A&A Software ] Software Developer
+
+### A&A Software
 `2005-2006` `Dubai, UAE`
 
 Commissioned as a consultant by "PlusSoft"
 
 ##### Responsibilities:
 
-* Bookkeeping software for air-cargo companies ("Aerovista" and "RusAviation")
+* Bookkeeping software for air-cargo companies ("[Aerovista](http://www.aerovista.aero)" and "[RusAviation](http://www.rusaviation.com)")
 * Car renting suite for rent-a-car facilities in Dubai
- 
-### [ Spektr ] Support 
+
+### Spektr
 `2001-2003` `Pyatigorsk, Russia`
 
 ERP suite. Staff and salary modules
- 
-### [ National Broadcasting Company ] Support
-`1999-2001` `Tashkent, Uzbekistan`
- 
-### State Tax Committee Support 
-`1996-1999` `Tashkent, Uzbekistan`
- 
-## EDUCATION
- 
-#### Tashkent City College of Information Technologies
-Bachelor of Science in Information Technology `1992-1996`
- 
 
-_updated: September 2015_
+### [National Broadcasting Company](http://www.mtrk.uz/en)
+`1999-2001` `Tashkent, Uzbekistan` 
+
+  &nbsp;
+
+### [State Tax Committee](https:\\soliq.uz)
+`1996-1999` `Tashkent, Uzbekistan`
+
+## EDUCATION
+
+#### [Tashkent City College of Information Technologies](kalanovo.uz)
+Bachelor of Science in Information Technology `1992-1996`
+
+&nbsp; &nbsp;
+  updated: October 2015
