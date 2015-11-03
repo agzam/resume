@@ -3,6 +3,14 @@ body {
     margin-right: 10%;
     margin-top: 5%;
     margin-bottom: 5%;
+    background: #fffae5; /* Old browsers */
+    background: -moz-linear-gradient(left,  #fffae5 0%, #fffae5 37%, #ffffff 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#fffae5), color-stop(37%,#fffae5), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left,  #fffae5 0%,#fffae5 37%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left,  #fffae5 0%,#fffae5 37%,#ffffff 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left,  #fffae5 0%,#fffae5 37%,#ffffff 100%); /* IE10+ */
+    background: linear-gradient(to right,  #fffae5 0%,#fffae5 37%,#ffffff 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fffae5', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 */
 }
 
 a:first-of-type, a:nth-of-type(2) {
