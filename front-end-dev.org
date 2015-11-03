@@ -14,8 +14,8 @@ My preference lies in considering full-time, permanent positions, where I could 
 
 #### For various reasons, currently I am not very excited about:
 
-* .net C# based projects *- Although I have done it before and still love C#, even If I have given no choice but to build .net compatible solution I would probably try to use F# or Clojure*
-* projects heavily based on Java, Python (Django/Flask etc.) or Ruby (Rails, Sinatra, etc.) *- Let me clarify: I am fine with maintaining legacy code, however If asked to start a brand new project using Java, I would probably try to convince stakeholders otherwise*
+* .net C# based projects *- Although I have done it before and still love C#, even If given no choice but to build .net compatible solution, would probably try to use F# or Clojure*
+* projects heavily based on Java, Python (Django/Flask etc.) or Ruby (Rails, Sinatra, etc.) *- Let me clarify: I am fine with maintaining legacy code, however If asked to start a brand new project using Java, would probably try to convince stakeholders otherwise*
 
 #### What do I do:
 * I am capable of making interactive, responsive and adaptive web apps, scalable, enterprise level solutions with complex UI and logic, mobile apps and cloud based services
