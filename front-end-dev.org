@@ -49,7 +49,7 @@ My preference lies in considering full-time, permanent positions, where I could 
 ##### Responsibilities:
 
 * Implemented cloud-based, task-driven, scalable, 10x more efficient (than the old one) video encoding system
-* Lead a group of developers on a web project that used internally and by company's partners
+* Lead a group of developers on a web project - product that has been used internally by staff and by partners
 * Google Chromecast integration with Vevo apps - in Chrome browser, on iOS and Android
 * Apple TV App
 * Participated in redesigning vevo.com from scratch, switching from asp.net mvc to node/angular
