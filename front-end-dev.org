@@ -17,14 +17,14 @@
 
 #### For various reasons, currently I am NOT very excited about:
 
-* .net C# based projects *- Although I have done it before and still love C#, when given no choice but to build .net compatible solution, I would probably try to use F# or Clojure*
-* projects heavily based on Java, Python (Django/Flask etc.) or Ruby (Rails, Sinatra, etc.) *- Let me clarify: I am fine with maintaining legacy code, however If asked to start a brand new project based on an imperative language, I would probably try to convince stakeholders otherwise*
+* .net C# based projects. *Although I have done it before and still love C#, when given no choice but to build .net compatible solution, I would probably try to use F# or Clojure*
+* projects heavily based on Java, Python (Django/Flask etc.) or Ruby (Rails, Sinatra, etc.). *Let me clarify - I am fine with maintaining legacy code, however If asked to start a brand new project based on an imperative language, I would probably try to convince stakeholders otherwise*
 
 #### What do I do:
 * I am capable of making interactive, responsive and adaptive web apps, scalable, enterprise level solutions with complex UI and logic, mobile apps and cloud based services
-* Fanatic of automated testing, decoupling code fractions and creating reusable components and when needed - microservices
-* I prefer functional programming constructs, I love functional reactive programming, at the same time I understand OOP principles and use them whenever it makes sense
-* I am in constant search of ways to improve my productivity - I never regret time spent on learning Vim, Emacs and plethora of other tools
+* Fanatic of automated testing, decoupling code fractions, creating reusable components and when needed - microservices
+* I prefer functional programming constructs, I love reactive programming, at the same time I understand OOP principles and apply them when that makes sense
+* Constantly trying to find ways to improve my productivity, I consider time spent on learning Vim, Emacs and plethora of other tools is my best lifetime investment
 * I have done stuff and played with following languages: JavaScript, Coffeescript, Typescript, Livescript, Clojure, C#, Python. I am Familiar with Ruby, Java and Elisp
 
 ## Professional experience
@@ -33,10 +33,10 @@
 `Lead Front-end Developer` `Apr 2015-current` `Walnut Creek, CA`
 
 ##### Responsibilities:
-Suite for managing medical devices (orthopedic, spine devices and implants)
+Suite for managing medical devices (orthopedic, spine surgery equipment and implants)
 
 ###### Components
-babel.js, javascript, coffeescript, node, couchbase, rxjs, angular, karma, protractor, gulp, postcss
+babel.js, coffeescript, node, couchbase, rxjs, angular, karma, protractor, gulp, postcss
 
 ### [Invitae](https://www.invitae.com)
 `Lead Front-end Developer and Architect` `May 2014-Apr 2015` `San Francisco, CA`
@@ -45,7 +45,7 @@ babel.js, javascript, coffeescript, node, couchbase, rxjs, angular, karma, protr
 Building asset tracking/dashboard web app
 
 ###### Components
-coffeescript, python, node, rxjs, angular, karma, protractor, gulp, d3, browserify, stylus, jade
+coffeescript, python, node, rxjs, angular, karma, protractor, gulp, d3, browserify, stylus, jade, elasticsearch
 
 ### [VEVO](http://www.vevo.com)
 `Senior Software Developer` `Jan 2012-May 2014` `New York and San Francisco`
@@ -68,13 +68,16 @@ javascript, coffeescript, c#, node, asp.net, angular, AWS
 * iPhone and iPad apps using Xamarin tools
 
 ###### Components
-c#, javascript, objective-c, asp.net, backbone, jquery, mono touch
+c#, javascript, asp.net, backbone, jquery, objective-c, mono touch, xamarin tools
 
 ### [USeDirect](https://www.usedirect.com)
 `Application Developer` `2010` `Roslyn Heights, NY`
 
 ##### Responsibilities:
 Desktop UI shell to manage custom Microsoft Dynamics solution
+
+###### Components
+c#, WPF
 
 ### Focus Solutions
 `Application Developer` `2010` `Melville, NY`
