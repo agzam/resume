@@ -39,7 +39,7 @@ Suite for managing medical devices (orthopedic, spine surgery equipment and impl
 babel.js, coffeescript, node, couchbase, rxjs, angular, karma, protractor, gulp, postcss
 
 ### [Invitae](https://www.invitae.com)
-`Lead Front-end Developer and Architect` `May 2014-Apr 2015` `San Francisco, CA`
+`Lead Front-end Developer and Architect` `May 2014 - Apr 2015` `San Francisco`
 
 ##### Responsibilities:
 Building asset tracking/dashboard web app
@@ -48,7 +48,7 @@ Building asset tracking/dashboard web app
 coffeescript, python, node, rxjs, angular, karma, protractor, gulp, d3, browserify, stylus, jade, elasticsearch
 
 ### [VEVO](http://www.vevo.com)
-`Senior Software Developer` `Jan 2012-May 2014` `New York/San Francisco`
+`Senior Software Developer` `Jan 2012 - May 2014` `New York/San Francisco`
 
 ##### Responsibilities:
 * Implemented cloud-based, task-driven, scalable, 10x more efficient (than the old one) video encoding system
@@ -89,7 +89,7 @@ Software suite for military facilities, for reliably and safely identify, track 
 c#, WPF, entity framework
 
 ### Freelance Programmer
-`-` `2009` `New York City, NY`
+`-` `2009` `New York`
 
 ##### Responsibilities:
 * High-frequency trading app for Dimension Capital LLC
@@ -101,7 +101,7 @@ c#, WPF, entity framework
 c#, javascript, wordpress, php
 
 ### [Educational Services & Products](http://www.esp-sgs.com)
-`Web Developer` `2008-2009` `Brooklyn, NY`
+`Web Developer` `2008 - 2009` `Brooklyn, NY`
 
 asp.net web apps
 
@@ -111,17 +111,17 @@ asp.net web apps
 Developing casual games based on Silverlight
 
 ### DENISE Fashion Stores
-`Chief Information Officer` `2007-2008` `Moscow, Russia`
+`Chief Information Officer` `2007 - 2008` `Moscow, Russia`
 
 Maintaining ERP, Sales and Retail management systems
 
 ### [PlusSoft](http://plussoft.uz) 
-`Senior Software Developer` `2003-2006` `Tashkent, Uzbekistan`
+`Senior Software Developer` `2003 - 2006` `Tashkent, Uzbekistan`
 * Ticket booking software suite for Uzbekistan Airways
 * Project for National broadcasting company for planning, allocation and monitoring TV commercials
 
 ### A&A Software
-`Senior Software Developer` `2005-2006` `Dubai, UAE`
+`Senior Software Developer` `2005 - 2006` `Dubai, UAE`
 
 Commissioned as a consultant by "PlusSoft"
 
@@ -130,22 +130,22 @@ Commissioned as a consultant by "PlusSoft"
 * Car renting suite for rent-a-car facilities in Dubai
 
 ### Spektr
-`System Administrator` `2001-2003` `Pyatigorsk, Russia`
+`System Administrator` `2001 - 2003` `Pyatigorsk, Russia`
 
 ERP suite. Staff and salary modules
 
 ### [National Broadcasting Company](http://www.mtrk.uz/en)
-`Web Designer` `1999-2001` `Tashkent, Uzbekistan`
+`Web Designer` `1999 - 2001` `Tashkent, Uzbekistan`
 
   &nbsp;
 
 ### [State Tax Committee](https:\\soliq.uz)
-`Support Specialist` `1996-1999` `Tashkent, Uzbekistan`
+`Support Specialist` `1996 - 1999` `Tashkent, Uzbekistan`
 
 ## Education
 
 #### [Tashkent City College of Information Technologies](kalanovo.uz)
- Bachelor of Science in Information Technology &nbsp; `1992-1996`
+ Bachelor of Science in Information Technology &nbsp; `1992 - 1996`
 
 &nbsp; &nbsp;
  updated: December 2015
