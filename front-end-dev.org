@@ -30,7 +30,7 @@
 ## Professional experience
 
 ### [Mobitor](http://www.mobitor.com)
-`Lead Front-end Developer` `Apr 2015-current` `Walnut Creek, CA`
+`Lead Front-end Developer` `since Apr 2015` `Walnut Creek, CA`
 
 ##### Responsibilities:
 Suite for managing medical devices (orthopedic, spine surgery equipment and implants)
@@ -48,7 +48,7 @@ Building asset tracking/dashboard web app
 coffeescript, python, node, rxjs, angular, karma, protractor, gulp, d3, browserify, stylus, jade, elasticsearch
 
 ### [VEVO](http://www.vevo.com)
-`Senior Software Developer` `Jan 2012-May 2014` `New York and San Francisco`
+`Senior Software Developer` `Jan 2012-May 2014` `New York/San Francisco`
 
 ##### Responsibilities:
 * Implemented cloud-based, task-driven, scalable, 10x more efficient (than the old one) video encoding system
@@ -61,7 +61,7 @@ coffeescript, python, node, rxjs, angular, karma, protractor, gulp, d3, browseri
 javascript, coffeescript, c#, node, asp.net, angular, AWS
 
 ### [Bunk1.com](https://www.bunk1.com)
-`Front-end Developer` `2011` `461 Park Avenue South, New York`
+`Front-end Developer` `2011` `New York`
 
 ##### Responsibilities:
 * Web apps and various widgets (e.g. calendar)
@@ -89,7 +89,7 @@ Software suite for military facilities, for reliably and safely identify, track 
 c#, WPF, entity framework
 
 ### Freelance Programmer
-`2009` `New York City, NY`
+`-` `2009` `New York City, NY`
 
 ##### Responsibilities:
 * High-frequency trading app for Dimension Capital LLC

@@ -75,19 +75,33 @@ body {
 
     h3 {
         color: #3A70BF;
-        display: inline-block;
-        min-width: 200px;
+        display: inline-flex;
+        /* min-width: 200px; */
         margin-top: 25px;
         margin-bottom: 0;
+        width: 30%;
         font-size: larger;
 
         &:first-of-type {
             margin-top: 0;
         }
         +p {
-            display: inline-block;
-            code {
-                margin-left: 40px;
+            display: inline-flex;
+            width: 68%;
+            :nth-child(1) { /* title */
+                flex: 0 1 48%;
+                text-align: left;
+            }
+            :nth-child(2) { /* date */
+                flex: 1 1 auto;
+                text-align: left;
+                white-space: nowrap;
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+            :nth-child(3) { /* location */
+                flex: 0 0 auto;
+                text-align: right;
             }
         }
     }
