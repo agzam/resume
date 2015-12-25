@@ -76,7 +76,6 @@ body {
     h3 {
         color: #3A70BF;
         display: inline-flex;
-        /* min-width: 200px; */
         margin-top: 25px;
         margin-bottom: 0;
         width: 30%;
@@ -131,6 +130,25 @@ body {
         + p {
             font-size: 10px;
             margin-left: 15px;
+        }
+    }
+}
+
+/* social links are visible as urls in printed version */
+@media print{
+    h1 {
+        +p {
+            a:nth-of-type(3),
+            a:nth-of-type(4),
+            a:nth-of-type(5) {
+                visibility: hidden;
+
+                &:after{
+                    content:"" attr(href) "";
+                    font-weight: normal;
+                    visibility: visible;
+                }
+            }
         }
     }
 }
