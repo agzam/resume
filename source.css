@@ -1,0 +1,119 @@
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    font-size: 12px;
+
+    background: #FFFDF2; /* Old browsers */
+    background: -moz-linear-gradient(left,  #FFFDF2 0%, #FFFDF2 37%, #ffffff 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#FFFDF2), color-stop(37%,#FFFDF2), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left,  #FFFDF2 0%,#FFFDF2 37%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left,  #FFFDF2 0%,#FFFDF2 37%,#ffffff 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left,  #FFFDF2 0%,#FFFDF2 37%,#ffffff 100%); /* IE10+ */
+    background: linear-gradient(to right,  #FFFDF2 0%,#FFFDF2 37%,#ffffff 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFDF2', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 */
+
+    p, li {
+        color: #4A5850;
+        font-family: serif;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        text-align: justify;
+    }
+
+    ul {
+        margin-left: 20px;
+    }
+
+    li {
+        list-style: none;
+        padding-left: 0;
+        &:before {
+            margin-left: -20px;
+            content: "•  ";
+            color: #D6D6D6;
+            font-size: 12px;
+        }
+    }
+    p:last-of-type {
+        color: #BFBFBF;
+        text-align: right;
+        font-size: xx-small;
+    }
+
+    em {
+        color: #BFBFBD;
+    }
+
+    h1 {
+        display: inline-block;
+        margin-top: 0px;
+        +p {
+            display: inline-block;
+            float: right;
+            font-size: smaller;
+            text-align: right;
+
+            a {
+                color: #797979;
+                transition: .5s all ease;
+                &:active, &:hover {
+                              color: black;
+                              text-decoration: none;
+                          }
+            }
+        }
+    }
+
+    h2 {
+        margin-top: 20px;
+    }
+
+    h3 {
+        color: #3A70BF;
+        display: inline-block;
+        min-width: 200px;
+        margin-top: 25px;
+        margin-bottom: 0;
+        font-size: larger;
+
+        &:first-of-type {
+            margin-top: 0;
+        }
+        +p {
+            display: inline-block;
+            code {
+                margin-left: 40px;
+            }
+        }
+    }
+
+    h3, h4 {
+        a {
+            transition: .5s all ease;
+            &:active, &:hover {
+                color: black;
+                text-decoration: none;
+            }
+        }
+    }
+
+    h5, h6 {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        color: #797979;
+    }
+
+    h5 {
+        + p {
+            margin-left: 15px;
+        }
+    }
+    h6 {
+        + p {
+            font-size: 10px;
+            margin-left: 15px;
+        }
+    }
+}
