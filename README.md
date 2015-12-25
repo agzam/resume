@@ -3,7 +3,9 @@ After many years having to manage my resume in different formats and styles I've
 I doubt you'd like the way I styled it, however if you do - feel free to use it as a template. 
 Please make sure though you strip down my personal info and links from everywhere.
 
-* Prerequisites
+##Prerequisites
 
-- node 
-- [pandoc](http://pandoc.org)
+* node
+* [pandoc](http://pandoc.org)
+
+##[Link](http://agzam.github.io/resume/)
