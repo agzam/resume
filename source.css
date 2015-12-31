@@ -58,14 +58,6 @@ body {
             font-size: smaller;
             text-align: right;
 
-            a {
-                color: #797979;
-                transition: .5s all ease;
-                &:active, &:hover {
-                              color: black;
-                              text-decoration: none;
-                          }
-            }
         }
     }
 
@@ -74,12 +66,12 @@ body {
     }
 
     h3 {
-        color: #3A70BF;
+        color: #E09A3C;
         display: inline-flex;
         margin-top: 25px;
         margin-bottom: 0;
         width: 30%;
-        font-size: larger;
+        font-size: 17px;
 
         &:first-of-type {
             margin-top: 0;
@@ -102,11 +94,15 @@ body {
                 flex: 0 0 auto;
                 text-align: right;
             }
+            & code {
+                color: #866436;
+            }
         }
     }
 
     h3, h4 {
         a {
+            color: inherit;
             transition: .5s all ease;
             &:active, &:hover {
                 color: black;
@@ -130,6 +126,16 @@ body {
         + p {
             font-size: 10px;
             margin-left: 15px;
+        }
+    }
+
+    a {
+        color: #797979;
+        transition: .5s all ease;
+        &:active,
+        &:hover {
+            color: black;
+            text-decoration: none;
         }
     }
 }

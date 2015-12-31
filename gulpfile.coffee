@@ -5,7 +5,7 @@ rename = require 'gulp-rename'
 exec = require('child_process').exec
 
 gulp.task 'convert', (done)->
-    exec 'rm -f out.html index.html && cat front-end-dev.org | pandoc -f markdown_github > out.html', (err)->
+    exec 'rm -f out.html index.html own.css && cat front-end-dev.org | pandoc -f markdown_github > out.html', (err)->
         unless err then done()
 
 gulp.task 'md-to-html', [ 'convert' ], ->
@@ -27,6 +27,6 @@ gulp.task 'css', ->
     .pipe $.sourcemaps.write()
     .pipe(gulp.dest './')
 
-gulp.task 'watch', -> gulp.watch ['./front-end-dev.org', './index.jade', './source.css'], ['md-to-html', 'css']
+gulp.task 'watch', ['default'], -> gulp.watch ['./front-end-dev.org', './index.jade', './source.css'], ['md-to-html', 'css']
 
 gulp.task 'default', ['md-to-html', 'css']
