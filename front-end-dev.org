@@ -8,12 +8,12 @@
 ## About me:
 
 * For the past few years mostly I've been working on front-end (web) side of things, developing proprietary products. Sadly, full-time job leaves me very little time for open-source projects.
-* I am looking for a role where I would be building modern web/hybrid apps backed by Clojurescript/Clojure or Node.js. Recently I fell in love with Clojure and I would like to extend my exposure into this amazing language. I might be also interested in exploring other languages with strong functional emphasis like Elm, Haskell, Purescript or Scala.
-* I am capable of creating interactive, responsive and adaptive web sites, scalable enterprise level solutions with complex UI and logic, mobile apps and cloud based services
-* fanatic of automated testing, I often choose reusable components and microservices instead of creating monolithic structures
+* I am looking for a role where I would be creating modern web/hybrid apps backed by Clojurescript/Clojure or Node.js. Recently I fell in love with Clojure and I would like to extend my exposure into this amazing language. I might be also interested in exploring other languages with strong functional emphasis, e.g: Elm, Haskell, Purescript or Scala.
+* I am capable of building interactive, responsive and adaptive web sites, scalable enterprise level solutions with complex UI and logic, mobile apps, cloud services and APIs
+* Fanatic of automated testing, I often choose reusable components and microservices instead of creating monolithic structures
 * I prefer functional programming constructs, I love reactive programming. I understand OOP principles as well, and apply them when see fit
 * I constantly try to improve my productivity. Time spent on learning Vim, Emacs and plethora of other tools is my best investment
-* I've attained proficiency in: JavaScript, Coffeescript, Typescript, Livescript, Clojure, C#, Python. I am Familiar with Ruby, Java and Elisp
+* I've attained proficiency in: JavaScript, Coffeescript, Typescript, Livescript, Clojure, C#, Python. I am Familiar with Ruby, Java and Emacs Lisp
 
 ## Professional experience
 
@@ -39,11 +39,11 @@ coffeescript, python, node, rxjs, ramda.js, angular, karma, protractor, gulp, d3
 `Senior Software Developer` `Jan 2012 - May 2014` `New York/San Francisco`
 
 ##### Responsibilities:
-* implemented cloud-based, task-driven, scalable, efficient video encoding system
-* lead a group of developers in building a web-site that's being used by company staff and partners
+* Implemented cloud-based, task-driven, scalable, efficient video encoding system
+* Lead a group of developers in building a web-site that's being used by company staff and partners
 * Google Chromecast integration for Vevo apps
 * Apple TV App
-* participated in redesigning vevo.com, switching from ASP.net MVC to node.js/angular
+* Participated in redesigning vevo.com, switching from ASP.net MVC to node.js/angular
 
 ###### Components
 javascript, coffeescript, c#, node, ASP.net, angular, AWS
@@ -61,7 +61,7 @@ c#, javascript, asp.net, backbone, jquery, objective-c, mono touch, xamarin tool
 `Application Developer` `2010` `Roslyn Heights, NY`
 
 ##### Responsibilities:
-Desktop UI shell for custom Microsoft Dynamics solution
+Microsoft Dynamics desktop UI shell
 
 ###### Components
 c#, WPF
@@ -79,9 +79,8 @@ c#, WPF, entity framework
 `-` `2009` `New York`
 
 ##### Responsibilities:
-* High-frequency trading app for Dimension Capital LLC
-    * Building fast, responsive, secured decision-making tool for automated trading
-* QA automation for RI Communications group
+* High-frequency trading app for Dimension Capital - fast, responsive, secure automated decision-making tool for trading
+* QA automation for RI Communications Group
 * Web projects for Exotag
 
 ###### Components
@@ -90,36 +89,34 @@ c#, javascript, wordpress, php
 ### [Educational Services & Products](http://www.esp-sgs.com)
 `Web Developer` `2008 - 2009` `Brooklyn, NY`
 
-ASP.net web apps
+Medicaid reimbursement web-site for school districts 
 
 ### CodeLuxe
 `Application Developer` `2008` `Moscow, Russia`
 
-casual video games
+Casual video games
 
 ### DENISE Fashion Stores
 `Chief Information Officer` `2007 - 2008` `Moscow, Russia`
 
-Maintaining ERP, Sales and Retail management systems
+Responsible for ERP, Sales and Retail management systems
 
 ### [PlusSoft](http://plussoft.uz) 
 `Senior Software Developer` `2003 - 2006` `Tashkent, Uzbekistan`
-* Ticket booking software suite for Uzbekistan Airways
-* Project for National broadcasting company for planning, allocation and monitoring TV commercials
+* Ticket booking suite for Uzbekistan Airways
+* Project for National Broadcasting Company - for planning, allocating and monitoring ads
 
 ### A&A Software
 `Senior Software Developer` `2005 - 2006` `Dubai, UAE`
 
-Commissioned by "PlusSoft" for consulting
-
 ##### Responsibilities:
-* Bookkeeping software for air-cargo companies ("[Aerovista](http://www.aerovista.aero)" and "[RusAviation](http://www.rusaviation.com)")
-* Car renting suite for rent-a-car facilities in Dubai
+* Accounting solutions for air-cargo companies ("[Aerovista](http://www.aerovista.aero)" and "[RusAviation](http://www.rusaviation.com)")
+* Car rental automation suite
 
 ### Spektr
 `System Administrator` `2001 - 2003` `Pyatigorsk, Russia`
 
-ERP suite. Staff and salary modules
+Maintaining ERP system. Staff and salary modules
 
 ## Education
 
