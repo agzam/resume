@@ -1,11 +1,12 @@
 body {
+    max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
-    padding-right: 25px;
-    padding-left: 25px;
-    max-width: 1000px;
     margin-top: 3%;
     margin-bottom: 5%;
+    padding-right: 25px;
+    padding-left: 25px;
+    font-family: "Delius";
     font-size: small;
 
     background: #FFFDF2; /* Old browsers */
@@ -17,10 +18,7 @@ body {
     background: linear-gradient(to right,  #FFFDF2 0%,#FFFDF2 37%,#ffffff 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFDF2', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 */
 
-    #pdf-link {
-        img {
-            height: 3%;
-        }
+    #pdf-link {img {height: 3%;}
 
         position: absolute;
         top: 4.5%;
@@ -32,95 +30,24 @@ body {
         }
     }
 
-    p, li {
-        color: #4A5850;
-        font-family: serif;
-        margin-top: 5px;
-        margin-bottom: 5px;
-        text-align: justify;
+    p, li {color: #4A5850; /* font-family: serif; */ margin-top: 5px; margin-bottom: 5px; text-align: justify;}
+
+    ul {margin-left: 20px;}
+
+    li {list-style: none; padding-left: 0; &:before {margin-left: -20px; content: "•  "; color: #D6D6D6; font-size: medium;}
+    }
+    p:last-of-type {color: #BFBFBF; text-align: right; font-size: xx-small;}
+
+    em {color: #BFBFBD;}
+
+    h1 {display: inline-block; margin-top: 0px; +p {display: inline-block; float: right; font-size: smaller; text-align: right;}
     }
 
-    ul {
-        margin-left: 20px;
-    }
+    h2 {margin-top: 20px;}
 
-    li {
-        list-style: none;
-        padding-left: 0;
-        &:before {
-            margin-left: -20px;
-            content: "•  ";
-            color: #D6D6D6;
-            font-size: medium;
-        }
-    }
-    p:last-of-type {
-        color: #BFBFBF;
-        text-align: right;
-        font-size: xx-small;
-    }
-
-    em {
-        color: #BFBFBD;
-    }
-
-    h1 {
-        display: inline-block;
-        margin-top: 0px;
-        +p {
-            display: inline-block;
-            float: right;
-            font-size: smaller;
-            text-align: right;
-        }
-    }
-
-    h2 {
-        margin-top: 20px;
-    }
-
-    h3 {
-        color: #A9752F;
-        display: inline-flex;
-        margin-top: 25px;
-        margin-bottom: 0;
-        width: 30%;
-        font-size: large;
-
-        &:first-of-type {
-            margin-top: 0;
-        }
-        +p {
-            display: inline-flex;
-            width: 68%;
-            :nth-child(1) { /* title */
-                flex: 0 1 48%;
-                text-align: left;
-            }
-            :nth-child(2) { /* date */
-                flex: 1 1 auto;
-                text-align: left;
-                white-space: nowrap;
-                padding-left: 15px;
-                padding-right: 15px;
-            }
-            :nth-child(3) { /* location */
-                flex: 0 0 auto;
-                text-align: right;
-            }
+    h3 {color: #A9752F; display: inline-flex; margin-top: 25px; margin-bottom: 0; width: 30%; font-size: large; &:first-of-type {margin-top: 0;} +p {display: inline-flex; width: 68%; :nth-child(1) { /* title */ flex: 0 1 48%; text-align: left;} :nth-child(2) { /* date */ flex: 1 1 auto; text-align: left; white-space: nowrap; padding-left: 15px; padding-right: 15px;} :nth-child(3) { /* location */ flex: 0 0 auto; text-align: right;}
             & code {
                 color: #866436;
-            }
-        }
-    }
-
-    h3, h4 {
-        a {
-            color: inherit;
-            transition: .5s all ease;
-            &:active, &:hover {
-                color: black;
-                text-decoration: none;
             }
         }
     }
@@ -142,15 +69,45 @@ body {
             margin-left: 15px;
         }
     }
+}
 
-    a {
-        color: #797979;
-        transition: .5s all ease;
-        &:active,
-        &:hover {
-            color: black;
-            text-decoration: none;
-        }
+a {
+    position: relative;
+    cursor: pointer;
+    z-index: 1;
+    transition: all .2s ease-in-out;
+}    
+
+a:hover {
+    text-decoration: none;
+    color: purple;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+a:hover:before, a:hover:after {
+    position: absolute;
+    font-weight: bold;
+    animation: bracket .4s forwards ease-in-out;
+}
+
+a:hover:before{
+    content: "[";
+    left: -6px;
+}
+
+a:hover:after{
+    content: "]";
+    right: -6px;
+}
+
+@keyframes bracket {
+    0% {
+        transform: scale(6);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
     }
 }
 

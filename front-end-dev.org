@@ -5,20 +5,28 @@
 [LinkedIn](https://www.linkedin.com/in/agzam)
 [github](https://github.com/agzam)
 
+## Current status:
+* Working at [Funding Circle](https://www.fundingcircle.com) and not available for hire
+
 ## About me:
 
-* For the past few years mostly I've been working on front-end (web) side of things, developing proprietary products. Sadly, full-time job leaves me very little time for open-source projects.
-* I am looking for a role where I would be creating modern web/hybrid apps backed by Clojurescript/Clojure or Node.js. Recently I fell in love with Clojure and I would like to extend my exposure into this amazing language. I might be also interested in exploring other languages with strong functional emphasis, e.g: Elm, Haskell, Purescript or Scala.
-* I am capable of building interactive, responsive and adaptive web sites, scalable enterprise level solutions with complex UI and logic, mobile apps, cloud services and APIs
-* Fanatic of automated testing, I often choose reusable components and microservices instead of creating monolithic structures
-* I prefer functional programming constructs, I love reactive programming. I understand OOP principles as well, and apply them when see fit
-* I constantly try to improve my productivity. Time spent on learning Vim, Emacs and plethora of other tools is my best investment
-* I've attained proficiency in: JavaScript, Coffeescript, Typescript, Livescript, Clojure, C#, Python. I am Familiar with Ruby, Java and Emacs Lisp
+* I like creating modern web/hybrid apps backed by Clojurescript/Clojure or Node.js. 
+* Capable of building interactive, responsive and adaptive web apps, scalable enterprise-level complex solutions, mobile apps, cloud services and APIs
+* Enthusiast of automation, [TDD](https://en.wikipedia.org/wiki/Test-driven_development) and [generative testing](https://en.wikipedia.org/wiki/QuickCheck)
+* I understand [OOP principles](https://en.wikipedia.org/wiki/SOLID_(object-oriented_design)) but I prefer functional programming constructs, [immutable data structures](https://en.wikipedia.org/wiki/Persistent_data_structure) and [higher-order functions](https://en.wikipedia.org/wiki/Higher-order_function) 
+* In perpetual search to boost my productivity. I consider time spent on learning [Vim](https://en.wikipedia.org/wiki/Vim_(text_editor)), [Emacs](https://en.wikipedia.org/wiki/Emacs) and plethora of other tools is my best investment
+* During my career I have used and attained proficiency in: JavaScript, Coffeescript, Typescript, Livescript, C#, Python, Clojure and Clojurescript
+* I am Familiar with Ruby, Java, F# and Emacs Lisp
+* Learning Haskell, Elm, Purescript and Racket - is on my radar 
 
 ## Professional experience
+### [Funding Circle](https://fundingcircle.com)
+`Senior Software Developer` `Since Feb 2016` `San Francisco, CA`
+
+At Funding Circle we are utilizing power of [Clojure](https://clojure.org) and [Clojurescript](https://github.com/clojure/clojurescript) and working on multiple projects stretching from things like distributed systems based on [Apache Kafka](http://kafka.apache.org) to [Om Next](https://github.com/omcljs/om) on the front-end
 
 ### [Mobitor](http://www.mobitor.com)
-`Lead Front-end Developer` `since Apr 2015` `Walnut Creek, CA`
+`Lead Front-end Developer` `Apr 2015 - Feb 2016` `Walnut Creek, CA`
 
 ##### Responsibilities:
 Suite for managing medical devices - orthopedic, spine surgery implants and equipment
@@ -110,7 +118,7 @@ Responsible for ERP, Sales and Retail management systems
 `Senior Software Developer` `2005 - 2006` `Dubai, UAE`
 
 ##### Responsibilities:
-* Accounting solutions for air-cargo companies ("[Aerovista](http://www.aerovista.aero)" and "[RusAviation](http://www.rusaviation.com)")
+* Accounting solutions for air-cargo companies ([Aerovista](http://www.aerovista.aero) and [RusAviation](http://www.rusaviation.com))
 * Car rental automation suite
 
 ### Spektr
@@ -120,8 +128,8 @@ Maintaining ERP system. Staff and salary modules
 
 ## Education
 
-#### [Tashkent City College of Information Technologies](kalanovo.uz)
- Bachelor of Science in Information Technology &nbsp; `1992 - 1996`
+#### [Tashkent University of Information Technologies](https://tuit.uz/)
+ Bachelor of Software Engineering &nbsp; `1992 - 1996`
 
 &nbsp; &nbsp;
- updated: December 2015
+ updated: June 2016
