@@ -52,6 +52,10 @@ body {
         }
     }
 
+    h3 a {
+        color: #A9752F; 
+    }
+
     h5, h6 {
         margin-top: 5px;
         margin-bottom: 5px;
@@ -135,6 +139,9 @@ a:hover:after{
                 font-size: 10px;
                 white-space: nowrap;
             }
+        }
+        &a {
+            color: #A9752F; 
         }
     }
     #pdf-link {
