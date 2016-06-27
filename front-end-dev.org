@@ -10,20 +10,20 @@
 
 ## About me:
 
-* I like creating modern web/hybrid apps backed by Clojurescript/Clojure or Node.js. 
-* Capable of building interactive, responsive and adaptive web apps, scalable enterprise-level complex solutions, mobile apps, cloud services and APIs
-* Enthusiast of automation, [TDD](https://en.wikipedia.org/wiki/Test-driven_development) and [generative testing](https://en.wikipedia.org/wiki/QuickCheck)
-* I understand [OOP principles](https://en.wikipedia.org/wiki/SOLID_(object-oriented_design)) but I prefer functional programming constructs, [immutable data structures](https://en.wikipedia.org/wiki/Persistent_data_structure) and [higher-order functions](https://en.wikipedia.org/wiki/Higher-order_function) 
-* In perpetual search to boost my productivity. I consider time spent on learning [Vim](https://en.wikipedia.org/wiki/Vim_(text_editor)), [Emacs](https://en.wikipedia.org/wiki/Emacs) and plethora of other tools is my best investment
-* During my career I have used and attained proficiency in: JavaScript, Coffeescript, Typescript, Livescript, C#, Python, Clojure and Clojurescript
-* I am Familiar with Ruby, Java, F# and Emacs Lisp
-* Learning Haskell, Elm, Purescript and Racket - is on my radar 
+* I like creating modern web/hybrid apps backed by Clojurescript/Clojure and Node.js
+* I have done and participated in various projects - in building interactive, responsive and adaptive web apps, complex enterprise-level solutions, mobile apps, cloud services and APIs
+* Enthusiast of test automation, I like [TDD](https://en.wikipedia.org/wiki/Test-driven_development), [generative testing](https://en.wikipedia.org/wiki/QuickCheck) and anything related to testing
+* I understand [OOP principles](https://en.wikipedia.org/wiki/SOLID_(object-oriented_design)) but prefer functional programming constructs, [immutable data structures](https://en.wikipedia.org/wiki/Persistent_data_structure) and [higher-order functions](https://en.wikipedia.org/wiki/Higher-order_function) 
+* Relentlessly try to improve my productivity. I consider time spent on learning [Vim](https://en.wikipedia.org/wiki/Vim_(text_editor)), [Emacs](https://en.wikipedia.org/wiki/Emacs) and plethora of other tools as my best lifetime investment
+* During my career I have attained proficiency and explored languages like: JavaScript, Coffeescript, Typescript, Livescript, C#, Python and Clojure
+* I am familiar with Ruby and Java
+* Looking forward to learn some Haskell, Elm, Purescript and Racket
 
 ## Professional experience
 ### [Funding Circle](https://fundingcircle.com)
 `Senior Software Developer` `Since Feb 2016` `San Francisco, CA`
 
-At Funding Circle we are utilizing power of [Clojure](https://clojure.org) and [Clojurescript](https://github.com/clojure/clojurescript) and working on multiple projects stretching from things like distributed systems based on [Apache Kafka](http://kafka.apache.org) to [Om Next](https://github.com/omcljs/om) on the front-end
+At Funding Circle we are utilizing power of [Clojure](https://clojure.org) and [Clojurescript](https://github.com/clojure/clojurescript) to build better financial world using tools like distributed message system - [Apache Kafka](http://kafka.apache.org) and [Om Next](https://github.com/omcljs/om) on the front-end
 
 ### [Mobitor](http://www.mobitor.com)
 `Lead Front-end Developer` `Apr 2015 - Feb 2016` `Walnut Creek, CA`
@@ -35,7 +35,7 @@ Suite for managing medical devices - orthopedic, spine surgery implants and equi
 babel.js, coffeescript, node, couchbase, rxjs, angular, karma, protractor, gulp, postcss, docker
 
 ### [Invitae](https://www.invitae.com)
-`Lead Front-end Developer and Architect` `May 2014 - Apr 2015` `San Francisco`
+`Lead Front-end Developer/Architect` `May 2014 - Apr 2015` `San Francisco`
 
 ##### Responsibilities:
 Building asset tracking/dashboard web app
@@ -48,10 +48,10 @@ coffeescript, python, node, rxjs, ramda.js, angular, karma, protractor, gulp, d3
 
 ##### Responsibilities:
 * Implemented cloud-based, task-driven, scalable, efficient video encoding system
-* Lead a group of developers in building a web-site that's being used by company staff and partners
+* Lead a group of developers in building internal web-site that's being used by partners and company's staff
 * Google Chromecast integration for Vevo apps
 * Apple TV App
-* Participated in redesigning vevo.com, switching from ASP.net MVC to node.js/angular
+* Participated in redesigning vevo.com from scratch
 
 ###### Components
 javascript, coffeescript, c#, node, ASP.net, angular, AWS
