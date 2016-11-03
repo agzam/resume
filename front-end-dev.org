@@ -10,20 +10,18 @@
 
 ## About me:
 
-* I like creating modern web/hybrid apps backed by Clojurescript/Clojure and Node.js
+* I love creating modern web/hybrid apps backed by Clojurescript/Clojure and Node.js
 * I have done and participated in various projects - in building interactive, responsive and adaptive web apps, complex enterprise-level solutions, mobile apps, cloud services and APIs
-* Enthusiast of test automation, I like [TDD](https://en.wikipedia.org/wiki/Test-driven_development), [generative testing](https://en.wikipedia.org/wiki/QuickCheck) and anything related to testing
-* I understand [OOP principles](https://en.wikipedia.org/wiki/SOLID_(object-oriented_design)) but prefer functional programming constructs, [immutable data structures](https://en.wikipedia.org/wiki/Persistent_data_structure) and [higher-order functions](https://en.wikipedia.org/wiki/Higher-order_function) 
-* Relentlessly try to improve my productivity. I consider time spent on learning [Vim](https://en.wikipedia.org/wiki/Vim_(text_editor)), [Emacs](https://en.wikipedia.org/wiki/Emacs) and plethora of other tools as my best lifetime investment
-* During my career I have attained proficiency and explored languages like: JavaScript, Coffeescript, Typescript, Livescript, C#, Python and Clojure
-* I am familiar with Ruby and Java
-* Looking forward to learn some Haskell, Elm, Purescript and Racket
+* Relentlessly trying to improve my own productivity and sharing my knowledge with my colleagues. As my best lifetime investment, I consider time spent on learning [Vim](https://en.wikipedia.org/wiki/Vim_(text_editor)), [Emacs](https://en.wikipedia.org/wiki/Emacs) and plethora of other tools
+* During my career I have attained proficiency and explored languages like: JavaScript, Lua, Coffeescript, Typescript, Livescript, C#, Python and Clojure
+* I am familiar with Ruby, Java ans SQL
+* Outside of work I am looking forward to learn Haskell, Purescript, Elm and Racket, planning to dig into [React Native](https://facebook.github.io/react-native) and [Electron](http://electron.atom.io), venture into category theory and machine learning algorithms 
 
 ## Professional experience
 ### [Funding Circle](https://fundingcircle.com)
 `Senior Software Developer` `Since Feb 2016` `San Francisco, CA`
 
-At Funding Circle we are utilizing power of [Clojure](https://clojure.org) and [Clojurescript](https://github.com/clojure/clojurescript) to build better financial world using tools like distributed message system - [Apache Kafka](http://kafka.apache.org) and [Om Next](https://github.com/omcljs/om) on the front-end
+At Funding Circle we are utilizing power of [Clojure](https://clojure.org) and [Clojurescript](https://github.com/clojure/clojurescript) and building better financial world using tools like [Apache Kafka](http://kafka.apache.org) and [Om Next](https://github.com/omcljs/om)
 
 ### [Mobitor](http://www.mobitor.com)
 `Lead Front-end Developer` `Apr 2015 - Feb 2016` `Walnut Creek, CA`
