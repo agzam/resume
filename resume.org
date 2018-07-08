@@ -1,0 +1,306 @@
+#+TITLE: Ag Ibragimov
+#+SUBTITLE: Software Developer
+#+HTML_HEAD: <meta name="copyright" content="Ag Ibragimov. All registered trademarks belong to their respective owners">
+#+HTML_HEAD: <meta name="description" content="Ag Ibragimov, Software Developer">
+#+HTML_HEAD: <meta name="keywords" content="front-end, back-end, fullstack, developer, engineer, clojure, clojurescript, javascript, angular, react, functional, emacs, vim, d3, css3, san francisco, closure, closurescript">
+#+HTML_HEAD: <meta name="revisit-after" content="2 days">
+#+HTML_HEAD: <meta http-equiv="cache-control" content="no-cache">
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="styles.css" />
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Maven Pro" />
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+
+#+OPTIONS: html-style:nil toc:nil html-postamble:nil num:nil
+
+#+begin_export html
+<script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-69633231-1', 'auto');
+ga('send', 'pageview');
+</script>
+#+end_export
+
+#+begin_export html
+<div class="pdf-link">
+  <a id="pdf-link" href="resume.pdf"> <img src="pdf-icon.png"/> </a>
+</div>
+<div class="links">
+  <a class="fa fa-envelope" href="mailto:agzam.ibragimov@gmail.com">agzam.ibragimov@gmail.com</a>
+  <a class="fa fa-github" href="https://github.com/agzam" target="_blank">GitHub</a>
+  <a class="fa fa-twitter" href="https://twitter.com/iLemming" target="_blank">@iLemming</a>
+  <a class="fa fa-stack-overflow" href="https://stackoverflow.com/users/116395/agzam" target="_blank">Stackoverflow</a>
+  <a class="fa fa-linkedin" href="https://www.linkedin.com/in/agzam" target="_blank">LinkedIn</a>
+</div>
+#+end_export
+
+* Current status:
+  :PROPERTIES:
+  :HTML_CONTAINER_CLASS: section__current-status
+  :END:
+  Working at [[https://www.fundingcircle.com][Funding Circle]], open to discuss opportunities.
+
+* About me:
+  :PROPERTIES:
+  :HTML_CONTAINER_CLASS: section__aboutme
+  :END:
+  - I love Clojurescript and functional programming
+  - Back and front-end, with preference on the latter
+  - I have built interactive, responsive and adaptive web apps, complex enterprise-level solutions, mobile apps, cloud services and APIs
+  - Keyboard junkie. Relentlessly seek ways to improve my own productivity and evangelize others. I consider years spent mastering [[https://en.wikipedia.org/wiki/Vim_(text_editor][Vim]], [[https://en.wikipedia.org/wiki/Emacs][Emacs]] and plethora of other tools is my best lifetime investment.
+  - I have attained proficiency and explored languages like: Javascript, Typescript, Lua, Coffeescript and Livescript, C#, SQL, Python, Emacs-lisp and Clojure
+  - I am familiar with Ruby and Java
+  - I'd like to explore Haskell, Purescript, Elm, OCaml and Racket
+
+* Professional experience
+** - fundingcircle
+  :PROPERTIES:
+  :HTML_CONTAINER_CLASS: section__experience
+  :END:
+  - [[https://fundingcircle.com][Funding Circle]]
+  - Senior Software Developer
+  - Since Feb 2016
+  - San Francisco, CA
+*** Responsibilities:
+    :PROPERTIES:
+    :HTML_CONTAINER_CLASS: section_sub
+    :END:
+    We are building complex accounting systems by utilizing power of [[https://clojure.org][Clojure]]. I am in a team working on solutions for FinOps users to help them with their daily tasks.
+*** Components
+    :PROPERTIES:
+    :HTML_CONTAINER_CLASS: section_sub
+    :END:
+    clojure, clojurescript, apache kafka, om.next, re-frame, docker, apache mesos, circleci
+
+** - mobitor
+   :PROPERTIES:
+  :HTML_CONTAINER_CLASS: section__experience
+  :END:
+  - [[http://www.mobitor.com][Mobitor]]
+  - Lead Front-end Developer
+  - Apr 2015 - Feb 2016
+  - Walnut Creek, CA
+*** Responsibilities:
+    :PROPERTIES:
+    :HTML_CONTAINER_CLASS: section_sub
+    :END:
+    Suite for managing medical devices - orthopedic, spine surgery implants and equipment
+*** Components
+    :PROPERTIES:
+    :HTML_CONTAINER_CLASS: section_sub
+    :END:
+    babel.js, coffeescript, node, couchbase, rxjs, angular, karma, protractor, gulp, postcss, docker
+
+** - invitae
+   :PROPERTIES:
+   :HTML_CONTAINER_CLASS: section__experience
+   :END:
+   - [[https://www.invitae.com][Invitae]]
+   - Lead Front-end Developer
+   - May 2014 - Apr 2015
+   - San Francisco
+*** Responsibilities:
+    :PROPERTIES:
+    :HTML_CONTAINER_CLASS: section_sub
+    :END:
+    Building asset tracking/dashboard web app
+*** Components
+    :PROPERTIES:
+    :HTML_CONTAINER_CLASS: section_sub
+    :END:
+    coffeescript, python, node, rxjs, ramda.js, angular, karma, protractor, gulp, d3, browserify, stylus, jade, elasticsearch
+
+** - vevo
+   :PROPERTIES:
+   :HTML_CONTAINER_CLASS: section__experience
+   :END:
+  - [[http://www.vevo.com][VEVO]]
+  - Senior Software Developer
+  - Jan 2012 - May 2014
+  - New York|San Francisco
+*** Responsibilities:
+    :PROPERTIES:
+    :HTML_CONTAINER_CLASS: section_sub
+    :END:
+    - Implemented cloud-based, task-driven, scalable, efficient video encoding system
+    - Lead a group of developers in building admin web-site to be used by partners
+    - Google Chromecast integration for Vevo apps
+    - Apple TV App
+    - vevo.com redesign
+*** Components
+    :PROPERTIES:
+    :HTML_CONTAINER_CLASS: section_sub
+    :END:
+    javascript, coffeescript, c#, node, ASP.net, angular, AWS
+
+** - bunk1
+  :PROPERTIES:
+  :HTML_CONTAINER_CLASS: section__experience
+  :END:
+  - [[https://www.bunk1.com][Bunk1.com]]
+  - Front-end Developer
+  - 2011
+  - New York City
+*** Responsibilities:
+    :PROPERTIES:
+    :HTML_CONTAINER_CLASS: section_sub
+    :END:
+    Web and mobile apps
+*** Components
+    :PROPERTIES:
+    :HTML_CONTAINER_CLASS: section_sub
+    :END:
+    c#, javascript, asp.net, backbone, jquery, objective-c, xamarin tools
+
+** - usedirect
+   :PROPERTIES:
+   :HTML_CONTAINER_CLASS: section__experience
+   :END:
+   - [[https://www.usedirect.com][USeDirect]]
+   - Application Developer
+   - 2010
+   - Roslyn Heights, NY
+*** Responsibilities:
+    :PROPERTIES:
+    :HTML_CONTAINER_CLASS: section_sub
+    :END:
+    Microsoft Dynamics desktop UI shell
+*** Components
+    :PROPERTIES:
+    :HTML_CONTAINER_CLASS: section_sub
+    :END:
+    c#, WPF
+** - focus-solutions
+   :PROPERTIES:
+   :HTML_CONTAINER_CLASS: section__experience
+   :END:
+   - Focus Solutions
+   - Application Developer
+   - 2010
+   - Melville, NY
+*** Responsibilities:
+    :PROPERTIES:
+    :HTML_CONTAINER_CLASS: section_sub
+    :END:
+    Software suite for military facilities, for reliably and safely identify, track and maintain arms, ammunition and explosives using RFID tracking
+*** Components
+    :PROPERTIES:
+    :HTML_CONTAINER_CLASS: section_sub
+    :END:
+    c#, WPF, entity framework
+
+** - freelance
+   :PROPERTIES:
+   :HTML_CONTAINER_CLASS: section__experience
+   :END:
+   - Freelance Programmer
+   -
+   - 2009
+   - New York City
+*** Responsibilities:
+    :PROPERTIES:
+    :HTML_CONTAINER_CLASS: section_sub
+    :END:
+    - High-frequency trading app for Dimension Capital - fast, responsive, secure automated decision-making tool for trading
+    - QA automation for RI Communications Group
+    - Various small web projects
+*** Components
+    :PROPERTIES:
+    :HTML_CONTAINER_CLASS: section_sub
+    :END:
+    c#, javascript, wordpress, php
+
+** - esp
+   :PROPERTIES:
+   :HTML_CONTAINER_CLASS: section__experience
+   :END:
+   - [[http://www.esp-sgs.com][ES&P]]
+   - Web Developer
+   - 2008 - 2009
+   - Brooklyn, NY
+*** Responsibilities:
+    :PROPERTIES:
+    :HTML_CONTAINER_CLASS: section_sub
+    :END:
+    Medicaid reimbursement web-site for school districts
+
+** - codeluxe
+   :PROPERTIES:
+   :HTML_CONTAINER_CLASS: section__experience
+   :END:
+   - CodeLuxe
+   - Application Developer
+   - 2008
+   - Moscow, Russia
+*** Responsibilities:
+    :PROPERTIES:
+    :HTML_CONTAINER_CLASS: section_sub
+    :END:
+    arcade video games
+
+** - denise
+   :PROPERTIES:
+   :HTML_CONTAINER_CLASS: section__experience
+   :END:
+   - DENISE
+   - IT Manager
+   - 2007 - 2008
+   - Moscow, Russia
+*** Responsibilities:
+    :PROPERTIES:
+    :HTML_CONTAINER_CLASS: section_sub
+    :END:
+    ERP, Sales and Retail management systems
+
+** - plussoft
+   :PROPERTIES:
+   :HTML_CONTAINER_CLASS: section__experience
+   :END:
+   - [[http://plussoft.uz][PlusSoft]]
+   -  ERP Integrator
+   - 2003 - 2006
+   - Tashkent, Uzbekistan
+*** Responsibilities:
+    :PROPERTIES:
+    :HTML_CONTAINER_CLASS: section_sub
+    :END:
+    - Ticket booking suite for Uzbekistan Airways
+    - Project for National Broadcasting Company - for planning, allocating and monitoring ads
+** - a&a
+   :PROPERTIES:
+   :HTML_CONTAINER_CLASS: section__experience
+   :END:
+   - A&A Software
+   - ERP Integrator
+   - 2005 - 2006
+   - Dubai, UAE
+*** Responsibilities:
+    :PROPERTIES:
+    :HTML_CONTAINER_CLASS: section_sub
+    :END:
+    - Accounting solutions for air-cargo companies ([[http://www.aerovista.aero][Aerovista]] and [[http://www.rusaviation.com][RusAviation]])
+    - Car rental automation suite
+** - spektr
+   :PROPERTIES:
+   :HTML_CONTAINER_CLASS: section__experience
+   :END:
+   - Spektr
+   - System Administrator/Helpdesk
+   - 2001 - 2003
+   - Pyatigorsk, Russia
+
+* Education
+  :PROPERTIES:
+  :HTML_CONTAINER_CLASS: section__education
+  :END:
+** [[https://tuit.uz/en][Tashkent University of Information Technologies]]
+ Bachelor of Software Engineering
+
+#+begin_export html
+  <div class="updated">
+    <span>updated:</span>
+    <span>July 2018</span>
+  </div>
+#+end_export
