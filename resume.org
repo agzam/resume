@@ -5,6 +5,7 @@
 #+HTML_HEAD: <meta name="keywords" content="front-end, back-end, fullstack, developer, engineer, clojure, clojurescript, javascript, angular, react, functional, emacs, vim, d3, css3, san francisco, closure, closurescript">
 #+HTML_HEAD: <meta name="revisit-after" content="2 days">
 #+HTML_HEAD: <meta http-equiv="cache-control" content="no-cache">
+#+HTML_HEAD: <meta name="viewport" content="initial-scale=1, width=device-width">
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="styles.css" />
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Maven Pro" />
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
