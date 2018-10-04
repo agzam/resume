@@ -41,28 +41,44 @@ ga('send', 'pageview');
   :PROPERTIES:
   :HTML_CONTAINER_CLASS: section__current-status
   :END:
-  Working at [[https://www.fundingcircle.com][Funding Circle]], open to discuss opportunities.
+  For the past 3 years have been mostly writing Clojure and Clojurescript and my interest today lies within tech-stacks based on languages with strong functional emphasis.
+
+  I would be considering full-time onsite (San Franciso Bay Area) or full-time remote opportunities (anywhere).
 
 * About me:
   :PROPERTIES:
   :HTML_CONTAINER_CLASS: section__aboutme
   :END:
-  - I love Clojurescript and functional programming
-  - Back and front-end, with preference on the latter
-  - I have built interactive, responsive and adaptive web apps, complex enterprise-level solutions, mobile apps, cloud services and APIs
-  - Keyboard junkie. Relentlessly seek ways to improve my own productivity and evangelize others. I consider years spent mastering [[https://en.wikipedia.org/wiki/Vim_(text_editor][Vim]], [[https://en.wikipedia.org/wiki/Emacs][Emacs]] and plethora of other tools is my best lifetime investment.
-  - I have attained proficiency and explored languages like: Javascript, Typescript, Lua, Coffeescript and Livescript, C#, SQL, Python, Emacs-lisp and Clojure
-  - I am familiar with Ruby and Java
-  - I'd like to explore Haskell, Purescript, Elm, OCaml and Racket
+  - Full-stack developer. Worked on interactive, responsive and adaptive web apps, complex enterprise-level solutions, mobile apps, cloud services and APIs
+  - Team player. I have built, trained and lead small teams of developers
+  - Keyboard junkie. Relentlessly seek ways to improve my own productivity and evangelize others. I consider years spent mastering [[https://en.wikipedia.org/wiki/Vim_(text_editor][Vim]], [[https://en.wikipedia.org/wiki/Emacs][Emacs]] and plethora of other tools is my best lifetime investment
+  - Polyglot programmer. I have attained proficiency in several languages including: Javascript, Typescript, Lua, Coffeescript, Livescript, C#, SQL, Python, Emacs-lisp and Clojure.
+  I am familiar with Haskell, Ruby and Java.
+  I also would like to explore Rust, Elm, Purescript, OCaml and Racket
 
 * Professional experience
+
+** - mayvenn
+  :PROPERTIES:
+  :HTML_CONTAINER_CLASS: section__experience
+  :END:
+  - [[https://mayvenn.com][Mayvenn]]
+  - Senior Software Developer
+  - Since Aug 2018
+  - Oakland, CA
+*** Components
+    :PROPERTIES:
+    :HTML_CONTAINER_CLASS: section_sub
+    :END:
+    clojure, clojurescript, kafka, re-frame, docker, jenkins, aws
+
 ** - fundingcircle
   :PROPERTIES:
   :HTML_CONTAINER_CLASS: section__experience
   :END:
   - [[https://fundingcircle.com][Funding Circle]]
   - Senior Software Developer
-  - Since Feb 2016
+  - Feb 2016 - Aug 2018
   - San Francisco, CA
 *** Responsibilities:
     :PROPERTIES:
@@ -73,7 +89,7 @@ ga('send', 'pageview');
     :PROPERTIES:
     :HTML_CONTAINER_CLASS: section_sub
     :END:
-    clojure, clojurescript, apache kafka, om.next, re-frame, docker, apache mesos, circleci
+    clojure, clojurescript, kafka, om.next, re-frame, docker, apache mesos, circleci
 
 ** - mobitor
    :PROPERTIES:
@@ -296,12 +312,12 @@ ga('send', 'pageview');
   :PROPERTIES:
   :HTML_CONTAINER_CLASS: section__education
   :END:
-** [[https://tuit.uz/en][Tashkent University of Information Technologies]]
+** [[https:///en][Tashkent University of Information Technologies]]
  Bachelor of Software Engineering
 
 #+begin_export html
   <div class="updated">
     <span>updated:</span>
-    <span>July 2018</span>
+    <span>Sept 2018</span>
   </div>
 #+end_export
