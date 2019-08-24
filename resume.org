@@ -41,30 +41,43 @@ ga('send', 'pageview');
   :PROPERTIES:
   :HTML_CONTAINER_CLASS: section__current-status
   :END:
-  For the past 3 years have been mostly writing Clojure and Clojurescript and my interest today lies within tech-stacks based on languages with strong functional emphasis.
+  My attention is captivated by programming languages with a strong functional emphasis. For the past few years, I have been mostly writing Clojure and Clojurescript.
 
-  I would be considering full-time onsite (San Franciso Bay Area) or full-time remote opportunities (anywhere).
+  I may consider full-time opportunities in SF Bay or remote jobs anywhere else in the US.
 
 * About me:
   :PROPERTIES:
   :HTML_CONTAINER_CLASS: section__aboutme
   :END:
-  - Full-stack developer. Worked on interactive, responsive and adaptive web apps, complex enterprise-level solutions, mobile apps, cloud services and APIs
-  - Team player. I have built, trained and lead small teams of developers
-  - Keyboard junkie. Relentlessly seek ways to improve my own productivity and evangelize others. I consider years spent mastering [[https://en.wikipedia.org/wiki/Vim_(text_editor][Vim]], [[https://en.wikipedia.org/wiki/Emacs][Emacs]] and plethora of other tools is my best lifetime investment
-  - Polyglot programmer. I have attained proficiency in several languages including: Javascript, Typescript, Lua, Coffeescript, Livescript, C#, SQL, Python, Emacs-lisp and Clojure.
-  I am familiar with Haskell, Ruby and Java.
-  I also would like to explore Rust, Elm, Purescript, OCaml and Racket
+  - Skilled and experienced full-stack software developer. Have built and worked on interactive, responsive, and adaptive web apps, complex enterprise-level solutions, mobile apps, cloud services, and APIs.
+  - I am a good team player. I have experience in building, training, and leading teams.
+  - Keyboard junkie. I relentlessly seek ways to enhance my productivity, evangelize and help my colleagues to reduce frustration linked to mundane, repetitive tasks. Maintainer of popular 'M-x Tips' Twitter account where I teach people how to improve their skills.
+  - Polyglot programmer. I have attained proficiency in several programming languages, including Javascript, Typescript, Coffeescript, Lua, C#, Python, Clojure, and different dialects of Lisp.
+  I am familiar with Haskell, Ruby, Java, and Go.
+  I also would like to explore other languages, e.g., Rust, Elm, Purescript, and OCaml
 
 * Professional experience
 
+** - dividendfinance
+  :PROPERTIES:
+  :HTML_CONTAINER_CLASS: section__experience
+  :END:
+  - [[https://dividendfinance.com][Dividend Finance]]
+  - Senior Software Developer
+  - Since Nov 2018
+  - San Francisco, CA
+*** Components
+    :PROPERTIES:
+    :HTML_CONTAINER_CLASS: section_sub
+    :END:
+    clojure, clojurescript, re-frame, salesforce, heroku, jenkins, postgresql
 ** - mayvenn
   :PROPERTIES:
   :HTML_CONTAINER_CLASS: section__experience
   :END:
   - [[https://mayvenn.com][Mayvenn]]
   - Senior Software Developer
-  - Since Aug 2018
+  - Aug 2018 - Nov 2018
   - Oakland, CA
 *** Components
     :PROPERTIES:
@@ -84,7 +97,7 @@ ga('send', 'pageview');
     :PROPERTIES:
     :HTML_CONTAINER_CLASS: section_sub
     :END:
-    We are building complex accounting systems by utilizing power of [[https://clojure.org][Clojure]]. I am in a team working on solutions for FinOps users to help them with their daily tasks.
+    Solutions for Fin Ops teams for monitoring transactions, managing reconciliations, reporting, and analytics.
 *** Components
     :PROPERTIES:
     :HTML_CONTAINER_CLASS: section_sub
@@ -103,7 +116,7 @@ ga('send', 'pageview');
     :PROPERTIES:
     :HTML_CONTAINER_CLASS: section_sub
     :END:
-    Suite for managing medical devices - orthopedic, spine surgery implants and equipment
+    Suite for managing medical devices - orthopedic, spine surgery implants, and equipment.
 *** Components
     :PROPERTIES:
     :HTML_CONTAINER_CLASS: section_sub
@@ -122,7 +135,7 @@ ga('send', 'pageview');
     :PROPERTIES:
     :HTML_CONTAINER_CLASS: section_sub
     :END:
-    Building asset tracking/dashboard web app
+    Building asset tracking/dashboard web app.
 *** Components
     :PROPERTIES:
     :HTML_CONTAINER_CLASS: section_sub
@@ -136,16 +149,16 @@ ga('send', 'pageview');
   - [[http://www.vevo.com][VEVO]]
   - Senior Software Developer
   - Jan 2012 - May 2014
-  - New York|San Francisco
+  - San Francisco
 *** Responsibilities:
     :PROPERTIES:
     :HTML_CONTAINER_CLASS: section_sub
     :END:
-    - Implemented cloud-based, task-driven, scalable, efficient video encoding system
-    - Lead a group of developers in building admin web-site to be used by partners
-    - Google Chromecast integration for Vevo apps
-    - Apple TV App
-    - vevo.com redesign
+    - Implemented cloud-based, task-driven, scalable, efficient video encoding system.
+    - Lead a group of developers in building admin web-site to be used by partners.
+    - Google Chromecast integration for Vevo apps.
+    - Apple TV App.
+    - vevo.com redesign.
 *** Components
     :PROPERTIES:
     :HTML_CONTAINER_CLASS: section_sub
@@ -183,7 +196,7 @@ ga('send', 'pageview');
     :PROPERTIES:
     :HTML_CONTAINER_CLASS: section_sub
     :END:
-    Microsoft Dynamics desktop UI shell
+    Microsoft Dynamics desktop UI shell.
 *** Components
     :PROPERTIES:
     :HTML_CONTAINER_CLASS: section_sub
@@ -201,7 +214,7 @@ ga('send', 'pageview');
     :PROPERTIES:
     :HTML_CONTAINER_CLASS: section_sub
     :END:
-    Software suite for military facilities, for reliably and safely identify, track and maintain arms, ammunition and explosives using RFID tracking
+    Software suite for military facilities, for reliably and safely identify, track and maintain arms, ammunition, and explosives using RFID tracking.
 *** Components
     :PROPERTIES:
     :HTML_CONTAINER_CLASS: section_sub
@@ -220,9 +233,9 @@ ga('send', 'pageview');
     :PROPERTIES:
     :HTML_CONTAINER_CLASS: section_sub
     :END:
-    - High-frequency trading app for Dimension Capital - fast, responsive, secure automated decision-making tool for trading
-    - QA automation for RI Communications Group
-    - Various small web projects
+    - High-frequency trading app for Dimension Capital - fast, responsive, secure automated decision-making tool for trading.
+    - QA automation for RI Communications Group.
+    - Various small web projects.
 *** Components
     :PROPERTIES:
     :HTML_CONTAINER_CLASS: section_sub
@@ -241,7 +254,7 @@ ga('send', 'pageview');
     :PROPERTIES:
     :HTML_CONTAINER_CLASS: section_sub
     :END:
-    Medicaid reimbursement web-site for school districts
+    Medicaid reimbursement web-site for school districts.
 
 ** - codeluxe
    :PROPERTIES:
@@ -255,7 +268,7 @@ ga('send', 'pageview');
     :PROPERTIES:
     :HTML_CONTAINER_CLASS: section_sub
     :END:
-    arcade video games
+    Arcade video games.
 
 ** - denise
    :PROPERTIES:
@@ -269,7 +282,7 @@ ga('send', 'pageview');
     :PROPERTIES:
     :HTML_CONTAINER_CLASS: section_sub
     :END:
-    ERP, Sales and Retail management systems
+    ERP, Sales and Retail management systems.
 
 ** - plussoft
    :PROPERTIES:
@@ -283,8 +296,8 @@ ga('send', 'pageview');
     :PROPERTIES:
     :HTML_CONTAINER_CLASS: section_sub
     :END:
-    - Ticket booking suite for Uzbekistan Airways
-    - Project for National Broadcasting Company - for planning, allocating and monitoring ads
+    - Ticket booking suite for Uzbekistan Airways.
+    - Project for National Broadcasting Company - for planning, allocating and monitoring TV commercials.
 ** - a&a
    :PROPERTIES:
    :HTML_CONTAINER_CLASS: section__experience
@@ -297,14 +310,14 @@ ga('send', 'pageview');
     :PROPERTIES:
     :HTML_CONTAINER_CLASS: section_sub
     :END:
-    - Accounting solutions for air-cargo companies ([[http://www.aerovista.aero][Aerovista]] and [[http://www.rusaviation.com][RusAviation]])
-    - Car rental automation suite
+    - Accounting solutions for air-cargo companies ([[http://www.aerovista.aero][Aerovista]] and [[http://www.rusaviation.com][RusAviation]]).
+    - Car rental automation suite.
 ** - spektr
    :PROPERTIES:
    :HTML_CONTAINER_CLASS: section__experience
    :END:
    - Spektr
-   - System Administrator/Helpdesk
+   - System Administrator
    - 2001 - 2003
    - Pyatigorsk, Russia
 
@@ -313,11 +326,11 @@ ga('send', 'pageview');
   :HTML_CONTAINER_CLASS: section__education
   :END:
 ** [[https:///en][Tashkent University of Information Technologies]]
- Bachelor of Software Engineering
+ Bachelor of Software Engineering.
 
 #+begin_export html
   <div class="updated">
     <span>updated:</span>
-    <span>Sept 2018</span>
+    <span>Aug 2019</span>
   </div>
 #+end_export

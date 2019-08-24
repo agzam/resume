@@ -13,8 +13,10 @@ body {
   margin-left: auto;
   margin-right: auto;
 
-  max-width: 95%;
+  max-width: 80%;
   color: #4f3f3f;
+
+  font-size: 110%;
 }
 
 a {
@@ -28,7 +30,7 @@ a:visited {
 
 p {
   margin-top:0;
-  margin-bottom:0;
+  margin-bottom: 10px;
 }
 
 ul {
@@ -36,25 +38,75 @@ ul {
   padding: 0;
 }
 
+.outline-text-4 {
+  font-size: 85%;
+}
+
+
+@media only screen and (min-width: 1800px) {
+  body {
+    max-width: 50%;
+    width: 50%;
+  }
+}
+
 @media only screen and (min-width: 1200px) {
   body {
-    max-width: 75%;
+    max-width: 70%;
   }
 
   .links a {
     display: block;
     margin-top: 8px;
     margin-bottom: 8px;
-    font-size: small;
+    font-size: medium;
     color: #7d6a24;
+    font-family: "Maven Pro";
   }
 }
 
 @media only screen and (max-width: 1200px) {
+  body {
+    max-width: 80%;
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
   .links a {
     font-size: 0;
     color: transparent;
   }
+
+  .pdf-link {
+    display: none;
+  }
+
+  .section__experience > div > ul li:first-child {
+    font-size: 1rem !important;
+  }
+
+
+  .section__experience li:nth-child(3),
+  .section__experience li:nth-child(2) {
+    font-size: 70%;
+  }
+
+  .section__experience li:nth-child(4) {
+    display: none;
+  }
+
+  .section__experience > div > ul {
+    grid-template-columns: 3fr 1fr 10fr !important;
+  }
+  /* .outline-2 { */
+  /*   max-width: 95%; */
+  /* } */
+
+  .updated {
+    display: none;
+  }
+
 }
 
 @media print {
@@ -76,8 +128,8 @@ ul {
   }
 
   .section__experience > div > ul li:first-child {
-    font-size: 1.5rem !important;
-   }
+    font-size: 2rem !important;
+  }
 }
 
 #content {
@@ -104,10 +156,11 @@ ul {
   margin-right: 10px;
   font-size: 15px;
   color: #4f3f3f;
+  font-family: "FontAwesome";
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 1.8rem;
   color: #bcab84;
   margin-bottom: 10px;
   font-weight: normal;
@@ -127,15 +180,15 @@ li {
 
 .section__experience > div > ul {
   display: grid;
-  grid-template-columns: minmax(250px, 2fr) minmax(200px, 2fr) minmax(100px, 2fr) minmax(100px, 2fr);
-  width: 100%;
+  grid-template-columns: minmax(25%, 2fr) minmax(20%, 3fr) minmax(30%, 3fr) minmax(20%, 4fr);
+  grid-gap: 10px;
   align-items: baseline;
   margin-top: 30px;
 }
 .section__aboutme li::before, .section_sub li::before {
   content: "\f111";
   font-family: "FontAwesome";
-  font-size: 5px;
+  font-size: 6px;
   vertical-align: middle;
   margin-right: 8px;
   color: lightgray;
@@ -149,7 +202,7 @@ li {
 }
 
 .section__experience > div > ul li:first-child {
-  font-size: 2.1rem;
+  font-size: 1.8rem;
   text-align: left;
   color: #7d6a24;
 }
@@ -178,8 +231,9 @@ li {
 }
 
 .updated {
+  position: absolute;
+  right: -10%;
   margin-top: 30px;
-  float: right;
   font-size: 10px;
 }
 
