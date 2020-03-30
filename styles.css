@@ -123,12 +123,21 @@ ul {
     font-size: 1.5rem !important;
   }
 
+  /* every experience line */
   .section__experience > div > ul li {
     font-size: 0.8rem !important;
   }
 
-  .section__experience > div > ul li:first-child {
+  .section__experience > div > ul > li:first-child {
     font-size: 2rem !important;
+  }
+
+  /* indrustry and location */
+  .section__experience div ul li ul li {
+    font-size: 0.7rem !important;
+    margin-left: 2px;
+    line-height: 0.9rem;
+    color: #c1c1c1 !important;
   }
 }
 
@@ -180,7 +189,8 @@ li {
 
 .section__experience > div > ul {
   display: grid;
-  grid-template-columns: minmax(25%, 2fr) minmax(20%, 3fr) minmax(30%, 3fr) minmax(20%, 4fr);
+  /* grid-template-columns: minmax(25%, 2fr) minmax(20%, 3fr) minmax(30%, 3fr) minmax(20%, 4fr); */
+  grid-template-columns: minmax(25%, 2fr) minmax(30%, 4fr) minmax(5%, 1fr);
   grid-gap: 10px;
   align-items: baseline;
   margin-top: 30px;
@@ -194,11 +204,25 @@ li {
   color: lightgray;
 }
 
+/* every experience line */
 .section__experience > div > ul > li {
   display: inline-block;
   width: 100%;
   white-space: nowrap;
   text-align: right;
+}
+
+/* indrustry and location */
+.section__experience div ul li ul {
+  margin-top: 2px;
+}
+
+/* indrustry and location */
+.section__experience div ul li ul li {
+  font-size: 0.7rem !important;
+  margin-left: 2px;
+  line-height: 0.9rem;
+  color: #c1c1c1 !important;
 }
 
 .section__experience > div > ul li:first-child {
@@ -228,6 +252,10 @@ li {
 
 .section_sub li {
   display: block;
+}
+
+.section__education {
+  font-size: small;
 }
 
 .updated {

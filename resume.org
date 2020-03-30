@@ -41,20 +41,17 @@ ga('send', 'pageview');
   :PROPERTIES:
   :HTML_CONTAINER_CLASS: section__current-status
   :END:
-  My attention is captivated by programming languages with a strong functional emphasis. For the past few years, I have been mostly writing Clojure and Clojurescript.
-
-  I may consider full-time opportunities in SF Bay or remote jobs anywhere else in the US.
+  Looking for full-time opportunities (remote or in SF Bay Area). Preferably with Clojure/Clojurescript based stacks.
 
 * About me:
   :PROPERTIES:
   :HTML_CONTAINER_CLASS: section__aboutme
   :END:
-  - Skilled and experienced full-stack software developer. Have built and worked on interactive, responsive, and adaptive web apps, complex enterprise-level solutions, mobile apps, cloud services, and APIs.
-  - I am a good team player. I have experience in building, training, and leading teams.
-  - Keyboard junkie. I relentlessly seek ways to enhance my productivity, evangelize and help my colleagues to reduce frustration linked to mundane, repetitive tasks. Maintainer of popular 'M-x Tips' Twitter account where I teach people how to improve their skills.
-  - Polyglot programmer. I have attained proficiency in several programming languages, including Javascript, Typescript, Coffeescript, Lua, C#, Python, Clojure, and different dialects of Lisp.
+  - Experienced full-stack software developer. Have built and worked on interactive, responsive, and adaptive web, and mobile apps; complex enterprise-level solutions; cloud services; APIs.
+  - Keyboard junkie. I relentlessly seek ways to enhance my productivity, evangelize and help my colleagues to reduce frustration associated with mundane, repetitive tasks. Known on Twitter as «M-x Tips» where I regularly post small code snippets and helpful tips.
+  - Polyglot programmer. I have attained proficiency in multiple programming languages, including: Javascript, Typescript, Coffeescript, Lua, C#, Python, Clojure and other dialects of Lisp.
   I am familiar with Haskell, Ruby, Java, and Go.
-  I also would like to explore other languages, e.g., Rust, Elm, Purescript, and OCaml
+  I also would love to explore other languages like Rust, Elm, Purescript, and OCaml
 
 * Professional experience
 
@@ -63,41 +60,30 @@ ga('send', 'pageview');
   :HTML_CONTAINER_CLASS: section__experience
   :END:
   - [[https://dividendfinance.com][Dividend Finance]]
+    + Fintech
+    + San Francisco, CA
   - Senior Software Developer
   - Since Nov 2018
-  - San Francisco, CA
+
 *** Components
     :PROPERTIES:
     :HTML_CONTAINER_CLASS: section_sub
     :END:
     clojure, clojurescript, re-frame, salesforce, heroku, jenkins, postgresql
-** - mayvenn
-  :PROPERTIES:
-  :HTML_CONTAINER_CLASS: section__experience
-  :END:
-  - [[https://mayvenn.com][Mayvenn]]
-  - Senior Software Developer
-  - Aug 2018 - Nov 2018
-  - Oakland, CA
-*** Components
-    :PROPERTIES:
-    :HTML_CONTAINER_CLASS: section_sub
-    :END:
-    clojure, clojurescript, kafka, re-frame, docker, jenkins, aws
-
 ** - fundingcircle
   :PROPERTIES:
   :HTML_CONTAINER_CLASS: section__experience
   :END:
   - [[https://fundingcircle.com][Funding Circle]]
+    + Fintech
+    + San Francisco, CA
   - Senior Software Developer
   - Feb 2016 - Aug 2018
-  - San Francisco, CA
-*** Responsibilities:
+*** Responsibilities
     :PROPERTIES:
     :HTML_CONTAINER_CLASS: section_sub
     :END:
-    Solutions for Fin Ops teams for monitoring transactions, managing reconciliations, reporting, and analytics.
+    Solutions for Fin Ops teams for monitoring transactions, managing reconciliations, reporting and analytics.
 *** Components
     :PROPERTIES:
     :HTML_CONTAINER_CLASS: section_sub
@@ -108,11 +94,12 @@ ga('send', 'pageview');
    :PROPERTIES:
   :HTML_CONTAINER_CLASS: section__experience
   :END:
-  - [[http://www.mobitor.com][Mobitor]]
-  - Lead Front-end Developer
-  - Apr 2015 - Feb 2016
-  - Walnut Creek, CA
-*** Responsibilities:
+   - [[http://www.mobitor.com][Mobitor]]
+     + Medical Equipment Logistics
+     + Walnut Creek, CA
+   - Lead Front-end Developer
+   - Apr 2015 - Feb 2016
+*** Responsibilities
     :PROPERTIES:
     :HTML_CONTAINER_CLASS: section_sub
     :END:
@@ -128,10 +115,11 @@ ga('send', 'pageview');
    :HTML_CONTAINER_CLASS: section__experience
    :END:
    - [[https://www.invitae.com][Invitae]]
+     + Genomics
+     + San Francisco
    - Lead Front-end Developer
    - May 2014 - Apr 2015
-   - San Francisco
-*** Responsibilities:
+*** Responsibilities
     :PROPERTIES:
     :HTML_CONTAINER_CLASS: section_sub
     :END:
@@ -146,11 +134,12 @@ ga('send', 'pageview');
    :PROPERTIES:
    :HTML_CONTAINER_CLASS: section__experience
    :END:
-  - [[http://www.vevo.com][VEVO]]
-  - Senior Software Developer
-  - Jan 2012 - May 2014
-  - San Francisco
-*** Responsibilities:
+   - [[http://www.vevo.com][VEVO]]
+     + Web
+     + San Francisco
+   - Senior Software Developer
+   - Jan 2012 - May 2014
+*** Responsibilities
     :PROPERTIES:
     :HTML_CONTAINER_CLASS: section_sub
     :END:
@@ -170,10 +159,11 @@ ga('send', 'pageview');
   :HTML_CONTAINER_CLASS: section__experience
   :END:
   - [[https://www.bunk1.com][Bunk1.com]]
+    + Web
+    + New York City
   - Front-end Developer
   - 2011
-  - New York City
-*** Responsibilities:
+*** Responsibilities
     :PROPERTIES:
     :HTML_CONTAINER_CLASS: section_sub
     :END:
@@ -189,10 +179,11 @@ ga('send', 'pageview');
    :HTML_CONTAINER_CLASS: section__experience
    :END:
    - [[https://www.usedirect.com][USeDirect]]
+     + ERP
+     + Roslyn Heights, NY
    - Application Developer
    - 2010
-   - Roslyn Heights, NY
-*** Responsibilities:
+*** Responsibilities
     :PROPERTIES:
     :HTML_CONTAINER_CLASS: section_sub
     :END:
@@ -207,10 +198,11 @@ ga('send', 'pageview');
    :HTML_CONTAINER_CLASS: section__experience
    :END:
    - Focus Solutions
+     + ERP
+     + Melville, NY
    - Application Developer
    - 2010
-   - Melville, NY
-*** Responsibilities:
+*** Responsibilities
     :PROPERTIES:
     :HTML_CONTAINER_CLASS: section_sub
     :END:
@@ -226,10 +218,11 @@ ga('send', 'pageview');
    :HTML_CONTAINER_CLASS: section__experience
    :END:
    - Freelance Programmer
+     +
+     + New York City
    -
    - 2009
-   - New York City
-*** Responsibilities:
+*** Responsibilities
     :PROPERTIES:
     :HTML_CONTAINER_CLASS: section_sub
     :END:
@@ -247,10 +240,11 @@ ga('send', 'pageview');
    :HTML_CONTAINER_CLASS: section__experience
    :END:
    - [[http://www.esp-sgs.com][ES&P]]
+     + Web
+     + Brooklyn, NY
    - Web Developer
    - 2008 - 2009
-   - Brooklyn, NY
-*** Responsibilities:
+*** Responsibilities
     :PROPERTIES:
     :HTML_CONTAINER_CLASS: section_sub
     :END:
@@ -261,10 +255,11 @@ ga('send', 'pageview');
    :HTML_CONTAINER_CLASS: section__experience
    :END:
    - CodeLuxe
+     + Gaming
+     + Moscow, Russia
    - Application Developer
    - 2008
-   - Moscow, Russia
-*** Responsibilities:
+*** Responsibilities
     :PROPERTIES:
     :HTML_CONTAINER_CLASS: section_sub
     :END:
@@ -275,10 +270,11 @@ ga('send', 'pageview');
    :HTML_CONTAINER_CLASS: section__experience
    :END:
    - DENISE
+     + Retail
+     + Moscow, Russia
    - IT Manager
    - 2007 - 2008
-   - Moscow, Russia
-*** Responsibilities:
+*** Responsibilities
     :PROPERTIES:
     :HTML_CONTAINER_CLASS: section_sub
     :END:
@@ -289,10 +285,11 @@ ga('send', 'pageview');
    :HTML_CONTAINER_CLASS: section__experience
    :END:
    - [[http://plussoft.uz][PlusSoft]]
-   -  ERP Integrator
+     + Enterprise Solutions
+     + Tashkent, Uzbekistan
+   - ERP Integrator
    - 2003 - 2006
-   - Tashkent, Uzbekistan
-*** Responsibilities:
+*** Responsibilities
     :PROPERTIES:
     :HTML_CONTAINER_CLASS: section_sub
     :END:
@@ -303,10 +300,11 @@ ga('send', 'pageview');
    :HTML_CONTAINER_CLASS: section__experience
    :END:
    - A&A Software
+     + Enterprise Solutions
+     + Dubai, UAE
    - ERP Integrator
    - 2005 - 2006
-   - Dubai, UAE
-*** Responsibilities:
+*** Responsibilities
     :PROPERTIES:
     :HTML_CONTAINER_CLASS: section_sub
     :END:
@@ -317,9 +315,10 @@ ga('send', 'pageview');
    :HTML_CONTAINER_CLASS: section__experience
    :END:
    - Spektr
+     + Manufacturing
+     + Pyatigorsk, Russia
    - System Administrator
    - 2001 - 2003
-   - Pyatigorsk, Russia
 
 * Education
   :PROPERTIES:
@@ -331,6 +330,6 @@ ga('send', 'pageview');
 #+begin_export html
   <div class="updated">
     <span>updated:</span>
-    <span>Aug 2019</span>
+    <span>March 2020</span>
   </div>
 #+end_export
