@@ -48,7 +48,8 @@ ga('send', 'pageview');
   :HTML_CONTAINER_CLASS: section__aboutme
   :END:
   - Experienced full-stack software developer. Have built and worked on interactive, responsive, and adaptive web, and mobile apps; complex enterprise-level solutions; cloud services; APIs.
-  - Keyboard junkie. I relentlessly seek ways to enhance my productivity, evangelize and help my colleagues to reduce frustration associated with mundane, repetitive tasks. Known on Twitter as «M-x Tips» where I regularly post small code snippets and helpful tips.
+  - Keyboard junkie. I relentlessly seek ways to enhance my productivity, evangelize and help my colleagues to reduce frustration associated with mundane, repetitive tasks.
+    Known on Twitter as «M-x Tips» where I regularly post small code snippets and helpful tips.
   - Polyglot programmer. I have attained proficiency in multiple programming languages, including: Javascript, Typescript, Coffeescript, Lua, C#, Python, Clojure and other dialects of Lisp.
   I am familiar with Haskell, Ruby, Java, and Go.
   I also would love to explore other languages like Rust, Elm, Purescript, and OCaml
@@ -65,6 +66,12 @@ ga('send', 'pageview');
   - Senior Software Developer
   - Since Nov 2018
 
+  Dividend Finance offers residential solar loans, home improvement, and PACE financing products. That includes web-portals for installers and home-owners, together with comprehensive API for partners: financial institutions and solar energy installation companies.
+
+  APIs used as a backend for Dividend's portals and as a public set of endpoints for partners. They are built on Clojure stack (loosely based on Luminus) with Salesforce and PostgreSQL as the system of record.
+
+  Fronted apps are built with Clojurescript (Re-frame), and Material UI React components, meant to be utilized from mobile and desktop devices.
+
 *** Components
     :PROPERTIES:
     :HTML_CONTAINER_CLASS: section_sub
@@ -79,11 +86,11 @@ ga('send', 'pageview');
     + San Francisco, CA
   - Senior Software Developer
   - Feb 2016 - Aug 2018
-*** Responsibilities
-    :PROPERTIES:
-    :HTML_CONTAINER_CLASS: section_sub
-    :END:
-    Solutions for Fin Ops teams for monitoring transactions, managing reconciliations, reporting and analytics.
+
+  Lending platform for small businesses. My role was to build a web-portal for FinOps teams, to allow them to track transactions, monitor deposits, manage reconciliations, etc., and maintain net capital compliance.
+
+  Portal was built in Clojurescript, initially using Om.next, later refactored to work with Re-frame. With set of APIs (built with Clojure) on the back-end with materialized views in PostgreSQL, where data gets aggregated from Kafka clusters via Kafka Connect.
+
 *** Components
     :PROPERTIES:
     :HTML_CONTAINER_CLASS: section_sub
@@ -99,11 +106,9 @@ ga('send', 'pageview');
      + Walnut Creek, CA
    - Lead Front-end Developer
    - Apr 2015 - Feb 2016
-*** Responsibilities
-    :PROPERTIES:
-    :HTML_CONTAINER_CLASS: section_sub
-    :END:
-    Suite for managing medical devices - orthopedic, spine surgery implants, and equipment.
+
+   Built a web-portal, suite for managing medical devices - orthopedic, spine surgery implants and equipment. Angular.js based, with node.js backend that "talks" to API built in C#.
+
 *** Components
     :PROPERTIES:
     :HTML_CONTAINER_CLASS: section_sub
@@ -119,11 +124,9 @@ ga('send', 'pageview');
      + San Francisco
    - Lead Front-end Developer
    - May 2014 - Apr 2015
-*** Responsibilities
-    :PROPERTIES:
-    :HTML_CONTAINER_CLASS: section_sub
-    :END:
-    Building asset tracking/dashboard web app.
+
+   Built an asset tracking/dashboard web app. Angular.js based, written in Coffeescript with Python back-end (Django).
+
 *** Components
     :PROPERTIES:
     :HTML_CONTAINER_CLASS: section_sub
@@ -139,15 +142,17 @@ ga('send', 'pageview');
      + San Francisco
    - Senior Software Developer
    - Jan 2012 - May 2014
-*** Responsibilities
-    :PROPERTIES:
-    :HTML_CONTAINER_CLASS: section_sub
-    :END:
-    - Implemented cloud-based, task-driven, scalable, efficient video encoding system.
-    - Lead a group of developers in building admin web-site to be used by partners.
-    - Google Chromecast integration for Vevo apps.
-    - Apple TV App.
-    - vevo.com redesign.
+
+   Implemented cloud-based, task-driven, scalable, efficient video encoding system (written in C#) using SQS and DynamoDB for scheduling and state management;
+
+   Lead a group of developers in building admin web-site to be used by partners (ASP.net, Angular.js and Coffeescript);
+
+   Google Chromecast integration for Veto apps;
+
+   Built Apple TV App;
+
+   Participated in vevo.com redesign;
+
 *** Components
     :PROPERTIES:
     :HTML_CONTAINER_CLASS: section_sub
@@ -163,11 +168,9 @@ ga('send', 'pageview');
     + New York City
   - Front-end Developer
   - 2011
-*** Responsibilities
-    :PROPERTIES:
-    :HTML_CONTAINER_CLASS: section_sub
-    :END:
-    Web and mobile apps
+
+  Web (ASP.net, jQuery) and mobile apps (Xamarin tools, c#)
+
 *** Components
     :PROPERTIES:
     :HTML_CONTAINER_CLASS: section_sub
@@ -183,11 +186,8 @@ ga('send', 'pageview');
      + Roslyn Heights, NY
    - Application Developer
    - 2010
-*** Responsibilities
-    :PROPERTIES:
-    :HTML_CONTAINER_CLASS: section_sub
-    :END:
-    Microsoft Dynamics desktop UI shell.
+
+   Microsoft Dynamics desktop UI shell (WPF, c#).
 *** Components
     :PROPERTIES:
     :HTML_CONTAINER_CLASS: section_sub
@@ -202,11 +202,9 @@ ga('send', 'pageview');
      + Melville, NY
    - Application Developer
    - 2010
-*** Responsibilities
-    :PROPERTIES:
-    :HTML_CONTAINER_CLASS: section_sub
-    :END:
-    Software suite for military facilities, for reliably and safely identify, track and maintain arms, ammunition, and explosives using RFID tracking.
+
+   Software suite for military facilities, for reliably and safely identify, track and maintain arms, ammunition, and explosives using RFID tracking (WPF, c#, MSSQL).
+
 *** Components
     :PROPERTIES:
     :HTML_CONTAINER_CLASS: section_sub
@@ -222,13 +220,13 @@ ga('send', 'pageview');
      + New York City
    -
    - 2009
-*** Responsibilities
-    :PROPERTIES:
-    :HTML_CONTAINER_CLASS: section_sub
-    :END:
-    - High-frequency trading app for Dimension Capital - fast, responsive, secure automated decision-making tool for trading.
-    - QA automation for RI Communications Group.
-    - Various small web projects.
+
+   High-frequency trading app for Dimension Capital - fast, responsive, secure automated decision-making tool for trading (c#).
+
+   QA automation for RI Communications Group (c#).
+
+   Various small web projects (wordpress, php, javascript).
+
 *** Components
     :PROPERTIES:
     :HTML_CONTAINER_CLASS: section_sub
@@ -248,77 +246,9 @@ ga('send', 'pageview');
     :PROPERTIES:
     :HTML_CONTAINER_CLASS: section_sub
     :END:
-    Medicaid reimbursement web-site for school districts.
 
-** - codeluxe
-   :PROPERTIES:
-   :HTML_CONTAINER_CLASS: section__experience
-   :END:
-   - CodeLuxe
-     + Gaming
-     + Moscow, Russia
-   - Application Developer
-   - 2008
-*** Responsibilities
-    :PROPERTIES:
-    :HTML_CONTAINER_CLASS: section_sub
-    :END:
-    Arcade video games.
+    Medicaid reimbursement web-site for school districts (ASP.net, c#).
 
-** - denise
-   :PROPERTIES:
-   :HTML_CONTAINER_CLASS: section__experience
-   :END:
-   - DENISE
-     + Retail
-     + Moscow, Russia
-   - IT Manager
-   - 2007 - 2008
-*** Responsibilities
-    :PROPERTIES:
-    :HTML_CONTAINER_CLASS: section_sub
-    :END:
-    ERP, Sales and Retail management systems.
-
-** - plussoft
-   :PROPERTIES:
-   :HTML_CONTAINER_CLASS: section__experience
-   :END:
-   - [[http://plussoft.uz][PlusSoft]]
-     + Enterprise Solutions
-     + Tashkent, Uzbekistan
-   - ERP Integrator
-   - 2003 - 2006
-*** Responsibilities
-    :PROPERTIES:
-    :HTML_CONTAINER_CLASS: section_sub
-    :END:
-    - Ticket booking suite for Uzbekistan Airways.
-    - Project for National Broadcasting Company - for planning, allocating and monitoring TV commercials.
-** - a&a
-   :PROPERTIES:
-   :HTML_CONTAINER_CLASS: section__experience
-   :END:
-   - A&A Software
-     + Enterprise Solutions
-     + Dubai, UAE
-   - ERP Integrator
-   - 2005 - 2006
-*** Responsibilities
-    :PROPERTIES:
-    :HTML_CONTAINER_CLASS: section_sub
-    :END:
-    - Accounting solutions for air-cargo companies ([[http://www.aerovista.aero][Aerovista]] and [[http://www.rusaviation.com][RusAviation]]).
-    - Car rental automation suite.
-** - spektr
-   :PROPERTIES:
-   :HTML_CONTAINER_CLASS: section__experience
-   :END:
-   - Spektr
-     + Manufacturing
-     + Pyatigorsk, Russia
-   - System Administrator
-   - 2001 - 2003
 
 * Education
   :PROPERTIES:
@@ -327,9 +257,14 @@ ga('send', 'pageview');
 ** [[https:///en][Tashkent University of Information Technologies]]
  Bachelor of Software Engineering.
 
-#+begin_export html
-  <div class="updated">
-    <span>updated:</span>
-    <span>March 2020</span>
+ #+begin_export html
+  <div class="footer">
+    <div class="there-is-more">
+      ⃰ Companies prior to 2008 are not present. I can provide a complete list upon request.
+    </div>
+    <div class="updated">
+      <span>updated:</span>
+      <span>March 2020</span>
+    </div>
   </div>
-#+end_export
+ #+end_export

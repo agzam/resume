@@ -33,15 +33,27 @@ p {
   margin-bottom: 10px;
 }
 
+h2 {
+  font-size: 1.8rem;
+  color: #bcab84;
+  margin-bottom: 10px;
+  font-weight: normal;
+}
+
 ul {
   list-style: none;
   padding: 0;
+  margin-top: 0;
+}
+
+li {
+  line-height: 30px;
+  margin-top: 5px;
 }
 
 .outline-text-4 {
   font-size: 85%;
 }
-
 
 @media only screen and (min-width: 1800px) {
   body {
@@ -67,10 +79,17 @@ ul {
 
 @media only screen and (max-width: 1200px) {
   body {
-    max-width: 80%;
+    max-width: 99%;
+    font-size: small;
     display: grid;
     margin-left: 10px;
     margin-right: 10px;
+
+    background: none;
+  }
+
+  #content {
+    max-width: inherit;
   }
 
   .links a {
@@ -99,14 +118,10 @@ ul {
   .section__experience > div > ul {
     grid-template-columns: 3fr 1fr 10fr !important;
   }
-  /* .outline-2 { */
-  /*   max-width: 95%; */
-  /* } */
 
-  .updated {
-    display: none;
+  .footer {
+    display: none !important;
   }
-
 }
 
 @media print {
@@ -166,21 +181,6 @@ ul {
   font-size: 15px;
   color: #4f3f3f;
   font-family: "FontAwesome";
-}
-
-h2 {
-  font-size: 1.8rem;
-  color: #bcab84;
-  margin-bottom: 10px;
-  font-weight: normal;
-}
-
-ul {
-  margin-top: 0;
-}
-
-li {
-  line-height: 30px;
 }
 
 .experience__location {
@@ -258,12 +258,6 @@ li {
   font-size: small;
 }
 
-.updated {
-  position: absolute;
-  right: -10%;
-  margin-top: 30px;
-  font-size: 10px;
-}
 
 .pdf-link {
   position: absolute;
@@ -280,4 +274,19 @@ li {
 
 .pdf-link:hover {
   transform: scale(1.5)
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  font-size: 10px;
+}
+
+.footer .updated {
+  display: inline-flex;
+}
+
+.footer .there-is-more {
+  display: inline-flex;
 }
