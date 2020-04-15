@@ -1,0 +1,21 @@
+{:paths ["src" "resources"]
+ :deps  {org.clojure/clojure     {:mvn/version "1.10.1"}
+         hiccup                  {:mvn/version "2.0.0-alpha2"}
+         integrant               {:mvn/version "0.8.0"}
+         integrant/repl          {:mvn/version "0.3.1"}
+         ring/ring-core          {:mvn/version "1.8.0"}
+         ring/ring-jetty-adapter {:mvn/version "1.8.0"}
+         compojure               {:mvn/version "1.6.1"}
+         garden                  {:mvn/version "1.3.9"}}
+ :aliases
+ {:test    {:extra-paths ["test"]
+            :extra-deps  {org.clojure/test.check {:mvn/version "0.10.0"}}}
+  :runner
+  {:extra-deps {com.cognitect/test-runner
+                {:git/url "https://github.com/cognitect-labs/test-runner"
+                 :sha     "f7ef16dc3b8332b0d77bc0274578ad5270fbfedd"}}
+   :main-opts  ["-m" "cognitect.test-runner"
+                "-d" "test"]}
+  :uberjar {:extra-deps {seancorfield/depstar {:mvn/version "0.5.2"}}
+            :main-opts  ["-m" "hf.depstar.uberjar" "resume.jar"
+                         "-C" "-m" "resume.content"]}}}
