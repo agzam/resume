@@ -105,10 +105,11 @@
    [:.links {:grid-area    "links"
              :justify-self "flex-end"
              :margin-top   "20px"}
-    [:img {:width "1.1rem"
+    [:li {:white-space :nowrap}]
+    [:img {:width          "1.1rem"
            :vertical-align :middle
-           :margin-right "0.5rem"
-           :filter "drop-shadow(3px 3px 3px #bebebe) saturate(0.2)"}]]])
+           :margin-right   "0.5rem"
+           :filter         "drop-shadow(3px 3px 3px #bebebe) saturate(0.2)"}]]])
 
 (def ul-defaults
   {:text-align           :justify
@@ -198,6 +199,9 @@
         :text-align   :justify
         :color        (colors :unimportant)}]])
 
+(def education
+  [:.institution {:font-size :smaller}])
+
 (def updated-date
   [:.updated-date
    {:float         "right"
@@ -220,6 +224,7 @@
      experience
      thread-decors
      prior-exp-not-provided-remark
+     education
      updated-date]))
   ([]
    (generate "resources/public/styles.css")))

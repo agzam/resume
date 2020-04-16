@@ -197,6 +197,10 @@ h2 {
   margin-top: 20px;
 }
 
+.header .links li {
+  white-space: nowrap;
+}
+
 .header .links img {
   width: 1.1rem;
   vertical-align: middle;
@@ -319,6 +323,10 @@ h2 {
   font-size: 0.9rem;
   text-align: justify;
   color: #a5a296;
+}
+
+.institution {
+  font-size: smaller;
 }
 
 .updated-date {

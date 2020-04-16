@@ -2,40 +2,40 @@
   (:require [hiccup.page :refer [html5 include-css]]
             [clojure.string :as str]))
 
-(defn links [{:keys [links]}]
-  [:ul.links
-   (map
-    (fn [{:keys [url label icon]}]
-      [:li [:a {:href url}
-            (when icon [:img {:src icon}])
-            label]])
-    links)])
+(defn links-block [data]
+  (let [link  (fn [{:keys [network url icon]}]
+                [:li [:a {:href url}
+                      (when icon [:img {:src icon}])
+                      network]])
+        email (-> data :basics :email)]
+    [:ul.links
+     (link {:url     (str "mailto:" email)
+            :network email
+            :icon    "email-icon.svg"})
+     (map link (-> data :basics :profiles))]))
 
 (def pdf-icon
   [:a.pdf-link {:href "resume.pdf"}
    [:img {:src "pdf-icon.svg"}]])
 
-(defn header [{:keys [header] :as data}]
-  (let [{:keys [first-name
-                last-name
-                role
-                location]} header]
+(defn header [{:keys [basics] :as data}]
+  (let [{:keys [name label location]} basics]
     [:div.header
      [:div.title
-      [:h1.name (str first-name " " last-name)]
-      [:p.role role]
-      [:p.location location]]
-     (links data)]))
+      [:h1.name name]
+      [:p.role label]
+      [:p.location (:region location)]]
+     (links-block data)]))
 
-(defn keywords [kws]
+(defn keywords-block [kws]
   (let [underscore->spc #(str/replace % #"_" " ")
         kws             (map (comp underscore->spc name) kws)]
     [:div.keywords
      [:span.hidden-label "keywords:"]
      [:p (str/join ", " kws)]]))
 
-(defn summary [{:keys [main-summary]}]
-  (let [{:keys [title content bullet-points?]} main-summary]
+(defn summary [data]
+  (let [{:keys [title content bullet-points?]} (-> data :basics :summary)]
     [:div.summary
      [:h2 title]
      (if bullet-points?
@@ -57,29 +57,29 @@
     (nil? end)    (str "Since " start)
     :else (str start "-" end)))
 
-(defn experience [{:keys [experience]}]
+(defn experience [{:keys [work]}]
   (let [{:keys [title
                 content
-                prior-experience-not-provided-note]} experience]
+                prior-experience-not-provided-note]} work]
       [:div.experience
        [:h2 title]
        [:ul.experience
         (map
-         (fn [{:keys [name
-                      link
+         (fn [{:keys [company
+                      website
                       industry
                       location
-                      role
+                      position
                       start
                       end
-                      details
-                      components]}]
+                      highlights
+                      keywords]}]
            [:li.company
             [:div
              [:div.summary
-              (if link
-                [:a.name {:href link} name]
-                [:div.name name])
+              (if website
+                [:a.name {:href website} company]
+                [:div.name company])
               [:div.thread-decor-h]
               (when industry
                [:span.hidden-label "industry:"]
@@ -87,12 +87,12 @@
               [:span.hidden-label "company address:"]
               [:div.company-location location]
               [:span.hidden-label "role:"]
-              [:div.role role]
+              [:div.role position]
               [:div.interval (interval start end)]
-              (keywords components)]
+              (keywords-block keywords)]
              [:div.details
               [:div.thread-decor-v]
-              [:div.text (map identity details)]]]])
+              [:div.text (map identity highlights)]]]])
          content)
         (when prior-experience-not-provided-note
           [:li.prior-exp-not-provided
@@ -102,7 +102,13 @@
   (let [{:keys [title content]} education]
     [:div.education
      [:h2 title]
-     content]))
+     [:ul
+      (map
+       (fn [{:keys [institution website area study-type]}]
+         [:li
+          [:p (str study-type " of " area)]
+          [:p.institution [:a {:href website} institution]]])
+       content)]]))
 
 (def updated
   [:div.updated-date
@@ -128,12 +134,12 @@
    [:meta {:http-equiv "cache-control" :content "no-cache"}]
    [:meta {:name "viewport" :content "initial-scale=1, width=device-width"}]) )
 
-(defn index [data]
+(defn index [{:keys [basics] :as data}]
   (html5
    [:head
     metas
     (include-css "styles.css")
     (include-css "https://fonts.googleapis.com/css?family=Maven%20Pro")
-    [:title "Ag Ibragimov. Software Developer"]
+    [:title (str (:name basics) "." (:label basics))]
     [:body
      (content data)]]))

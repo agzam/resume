@@ -9,7 +9,7 @@ cp resources/public/* .
 git add -A
 git stash push -m "deploy"
 git checkout gh-pages
-git stash pop "deploy"
-git commit -m "$date +"%Y-%m-%d""
+git stash pop
+git commit -m "updated: $(date +'%Y-%m-%d')"
 git push origin gh-pages
 git checkout -
