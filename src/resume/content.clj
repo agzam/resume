@@ -8,8 +8,3 @@
        page/index
        (spit "target/index.html"))
   (styles/generate "target/styles.css"))
-
-(defn -main
-  "Generates resume content to be hosted on GH pages"
-  [& args]
-  (generate))
