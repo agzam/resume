@@ -1,0 +1,16 @@
+* To build
+  #+begin_src sh
+    clojure -m resume.app
+  #+end_src
+* To Build and deploy
+  #+begin_src sh
+    ./deploy.sh
+  #+end_src
+* For development
+  start REPL, connect/jack-in
+  #+begin_src clojure
+    user> (ig-repl/go)
+  #+end_src
+  #+begin_src sh
+    open localhost:3000
+  #+end_src

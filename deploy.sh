@@ -3,13 +3,12 @@
 git update-index --refresh && git diff-index --quiet HEAD --
 if [ $? -ne 0 ]; then exit; fi
 
-clojure -m resume.content
+git checkout gh-pages
+git rebase master
+clojure -m resume.app
 cp target/* .
 cp resources/public/* .
 git add -A
-git stash push -m "deploy"
-git checkout gh-pages
-git stash pop
-git commit -m "updated: $(date +'%Y-%m-%d')"
+git commit -m "updated: $(date +'%Y-%m-%d %H:%M:%S')"
 git push origin gh-pages
 git checkout -
