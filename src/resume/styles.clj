@@ -1,3 +1,4 @@
+;; -*-  eval: (rainbow-mode -1) -*-
 (ns resume.styles
   (:require [garden.color :as gc]
             [garden.core :refer [css]]
@@ -25,12 +26,17 @@
 (def media-queries
   [(at-media {:print true}
              [:body {:background "none !important"
-                     :font-size "75%"}
+                     :font-size "75%"
+                     :max-width "99%"}
               ;; hide all links except email
               [".links li:not(:first-child) a" {:display :none}]
               [:.links [:img {:display :none}]]
               [:.header {:margin-top "0.5rem"}]
-              [:.pdf-link {:display :none}]])
+              [:.experience
+               [:h2 {:font-size "1.3rem"}]
+               [:.company [:.name {:font-size "1rem"}]]]
+              [:.pdf-link {:display :none}]
+              [:.updated-date {:display :none}]])
    (at-media {:screen    :only
               :max-width "800px"}
              [:body {:max-width "95%"
@@ -47,17 +53,22 @@
               [:h2 {:font-size "1.5rem"}]
               [:.experience
                [:.company [:.name {:white-space :pre-wrap
-                                   :font-size   "1.3rem"}]]
+                                   :font-size   "1rem"}]]
                [:.summary [:.role :.interval {:font-size "1rem"}]]]])
    (at-media {:screen    :only
-              :min-width "800px"}
-             [:body {:max-width "50%"
-                     :width     "50%"}
-              [:.experience [:.company [:.name {:white-space :pre-wrap}]]]])
+              :min-width "801px"
+              :max-width "1800px"}
+             [:body {:max-width "70%"
+                     :width     "70%"}
+              [:.experience [:.company [:.name {:white-space :pre-wrap
+                                                :font-size "1.3rem"}]]]])
    (at-media {:screen    :only
               :min-width "1800px"}
              [:body {:max-width "40%"
-                     :width     "40%"}])])
+                     :width     "40%"}]
+             [:.experience
+              [:.company
+               [:.name {:font-size "1.8rem"}]]])])
 (def body
   [:body {:font-family  "Maven Pro, Sans-serif"
           :margin-left  :auto
@@ -122,7 +133,8 @@
 (def experience
   [:.experience
    [:.company {:margin-top "1.5rem"}
-    [:.name {:font-size     "1.8rem"
+    [:.name {
+             ;; :font-size     "1.8rem"
              :white-space   :nowrap
              :margin-bottom "5px"
              :color         (colors :accent-dark)
@@ -136,13 +148,16 @@
                  :display        :flex
                  :flex-direction :column
                  :position       :relative}
-      [:.name :.company-sector :.company-location :.role :.interval :.keywords {:margin-right "5px"}]
+      [:.name :.company-sector
+       :.company-location
+       :.role :.interval
+       :.keywords {:margin-right "5px"}]
       [:.company-sector
        :.company-location {:font-size   :x-small
                            :line-height "15px"
                            :margin-left "2px"
                            :color       (colors :unimportant)}]
-      [:.role {:margin-top :auto}]
+      [:.role {}]
       [:.interval {}]]
      [:.details {:grid-area  "details"
                  :text-align :justify
@@ -158,37 +173,42 @@
 (defcssfn linear-gradient)
 
 (def thread-decors
-  (let [h-grad (linear-gradient "to right"
-                                [(gc/opacify "#ffffff" 1) "0%"]
-                                [(gc/hex->rgb (colors :accent-bright)) "100%"])
-        v-grad (linear-gradient "to bottom"
-                                [(gc/hex->rgb (colors :accent-bright)) "0%"]
-                                [(gc/opacify "#ffffff" 1) "100%"])]
-    [[:.thread-decor-h {:background-image h-grad
-                        :height           "2px"
-                        :position         :absolute
-                        :width            "20%"
-                        :right            "5px"
-                        :top              "13px"}]
-     [:.thread-decor-v {:width            "2px"
-                        :background-color (colors :accent-bright)
-                        :position         :absolute
-                        :height           "calc(100% + 25px)"
-                        :top              "13px"
-                        :left             "-15px"}]
+  (let [h-grad (linear-gradient
+                "to right"
+                [(gc/opacify "#ffffff" 1) "0%"]
+                [(gc/hex->rgb (colors :accent-bright)) "100%"])
+        v-grad (linear-gradient
+                "to bottom"
+                [(gc/hex->rgb (colors :accent-bright)) "0%"]
+                [(gc/opacify "#ffffff" 1) "100%"])]
+    [[:.thread-decor-h
+      {:background-image h-grad
+       :height           "2px"
+       :position         :absolute
+       :width            "20%"
+       :right            "5px"
+       :top              "13px"}]
+     [:.thread-decor-v
+      {:width            "2px"
+       :background-color (colors :accent-bright)
+       :position         :absolute
+       :height           "calc(100% + 25px)"
+       :top              "13px"
+       :left             "-15px"}]
      [(& :.company (gs/nth-last-of-type "2"))
       [:.thread-decor-v {:background-image v-grad
                          :height           "calc(100% + 15px)"}]]
      (let [rad 10
            px  #(str % "px")]
-       [(& :.thread-decor-h (gs/after)) {:content          "' '"
-                                      :width            (px rad)
-                                      :height           (px rad)
-                                      :background-color (colors :accent-bright)
-                                      :position         :absolute
-                                      :right            (px (- (quot rad 2)))
-                                      :top              (px (- (quot rad 2)))
-                                      :border-radius    (px (* rad 2))}])]))
+       [(& :.thread-decor-h (gs/after))
+        {:content          "' '"
+         :width            (px rad)
+         :height           (px rad)
+         :background-color (colors :accent-bright)
+         :position         :absolute
+         :right            (px (- (quot rad 2)))
+         :top              (px (- (quot rad 2)))
+         :border-radius    (px (* rad 2))}])]))
 
 (def prior-exp-not-provided-remark
   [:.prior-exp-not-provided {:margin-top "1.5rem"}
@@ -215,7 +235,6 @@
    (css
     {:output-to path}
     [background-tint
-     media-queries
      body
      common-tags
      pdf-link
@@ -225,8 +244,8 @@
      thread-decors
      prior-exp-not-provided-remark
      education
-     updated-date]))
+     updated-date
+     media-queries
+     ]))
   ([]
    (generate "resources/public/styles.css")))
-
-(generate)

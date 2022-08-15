@@ -8,110 +8,6 @@ body {
   background: linear-gradient(to right,  #FFFDF2 0%,#FFFDF2 37%,#ffffff 100%); /* W3C */;
 }
 
-@media print {
-
-  body {
-    background: none !important;
-    font-size: 75%;
-  }
-  
-  body .links li:not(:first-child) a {
-    display: none;
-  }
-  
-  
-  
-  body .links img {
-    display: none;
-  }
-  
-  body .header {
-    margin-top: 0.5rem;
-  }
-  
-  body .pdf-link {
-    display: none;
-  }
-
-}
-
-@media only screen and (max-width: 800px) {
-
-  body {
-    max-width: 95%;
-    width: 95%;
-  }
-  
-  body .pdf-link {
-    display: none;
-  }
-  
-  body .header {
-    margin-top: 0.5rem;
-    grid-template-columns: minmax(25%, 2fr);
-    grid-template-areas: 'title' 'links';
-  }
-  
-  body .header .location {
-    display: none;
-  }
-  
-  body .header .links li:not(:first-child) a {
-    display: none;
-  }
-  
-  body .header .links {
-    justify-self: flex-start;
-    margin-top: 0;
-  }
-  
-  body h2 {
-    font-size: 1.5rem;
-  }
-  
-  
-  
-  
-  
-  body .experience .company .name {
-    white-space: pre-wrap;
-    font-size: 1.3rem;
-  }
-  
-  
-  
-  body .experience .summary .role, body .experience .summary .interval {
-    font-size: 1rem;
-  }
-
-}
-
-@media only screen and (min-width: 800px) {
-
-  body {
-    max-width: 50%;
-    width: 50%;
-  }
-  
-  
-  
-  
-  
-  body .experience .company .name {
-    white-space: pre-wrap;
-  }
-
-}
-
-@media only screen and (min-width: 1800px) {
-
-  body {
-    max-width: 40%;
-    width: 40%;
-  }
-
-}
-
 body {
   font-family: Maven Pro, Sans-serif;
   margin-left: auto;
@@ -213,7 +109,6 @@ h2 {
 }
 
 .experience .company .name {
-  font-size: 1.8rem;
   white-space: nowrap;
   margin-bottom: 5px;
   color: #7d6a24;
@@ -247,7 +142,7 @@ h2 {
 }
 
 .experience .company >div .summary .role {
-  margin-top: auto;
+
 }
 
 .experience .company >div .summary .interval {
@@ -335,4 +230,134 @@ h2 {
   margin-bottom: 2rem;
   font-size: 6px;
   color: #a5a296;
+}
+
+@media print {
+
+  body {
+    background: none !important;
+    font-size: 75%;
+    max-width: 99%;
+  }
+  
+  body .links li:not(:first-child) a {
+    display: none;
+  }
+  
+  
+  
+  body .links img {
+    display: none;
+  }
+  
+  body .header {
+    margin-top: 0.5rem;
+  }
+  
+  
+  
+  body .experience h2 {
+    font-size: 1.3rem;
+  }
+  
+  
+  
+  body .experience .company .name {
+    font-size: 1rem;
+  }
+  
+  body .pdf-link {
+    display: none;
+  }
+  
+  body .updated-date {
+    display: none;
+  }
+
+}
+
+@media only screen and (max-width: 800px) {
+
+  body {
+    max-width: 95%;
+    width: 95%;
+  }
+  
+  body .pdf-link {
+    display: none;
+  }
+  
+  body .header {
+    margin-top: 0.5rem;
+    grid-template-columns: minmax(25%, 2fr);
+    grid-template-areas: 'title' 'links';
+  }
+  
+  body .header .location {
+    display: none;
+  }
+  
+  body .header .links li:not(:first-child) a {
+    display: none;
+  }
+  
+  body .header .links {
+    justify-self: flex-start;
+    margin-top: 0;
+  }
+  
+  body h2 {
+    font-size: 1.5rem;
+  }
+  
+  
+  
+  
+  
+  body .experience .company .name {
+    white-space: pre-wrap;
+    font-size: 1rem;
+  }
+  
+  
+  
+  body .experience .summary .role, body .experience .summary .interval {
+    font-size: 1rem;
+  }
+
+}
+
+@media only screen and (min-width: 801px) and (max-width: 1800px) {
+
+  body {
+    max-width: 70%;
+    width: 70%;
+  }
+  
+  
+  
+  
+  
+  body .experience .company .name {
+    white-space: pre-wrap;
+    font-size: 1.3rem;
+  }
+
+}
+
+@media only screen and (min-width: 1800px) {
+
+  body {
+    max-width: 40%;
+    width: 40%;
+  }
+  
+  
+  
+  
+  
+  .experience .company .name {
+    font-size: 1.8rem;
+  }
+
 }

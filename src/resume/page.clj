@@ -3,20 +3,20 @@
             [clojure.string :as str]))
 
 (defn links-block [data]
-  (let [link  (fn [{:keys [network url icon]}]
-                [:li [:a {:href url}
-                      (when icon [:img {:src icon}])
-                      network]])
+  (let [link (fn [{:keys [network url icon]}]
+               [:li [:a {:href url}
+                     (when icon [:img {:src (str "img/" icon)}])
+                     network]])
         email (-> data :basics :email)]
     [:ul.links
-     (link {:url     (str "mailto:" email)
+     (link {:url (str "mailto:" email)
             :network email
-            :icon    "email-icon.svg"})
+            :icon "email-icon.svg"})
      (map link (-> data :basics :profiles))]))
 
 (def pdf-icon
   [:a.pdf-link {:href "resume.pdf"}
-   [:img {:src "pdf-icon.svg"}]])
+   [:img {:src "img/pdf-icon.svg"}]])
 
 (defn header [{:keys [basics] :as data}]
   (let [{:keys [name label location]} basics]
