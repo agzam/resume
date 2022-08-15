@@ -9,8 +9,12 @@
 * For development
   start REPL, connect/jack-in
   #+begin_src clojure
+<<<<<<< HEAD
     user> (ig-repl/go)
   #+end_src
   #+begin_src sh
     open localhost:3000
+=======
+    user> (ig-repl/go
+>>>>>>> v3
   #+end_src

@@ -1,7 +1,6 @@
 {:basics
  {:name     "Ag Ibragimov"
   :label    "Software Developer"
-  :location {:region "San Francisco Bay Area"}
   :email    "agzam.ibragimov@gmail.com"
   :profiles [{:network  "LinkedIn"
               :url      "https://www.linkedin.com/in/agzam"
@@ -22,6 +21,7 @@
   :summary  {:title          "Summary"
              :bullet-points? true
              :content
+<<<<<<< HEAD:resources/fullstack-dev.edn
              ["Generalist: An experienced full-stack software developer;
                designed and implemented interactive, responsive, and adaptive
                web, and mobile apps; complex enterprise-level solutions; cloud
@@ -31,10 +31,22 @@
                on-site and remotely."
 
               "Technical lead: have established, trained and lead small groups
+=======
+             ["Generalist: I'm a full-stack software developer;
+               I've designed and implemented interactive, responsive, and adaptive
+               web, and mobile apps; complex enterprise-level solutions; cloud
+               services and APIs."
+
+              "Team player: I have worked in diverse groups and companies of different sizes,
+               on-site and remotely."
+
+              "Technical lead: I have established, trained and lead small groups
+>>>>>>> v3:fullstack-dev.edn
                of engineers."
 
-              "Mentor and technical evangelist: have organized meetups and study groups."
+              "Mentor and a technical evangelist: I have organized meetups, workshops, and study groups."
 
+<<<<<<< HEAD:resources/fullstack-dev.edn
               "Automation zealot: relentlessly seek ways to enhance productivity
                and reduce the frustration associated with mundane, repetitive
                tasks."
@@ -46,19 +58,44 @@
                [:p "Also familiar with Haskell, Ruby, Java, and Go."]
                [:p "Would love to explore other languages like Rust, Elm,
                     Purescript, OCaml, and R"]]]}}
+=======
+              "Automation zealot: I relentlessly seek ways to enhance productivity
+               and reduce the frustration associated with mundane, repetitive
+               tasks."
+
+              [:div "Polyglot: I have attained proficiency in multiple programming
+                     languages, including Javascript, Typescript, Coffeescript,
+                     Lua, C#, Python, Clojure, Emacs Lisp, Fennel and other
+                     dialects of Lisp."
+               [:p "I'm familiar with Common Lisp, Haskell, Ruby, Java, and Go."]
+               [:p "And I would love to explore other languages like Rust, Elm, Purescript, OCaml, Julia, Scala."]]]}}
+>>>>>>> v3:fullstack-dev.edn
 
  :work
  {:title   "Professional experience"
   :prior-experience-not-provided-note
   "jobs before 2009 are not displayed, a comprehensive list can be provided upon
   request"
-  :content [{:company    "Dividend Finance"
+  :content [{:company    "Cisco SecureX"
+             :website    "https://security.cisco.com/"
+             :industry   "Infosec"
+             :location   "Remote"
+             :position   "Senior Software Developer"
+             :start      "June 2020"
+             :end        nil
+             :highlights [[:p "SecureX is Cisco's famed cybersecurity threat detection and response platform."]
+                          [:ul
+                           [:li "Since joining the team I've worked on various parts of the platform, mainly, participated in expanding IROH (Incident Response Orcestration Hub) and CTIA (Cisco Threat Intelligence API)."]
+                           [:li "I have detected and fixed many bugs; improved the elasticsearch stores; created different types of integrations for internal and third-party teams."]
+                           [:li "Designed and developed from scratch an internal Web-UI for documentation writers and analysts in supporting teams."]]]
+             :keywords   [:clojure :clojurescript "github actions" :re-frame :elasticsearch :cypress.io]}
+            {:company    "Dividend Finance"
              :website    "https://dividendfinance.com"
              :industry   "Fintech"
-             :location   "San Francisco"
+             :location   "San Francisco/Part-time remote"
              :position   "Senior Software Developer"
              :start      "Nov 2018"
-             :end        nil
+             :end        "May 2020"
              :highlights [[:p "Dividend Finance offers residential solar loans,
                             home improvement, and PACE financing products. That
                             includes web-portals for installers and home-owners,
@@ -78,8 +115,12 @@
                           [:ul
                            [:li "Built an improved and revised web-portal."]
                            [:li "Created an audit log system from scratch."]
+<<<<<<< HEAD:resources/fullstack-dev.edn
                            [:li "Helped to launch a partnership program with
                                  multiple capital providers such as Keybank."]
+=======
+                           [:li "Helped to launch a partnership program with multiple capital providers such as Keybank."]
+>>>>>>> v3:fullstack-dev.edn
                            [:li "Implemented internal document warehousing system."]
                            [:li "Vastly improved testing practices and test coverage."]]]
              :keywords   [:clojure :clojurescript :re-frame :salesforce
@@ -89,7 +130,7 @@
             {:company    "Funding Circle"
              :website    "https://fundingcircle.com"
              :industry   "Fintech"
-             :location   "San Francisco"
+             :location   "San Francisco/Part-time remote"
              :position   "Senior Software Developer"
              :start      "Feb 2016"
              :end        "Aug 2018"
@@ -124,7 +165,11 @@
              :highlights [[:p "Implemented a web-portal, suite for managing
                                medical devices - orthopedic, spine surgery
                                implants, and supplemental equipment."]
+<<<<<<< HEAD:resources/fullstack-dev.edn
                           [:p"Web-portal was Angular.js based, with node.js
+=======
+                          [:p "Web-portal was Angular.js based, with node.js
+>>>>>>> v3:fullstack-dev.edn
                               back-end that \"talks\" to API built in C#."]]
              :keywords   [:babel.js :coffeescript :node.js :couchbase
                           :rx.js :angular :karma :protractor :gulp.js :bower :postcss :docker]}
