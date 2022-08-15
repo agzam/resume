@@ -6,19 +6,19 @@
             [integrant.core :as ig]))
 
 (defn get-data []
-  (->> "resources/fullstack-dev.edn"
+  (->> "fullstack-dev.edn"
        slurp
        edn/read-string))
 
 (defn generate []
   (->> (get-data)
        page/index
-       (spit "resources/public/index.html"))
-  (styles/generate "resources/public/styles.css"))
+       (spit "docs/index.html"))
+  (styles/generate "docs/styles.css"))
 
 (defmethod ig/init-key ::generate [_ _]
   (generate))
 
 (defmethod ig/halt-key! ::generate [_ _]
-  (io/delete-file "resources/public/styles.css" :silently)
-  (io/delete-file "resources/public/index.html" :silently))
+  (io/delete-file "docs/styles.css" :silently)
+  (io/delete-file "docs/index.html" :silently))

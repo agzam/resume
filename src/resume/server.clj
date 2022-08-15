@@ -10,7 +10,7 @@
 
 (defroutes routes
   (GET "/" [] (page/index (get-data)))
-  (route/resources "/")
+  (route/resources "/" {:root ""})
   (route/not-found "Not Found"))
 
 (def app

@@ -248,4 +248,4 @@
      media-queries
      ]))
   ([]
-   (generate "resources/public/styles.css")))
+   (generate "docs/styles.css")))
