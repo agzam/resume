@@ -220,5 +220,5 @@
  :education {:title "Education"
              :content [{:institution "Tashkent University of Information Technologies."
                         :website "https://tuit.uz/en"
-                        :area "Software Engineering"
+                        :area "Engineering"
                         :study-type "Bachelor"}]}}
