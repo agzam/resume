@@ -1,259 +1,224 @@
 {:basics
- {:name     "Ag Ibragimov"
-  :label    "Software Developer"
-  :email    "agzam.ibragimov@gmail.com"
-  :profiles [{:network  "LinkedIn"
-              :url      "https://www.linkedin.com/in/agzam"
+ {:name "Ag Ibragimov"
+  :label "Software Developer"
+  :email "agzam.ibragimov@gmail.com"
+  :profiles [{:network "LinkedIn"
+              :url "https://www.linkedin.com/in/agzam"
               :username "agzam"
-              :icon     "linkedin-icon.svg"}
-             {:network  "GitHub"
-              :url      "https://github.com/agzam"
+              :icon "linkedin-icon.svg"}
+             {:network "GitHub"
+              :url "https://github.com/agzam"
               :username "agzam"
-              :icon     "github-icon.svg"}
-             {:url      "https://twitter.com/iLemming"
-              :network  "Twitter"
+              :icon "github-icon.svg"}
+             {:url "https://twitter.com/iLemming"
+              :network "Twitter"
               :username "@iLemming"
-              :icon     "twitter-icon.svg"}
-             {:url      "https://stackoverflow.com/users/116395/agzam"
-              :network  "Stackoverflow"
+              :icon "twitter-icon.svg"}
+             {:url "https://stackoverflow.com/users/116395/agzam"
+              :network "Stackoverflow"
               :username "iLemming"
-              :icon     "stackoverflow-icon.svg"}]
-  :summary  {:title          "Summary"
-             :bullet-points? true
-             :content
-<<<<<<< HEAD:resources/fullstack-dev.edn
-             ["Generalist: An experienced full-stack software developer;
-               designed and implemented interactive, responsive, and adaptive
-               web, and mobile apps; complex enterprise-level solutions; cloud
-               services and APIs."
-
-              "Team player: have worked in diverse groups and companies of different sizes,
-               on-site and remotely."
-
-              "Technical lead: have established, trained and lead small groups
-=======
-             ["Generalist: I'm a full-stack software developer;
-               I've designed and implemented interactive, responsive, and adaptive
-               web, and mobile apps; complex enterprise-level solutions; cloud
-               services and APIs."
-
-              "Team player: I have worked in diverse groups and companies of different sizes,
-               on-site and remotely."
-
-              "Technical lead: I have established, trained and lead small groups
->>>>>>> v3:fullstack-dev.edn
-               of engineers."
-
-              "Mentor and a technical evangelist: I have organized meetups, workshops, and study groups."
-
-<<<<<<< HEAD:resources/fullstack-dev.edn
-              "Automation zealot: relentlessly seek ways to enhance productivity
-               and reduce the frustration associated with mundane, repetitive
-               tasks."
-
-              [:div "Polyglot: have attained proficiency in multiple programming
-                     languages, including Javascript, Typescript, Coffeescript,
-                     Lua, C#, Python, Clojure, Emacs Lisp, Fennel and other
-                     dialects of Lisp."
-               [:p "Also familiar with Haskell, Ruby, Java, and Go."]
-               [:p "Would love to explore other languages like Rust, Elm,
-                    Purescript, OCaml, and R"]]]}}
-=======
-              "Automation zealot: I relentlessly seek ways to enhance productivity
-               and reduce the frustration associated with mundane, repetitive
-               tasks."
-
-              [:div "Polyglot: I have attained proficiency in multiple programming
-                     languages, including Javascript, Typescript, Coffeescript,
-                     Lua, C#, Python, Clojure, Emacs Lisp, Fennel and other
-                     dialects of Lisp."
-               [:p "I'm familiar with Common Lisp, Haskell, Ruby, Java, and Go."]
-               [:p "And I would love to explore other languages like Rust, Elm, Purescript, OCaml, Julia, Scala."]]]}}
->>>>>>> v3:fullstack-dev.edn
+              :icon "stackoverflow-icon.svg"}]
+  :summary {:title "Summary"
+            :bullet-points? true
+            :content
+            [(str "Generalist: Full-stack software developer. Designed and implemented interactive, "
+                  "responsive, and adaptive web and mobile apps, complex enterprise-level "
+                  "solutions, cloud services, APIs. ")
+             (str "Team player: Worked in diverse groups and companies of various sizes, on-site "
+                  "and remotely. ")
+             "Technical lead: Established, trained and lead diverse groups of engineers."
+             "Mentor and a technical evangelist: Organized meetups, workshops, and study groups."
+             (str "Automation zealot: Relentlessly seeks ways to enhance productivity and reduce "
+                  "the frustration associated with mundane, repetitive tasks. ")
+             [:div (str "Polyglot programmer: Proficient in multiple programming languages, including "
+                        "Javascript, Typescript, Lua, C#, Python, Clojure, Emacs Lisp, "
+                        "Fennel and other dialects of Lisp. ")
+              [:p "Familiar with Common Lisp, Haskell, Ruby, Java, and Go."]
+              [:p (str "Would love to build things using PLs like Rust, Elm, Purescript, OCaml, Julia, Scala.")]]]}}
 
  :work
- {:title   "Professional experience"
+ {:title "Professional experience"
   :prior-experience-not-provided-note
-  "jobs before 2009 are not displayed, a comprehensive list can be provided upon
-  request"
-  :content [{:company    "Cisco SecureX"
-             :website    "https://security.cisco.com/"
-             :industry   "Infosec"
-             :location   "Remote"
-             :position   "Senior Software Developer"
-             :start      "June 2020"
-             :end        nil
-             :highlights [[:p "SecureX is Cisco's famed cybersecurity threat detection and response platform."]
+  (str "jobs before 2009 are not displayed, a comprehensive list can be provided upon "
+       "request ")
+  :content [{:company "Cisco XDR"
+             :website "https://security.cisco.com/"
+             :industry "Cybersecurity"
+             :location "Remote"
+             :position "Senior Software Developer"
+             :start "June 2020"
+             :end nil
+             :highlights [[:p "XDR (previously known as SecureX) is Cisco's famed cybersecurity threat detection and response platform."]
                           [:ul
-                           [:li "Since joining the team I've worked on various parts of the platform, mainly, participated in expanding IROH (Incident Response Orcestration Hub) and CTIA (Cisco Threat Intelligence API)."]
-                           [:li "I have detected and fixed many bugs; improved the elasticsearch stores; created different types of integrations for internal and third-party teams."]
-                           [:li "Designed and developed from scratch an internal Web-UI for documentation writers and analysts in supporting teams."]]]
-             :keywords   [:clojure :clojurescript "github actions" :re-frame :elasticsearch :cypress.io]}
-            {:company    "Dividend Finance"
-             :website    "https://dividendfinance.com"
-             :industry   "Fintech"
-             :location   "San Francisco/Part-time remote"
-             :position   "Senior Software Developer"
-             :start      "Nov 2018"
-             :end        "May 2020"
-             :highlights [[:p "Dividend Finance offers residential solar loans,
-                            home improvement, and PACE financing products. That
-                            includes web-portals for installers and home-owners,
-                            together with comprehensive API for partners:
-                            financial institutions and solar energy installation
-                            companies."]
-                          [:p "RESTful API is used as a back-end for Dividend's
-                            portals and as a public set of endpoints for
-                            partners. Built on Clojure stack (loosely based on
-                            Luminus) with Salesforce and PostgreSQL as the
-                            system of record."]
-                          [:p "Fronted apps are Clojurescript (Re-frame) based,
-                            with Material UI React components, meant to be
-                            utilized from mobile and desktop devices."]
-                          [:p "Extensively worked on many projects, on both - front
-                            and back-end:"]
+                           [:li (str "Since joining the team have worked on various parts of the platform, mainly, "
+                                     "participated in expanding IROH (Incident Response Orcestration Hub) and CTIA "
+                                     "(Cisco Threat Intelligence API). ")]
+                           [:li (str "Hunted down and fixed many bugs; improved the elasticsearch stores; created "
+                                     "different types of integrations for internal and third-party teams.")]
+                           [:li "Designed and developed a Web-UI for documentation team."]
+                           [:li "Built extensive API for Cisco TAC (Technical Assistance Center) portal."]]]
+             :keywords [:clojure
+                        :clojurescript "github actions"
+                        :re-frame
+                        :elasticsearch
+                        :cypress.io]}
+            {:company "Dividend Finance"
+             :website "https://dividendfinance.com"
+             :industry "Fintech"
+             :location "San Francisco/Part-time remote"
+             :position "Senior Software Developer"
+             :start "Nov 2018"
+             :end "May 2020"
+             :highlights [[:p (str "Dividend Finance offers residential solar loans; "
+                                   "home improvement and PACE financing products. That  "
+                                   "includes web-portals for home-owners and solar installers; "
+                                   "including a comprehensive API for partners:  "
+                                   "financial institutions and solar energy installation  "
+                                   "companies. ")]
+                          [:p (str "RESTful API is used as a back-end for Dividend's "
+                                   "portals and as a public set of endpoints for "
+                                   "partners. Built on Clojure stack (loosely based on "
+                                   "Luminus) with Salesforce and PostgreSQL as the "
+                                   "system of record.")]
+                          [:p (str "Fronted apps are Clojurescript (Re-frame) based, "
+                                   "with Material UI React components, meant to be "
+                                   "utilized from mobile and desktop devices.")]
+                          [:p "Multiple large projects - front-end and back-end:"]
                           [:ul
                            [:li "Built an improved and revised web-portal."]
                            [:li "Created an audit log system from scratch."]
-<<<<<<< HEAD:resources/fullstack-dev.edn
-                           [:li "Helped to launch a partnership program with
-                                 multiple capital providers such as Keybank."]
-=======
-                           [:li "Helped to launch a partnership program with multiple capital providers such as Keybank."]
->>>>>>> v3:fullstack-dev.edn
+                           [:li (str "Helped to launch a partnership program with "
+                                     "multiple capital providers such as Keybank.")]
+                           [:li (str "Helped to launch a partnership program with multiple capital providers such as "
+                                     "Keybank.")]
                            [:li "Implemented internal document warehousing system."]
                            [:li "Vastly improved testing practices and test coverage."]]]
-             :keywords   [:clojure :clojurescript :re-frame :salesforce
-                          :heroku :jenkins :postgresql :RabbitMQ
-                          :circleCI :puppeteer :selenium]}
+             :keywords [:clojure :clojurescript :re-frame :salesforce
+                        :heroku :jenkins :postgresql :RabbitMQ
+                        :circleCI :puppeteer :selenium]}
 
-            {:company    "Funding Circle"
-             :website    "https://fundingcircle.com"
-             :industry   "Fintech"
-             :location   "San Francisco/Part-time remote"
-             :position   "Senior Software Developer"
-             :start      "Feb 2016"
-             :end        "Aug 2018"
-             :highlights [[:p "Lending platform for small businesses. Designed
-                               and built a web-portal for FinOps teams, to allow
-                               them to track transactions, monitor deposits,
-                               manage reconciliations, etc., and maintain net
-                               capital compliance."]
-                          [:p "Portal was built in Clojurescript, initially
-                               using Om.next, later restructured to work with
-                               Re-frame. With a set of APIs (made with Clojure)
-                               on the back-end with materialized views in
-                               PostgreSQL, where data gets aggregated from Kafka
-                               clusters via Kafka Connect."]
+            {:company "Funding Circle"
+             :website "https://fundingcircle.com"
+             :industry "Fintech"
+             :location "San Francisco/Part-time remote"
+             :position "Senior Software Developer"
+             :start "Feb 2016"
+             :end "Aug 2018"
+             :highlights [[:p (str "Lending platform for small businesses. Designed "
+                                   "and built a web-portal for FinOps teams, to allow "
+                                   "them to track transactions, monitor deposits, "
+                                   "manage reconciliations, etc., and maintain net "
+                                   "capital compliance.")]
+                          [:p (str "Portal was built in Clojurescript, initially "
+                                   "using Om.next, later restructured to work with "
+                                   "Re-frame. With a set of APIs (made with Clojure) "
+                                   "on the back-end with materialized views in "
+                                   "PostgreSQL, where data gets aggregated from Kafka "
+                                   "clusters via Kafka Connect.")]
                           [:p "Pioneered many unique ideas while building the portal."]
-                          [:p "Additionally, have organized and hosted local
-                               Clojure meetup."]
-                          [:p "Multiple \"Best team\" awards. Repeatedly has
-                               been nominated and won the \"Employee of the
-                               month\" award."]]
-             :keywords   [:clojure :clojurescript :kafka
-                          :rethinkDB :om.next :re-frame :honeySQL :docker :docker-compose :apache_mesos :circleCI
-                          :ruby :ruby_on_rails]}
+                          [:p "Additionally, have organized and hosted local Clojure meetup."]
+                          [:p (str "Multiple \"Best team\" awards. Repeatedly has "
+                                   "been nominated and won the \"Employee of the "
+                                   "month\" award.")]]
+             :keywords [:clojure :clojurescript :kafka
+                        :rethinkDB :om.next :re-frame
+                        :honeySQL :docker :docker-compose :apache_mesos :circleCI
+                        :ruby :ruby_on_rails]}
 
-            {:company    "Mobitor"
-             :website    "http://www.mobitor.com"
-             :industry   "Medical Equipment Logistics"
-             :location   "Walnut Creek, CA"
-             :position   "Lead Front-end Developer"
-             :start      "Apr 2015"
-             :end        "Feb 2016"
-             :highlights [[:p "Implemented a web-portal, suite for managing
-                               medical devices - orthopedic, spine surgery
-                               implants, and supplemental equipment."]
-<<<<<<< HEAD:resources/fullstack-dev.edn
-                          [:p"Web-portal was Angular.js based, with node.js
-=======
-                          [:p "Web-portal was Angular.js based, with node.js
->>>>>>> v3:fullstack-dev.edn
-                              back-end that \"talks\" to API built in C#."]]
-             :keywords   [:babel.js :coffeescript :node.js :couchbase
-                          :rx.js :angular :karma :protractor :gulp.js :bower :postcss :docker]}
+            {:company "Mobitor"
+             :website "http://www.mobitor.com"
+             :industry "Medical Equipment Logistics"
+             :location "Walnut Creek, CA"
+             :position "Lead Front-end Developer"
+             :start "Apr 2015"
+             :end "Feb 2016"
+             :highlights [[:p (str "Implemented a web-portal, suite for managing"
+                                   "medical devices - orthopedic, spine surgery"
+                                   "implants, and supplemental equipment.")]
+                          [:p (str "Web-portal was Angular.js based, with node.js "
+                                   "back-end that \"talks\" to API built in C#.")]]
+             :keywords [:babel.js :coffeescript :node.js :couchbase
+                        :rx.js :angular :karma :protractor :gulp.js
+                        :bower :postcss :docker]}
 
-            {:company    "Invitae"
-             :website    "https://www.invitae.com"
-             :industry   "Genomics/DNA sequencing"
-             :location   "San Francisco"
-             :position   "Lead Front-end Developer"
-             :start      "May 2014"
-             :end        "Apr 2015"
-             :highlights [[:p "Designed and implemented an asset
-                               tracking/dashboard web app with various charts,
-                               graphs and spreadsheets. Angular.js based,
-                               written in Coffeescript with Python
-                               back-end (Django)."]]
-             :keywords   [:coffeescript :python :django node.js :rxjs
-                          ramda.js :angular :d3.js :karma :protractor
-                          :gulp :browserify :stylus-css :elasticsearch]}
+            {:company "Invitae"
+             :website "https://www.invitae.com"
+             :industry "Genomics/DNA sequencing"
+             :location "San Francisco"
+             :position "Lead Front-end Developer"
+             :start "May 2014"
+             :end "Apr 2015"
+             :highlights [[:p (str "Designed and implemented an asset "
+                                   "tracking/dashboard web app with various charts, "
+                                   "graphs and spreadsheets. Angular.js based, "
+                                   "written in Coffeescript with Python "
+                                   "back-end (Django).")]]
+             :keywords [:coffeescript :python :django :node.js :rxjs
+                        :ramda.js :angular :d3.js :karma :protractor
+                        :gulp :browserify :stylus-css :elasticsearch]}
 
-            {:company    "VEVO"
-             :website    "http://www.vevo.com"
-             :industry   "Video hosting"
-             :location   "New York City/San Francisco"
-             :position   "Senior Software Developer"
-             :start      "Jan 2012"
-             :end        "May 2014"
+            {:company "VEVO"
+             :website "http://www.vevo.com"
+             :industry "Video hosting"
+             :location "New York City/San Francisco"
+             :position "Senior Software Developer"
+             :start "Jan 2012"
+             :end "May 2014"
              :highlights [[:ul
                            [:li
-                            [:p "Designed and implemented cloud-based,
-                                 task-driven, scalable video encoding system."]
-                            [:p "Redesigned from scratch, it was incredibly
-                                 efficient, compared to the previous version.
-                                 Benchmarks indicated - it was ten times
-                                 faster."]
-                            [:p "Written in C#, using SQS and DynamoDB for
-                                 scheduling and state management."]]
-                           [:li "Lead a group of developers in building admin
-                                 web-site to be used by partners (ASP.net,
-                                 Angular.js)."]
-                           [:li "Implemented Google Chromecast integration for
-                                 Vevo apps."]
-                           [:li "Built Vevo app for Apple TV."]
+                            [:p (str "Designed and implemented cloud-based, "
+                                     "task-driven, scalable video encoding system.")]
+                            [:p (str "Redesigned the entire system from scratch, making it vastly more efficient. "
+                                     "Benchmarks showed a tenfold increase in efficiency. ")]
+                            [:p (str "Written in C#, using SQS and DynamoDB (for "
+                                     "scheduling and state management)")]]
+                           [:li (str "Lead a group of developers in building admin "
+                                     "web-site to be used by partners (ASP.net, "
+                                     "Angular.js).")]
+                           [:li "Implemented Google Chromecast integration for " "Vevo apps."]
+                           [:li "Built Vevo App for Apple TV."]
                            [:li "Participated in vevo.com redesign."]]]
-             :keywords   [:javascript :typescript :coffeescript "c#" :node.js :ASP.net :angular :AWS :MS_SQL_server]}
+             :keywords [:javascript :typescript :coffeescript
+                        "c#" :node.js :ASP.net :angular :AWS :MS_SQL_server]}
 
-            {:company    "Bunk1.com"
-             :website    "https://www.bunk1.com"
-             :industry   "Web services"
-             :location   "New York City"
-             :position   "Front-end Developer"
-             :start      "2011"
-             :end        "2011"
+            {:company "Bunk1.com"
+             :website "https://www.bunk1.com"
+             :industry "Web services"
+             :location "New York City"
+             :position "Front-end Developer"
+             :start "2011"
+             :end "2011"
              :highlights [[:p "Web (ASP.net, jQuery) and mobile apps (iOS)."]]
-             :keywords   ["c#" :javascript :asp.net :backbone
-                          :jquery :objective-c :xamarin_tools]}
+             :keywords ["c#" :javascript :asp.net :backbone
+                        :jquery :objective-c :xamarin_tools]}
 
-            {:company    "USeDirect"
-             :website    "https://www.usedirect.com"
-             :industry   "Integrator"
-             :location   "Roslyn Heights, NY"
-             :position   "Application Developer"
-             :start      "2010"
-             :end        "2010"
+            {:company "USeDirect"
+             :website "https://www.usedirect.com"
+             :industry "Integrator"
+             :location "Roslyn Heights, NY"
+             :position "Application Developer"
+             :start "2010"
+             :end "2010"
              :highlights [[:p "Microsoft Dynamics desktop UI shell (WPF, c#)."]]
-             :keywords   ["c#" :WPF :MS_SQL_server]}
+             :keywords ["c#" :WPF :MS_SQL_server]}
 
-            {:company    "Freelance"
-             :website    nil
-             :industry   nil
-             :location   "New York City"
-             :position   "Freelance Programmer"
-             :start      "2009"
-             :end        "2009"
+            {:company "Freelance"
+             :website nil
+             :industry nil
+             :location "New York City"
+             :position "Freelance Programmer"
+             :start "2009"
+             :end "2009"
              :highlights [[:ul
                            [:li "High-frequency trading app for Dimension
-                                 Capital - fast, responsive, secure automated
-                                 decision-making tool for trading."]
+ Capital - fast, responsive, secure automated
+ decision-making tool for trading."]
                            [:li "QA automation for RI Communications Group."]
                            [:li "Various web projects (wordpress, php, javascript)."]]]
-             :keywords   ["c#" :javascript :wordpress :php]}]}
+             :keywords ["c#" :javascript :wordpress :php]}]}
 
- :education {:title   "Education"
+ :education {:title "Education"
              :content [{:institution "Tashkent University of Information Technologies."
-                        :website     "https://tuit.uz/en"
-                        :area        "Software Engineering"
-                        :study-type  "Bachelor"}]}}
+                        :website "https://tuit.uz/en"
+                        :area "Software Engineering"
+                        :study-type "Bachelor"}]}}

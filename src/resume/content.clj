@@ -8,16 +8,13 @@
 (defn get-data []
   (->> "fullstack-dev.edn"
        slurp
-       edn/read-string))
+       edn/read-string
+       eval))
 
 (defn generate []
   (->> (get-data)
        page/index
-<<<<<<< HEAD
        (spit "target/index.html"))
-  (styles/generate "target/styles.css"))
-=======
-       (spit "docs/index.html"))
   (styles/generate "docs/styles.css"))
 
 (defmethod ig/init-key ::generate [_ _]
@@ -26,4 +23,3 @@
 (defmethod ig/halt-key! ::generate [_ _]
   (io/delete-file "docs/styles.css" :silently)
   (io/delete-file "docs/index.html" :silently))
->>>>>>> v3
