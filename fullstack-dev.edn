@@ -87,10 +87,8 @@
                           [:ul
                            [:li "Built an improved and revised web-portal."]
                            [:li "Created an audit log system from scratch."]
-                           [:li (str "Helped to launch a partnership program with "
-                                     "multiple capital providers such as Keybank.")]
                            [:li (str "Helped to launch a partnership program with multiple capital providers such as "
-                                     "Keybank.")]
+                                     "Keybank. ")]
                            [:li "Implemented internal document warehousing system."]
                            [:li "Vastly improved testing practices and test coverage."]]]
              :keywords [:clojure :clojurescript :re-frame :salesforce

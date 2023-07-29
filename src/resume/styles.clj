@@ -1,4 +1,4 @@
-;; -*-  eval: (rainbow-mode -1) -*-
+;; -*-  eval: (rainbow-mode 1) -*-
 (ns resume.styles
   (:require [garden.color :as gc]
             [garden.core :refer [css]]
@@ -7,11 +7,11 @@
             [garden.stylesheet :refer [at-media]]))
 
 (def colors
-  {:accent-dark   "#7d6a24"
-   :accent-light  "#bcab84"
-   :text-default  "#4f3f3f"
+  {:accent-dark "#7d6a24"
+   :accent-light "#bcab84"
+   :text-default "#4f3f3f"
    :accent-bright "#f1d4a6"
-   :unimportant   "#a5a296"})
+   :unimportant "#a5a296"})
 
 (def background-tint
   [:body
@@ -37,35 +37,35 @@
                [:.company [:.name {:font-size "1rem"}]]]
               [:.pdf-link {:display :none}]
               [:.updated-date {:display :none}]])
-   (at-media {:screen    :only
+   (at-media {:screen :only
               :max-width "800px"}
              [:body {:max-width "95%"
-                     :width     "95%"}
+                     :width "95%"}
               [:.pdf-link {:display :none}]
               [:.header
                {:margin-top "0.5rem"
                 :grid-template-columns "minmax(25%, 2fr)"
-                :grid-template-areas   "'title' 'links'"}
+                :grid-template-areas "'title' 'links'"}
                [:.location {:display :none}]
                [".links li:not(:first-child) a" {:display :none}]
                [:.links {:justify-self :flex-start
-                         :margin-top   0}]]
+                         :margin-top 0}]]
               [:h2 {:font-size "1.5rem"}]
               [:.experience
                [:.company [:.name {:white-space :pre-wrap
-                                   :font-size   "1rem"}]]
+                                   :font-size "1rem"}]]
                [:.summary [:.role :.interval {:font-size "1rem"}]]]])
-   (at-media {:screen    :only
+   (at-media {:screen :only
               :min-width "801px"
               :max-width "1800px"}
              [:body {:max-width "70%"
-                     :width     "70%"}
+                     :width "70%"}
               [:.experience [:.company [:.name {:white-space :pre-wrap
                                                 :font-size "1.3rem"}]]]])
-   (at-media {:screen    :only
+   (at-media {:screen :only
               :min-width "1800px"}
              [:body {:max-width "40%"
-                     :width     "40%"}]
+                     :width "40%"}]
              [:.experience
               [:.company
                [:.name {:font-size "1.8rem"}]]])])
@@ -78,53 +78,51 @@
    [:.content-container {:position :relative}]])
 
 (def common-tags
-  [[:ul {:margin-block-start   0
-         :margin-block-end     0
+  [[:ul {:margin-block-start 0
+         :margin-block-end 0
          :padding-inline-start 0
-         :list-style           :none}]
+         :list-style :none}]
    [:li :p {:margin-block-start "5px"
-            :margin-block-end   "5px"}]
+            :margin-block-end "5px"}]
    [:a {:text-decoration :none
-        :color           :inherit}
+        :color :inherit}
     :&:visited {:text-decoration :none}]
    [:h2 {:font-size "1.8rem"
-         :color     (colors :accent-light)}]
+         :color (colors :accent-light)}]
    [:.hidden-label {:font-size "0.1px"
-                    :line-height "0.1px"}]
-   ])
+                    :line-height "0.1px"}]])
 
 (def pdf-link
   [:.pdf-link
-   {:position         :absolute
-    :top              "1.5rem"
-    :right            "-5rem"
+   {:position :absolute
+    :top "1.5rem"
+    :right "-5rem"
     :transform-origin "top left"
-    :transform        "scale(1)"
-    :transition       ".3s all ease"}
+    :transform "scale(1)"
+    :transition ".3s all ease"}
    [:&:hover {:transform "scale(1.5)"}]
    [:img {:width "4rem"
-          :filter "drop-shadow(3px 3px 3px #bebebe) saturate(0.3)"
-          }]])
+          :filter "drop-shadow(3px 3px 3px #bebebe) saturate(0.3)"}]])
 
 (def header
-  [:.header {:display               :grid
-             :margin-top            "3rem"
+  [:.header {:display :grid
+             :margin-top "3rem"
              :grid-template-columns "minmax(25%, 2fr) minmax(30%, 4fr)"
-             :grid-template-areas   "'title links'"}
+             :grid-template-areas "'title links'"}
    [:.title {:grid-area "title"}
     [:* {:white-space :nowrap}]]
-   [:.links {:grid-area    "links"
+   [:.links {:grid-area "links"
              :justify-self "flex-end"
-             :margin-top   "20px"}
+             :margin-top "20px"}
     [:li {:white-space :nowrap}]
-    [:img {:width          "1.1rem"
+    [:img {:width "1.1rem"
            :vertical-align :middle
-           :margin-right   "0.5rem"
-           :filter         "drop-shadow(3px 3px 3px #bebebe) saturate(0.2)"}]]])
+           :margin-right "0.5rem"
+           :filter "drop-shadow(3px 3px 3px #bebebe) saturate(0.2)"}]]])
 
 (def ul-defaults
-  {:text-align           :justify
-   :list-style           :disc
+  {:text-align :justify
+   :list-style :disc
    :padding-inline-start "1rem"})
 
 (def summary
@@ -134,41 +132,41 @@
   [:.experience
    [:.company {:margin-top "1.5rem"}
     [:.name {
-             ;; :font-size     "1.8rem"
-             :white-space   :nowrap
+             ;; :font-size "1.8rem"
+             :white-space :nowrap
              :margin-bottom "5px"
-             :color         (colors :accent-dark)
-             :z-index       1}]
-    [:>div {:display               :grid
+             :color (colors :accent-dark)
+             :z-index 1}]
+    [:>div {:display :grid
             :grid-template-columns "minmax(25%, 2fr) minmax(30%, 4fr)"
-            :grid-gap              "10px"
-            :grid-template-areas   "'summary details'"
-            :grid-template-rows    :max-content}
-     [:.summary {:grid-area      "summary"
-                 :display        :flex
+            :grid-gap "10px"
+            :grid-template-areas "'summary details'"
+            :grid-template-rows :max-content}
+     [:.summary {:grid-area "summary"
+                 :display :flex
                  :flex-direction :column
-                 :position       :relative}
+                 :position :relative}
       [:.name :.company-sector
        :.company-location
        :.role :.interval
        :.keywords {:margin-right "5px"}]
       [:.company-sector
-       :.company-location {:font-size   :x-small
+       :.company-location {:font-size :x-small
                            :line-height "15px"
                            :margin-left "2px"
-                           :color       (colors :unimportant)}]
+                           :color (colors :unimportant)}]
       [:.role {}]
       [:.interval {}]]
-     [:.details {:grid-area  "details"
+     [:.details {:grid-area "details"
                  :text-align :justify
-                 :position   :relative}
+                 :position :relative}
       [:ul (merge ul-defaults {:list-style :circle})]]
-     [:.keywords {:margin-top    :auto
+     [:.keywords {:margin-top :auto
                   :margin-bottom 0
-                  :padding-top   "20px"
-                  :font-size     :small}
+                  :padding-top "20px"
+                  :font-size :small}
       [:h5 {:margin-block-start 0
-            :margin-block-end   0}]]]]])
+            :margin-block-end 0}]]]]])
 
 (defcssfn linear-gradient)
 
@@ -183,52 +181,52 @@
                 [(gc/opacify "#ffffff" 1) "100%"])]
     [[:.thread-decor-h
       {:background-image h-grad
-       :height           "2px"
-       :position         :absolute
-       :width            "20%"
-       :right            "5px"
-       :top              "13px"}]
+       :height "2px"
+       :position :absolute
+       :width "20%"
+       :right "5px"
+       :top "13px"}]
      [:.thread-decor-v
-      {:width            "2px"
+      {:width "2px"
        :background-color (colors :accent-bright)
-       :position         :absolute
-       :height           "calc(100% + 25px)"
-       :top              "13px"
-       :left             "-15px"}]
+       :position :absolute
+       :height "calc(100% + 25px)"
+       :top "13px"
+       :left "-15px"}]
      [(& :.company (gs/nth-last-of-type "2"))
       [:.thread-decor-v {:background-image v-grad
-                         :height           "calc(100% + 15px)"}]]
+                         :height "calc(100% + 15px)"}]]
      (let [rad 10
-           px  #(str % "px")]
+           px #(str % "px")]
        [(& :.thread-decor-h (gs/after))
-        {:content          "' '"
-         :width            (px rad)
-         :height           (px rad)
+        {:content "' '"
+         :width (px rad)
+         :height (px rad)
          :background-color (colors :accent-bright)
-         :position         :absolute
-         :right            (px (- (quot rad 2)))
-         :top              (px (- (quot rad 2)))
-         :border-radius    (px (* rad 2))}])]))
+         :position :absolute
+         :right (px (- (quot rad 2)))
+         :top (px (- (quot rad 2)))
+         :border-radius (px (* rad 2))}])]))
 
 (def prior-exp-not-provided-remark
   [:.prior-exp-not-provided {:margin-top "1.5rem"}
-   [:p {:display      :table
+   [:p {:display :table
         :margin-right :auto
-        :margin-left  :auto
-        :font-size    "0.9rem"
-        :text-align   :justify
-        :color        (colors :unimportant)}]])
+        :margin-left :auto
+        :font-size "0.9rem"
+        :text-align :justify
+        :color (colors :unimportant)}]])
 
 (def education
   [:.institution {:font-size :smaller}])
 
 (def updated-date
   [:.updated-date
-   {:float         "right"
-    :margin-top    "2rem"
+   {:float "right"
+    :margin-top "2rem"
     :margin-bottom "2rem"
-    :font-size     "6px"
-    :color         (colors :unimportant)}])
+    :font-size "6px"
+    :color (colors :unimportant)}])
 
 (defn generate
   ([path]
@@ -245,7 +243,6 @@
      prior-exp-not-provided-remark
      education
      updated-date
-     media-queries
-     ]))
+     media-queries]))
   ([]
    (generate "docs/styles.css")))
