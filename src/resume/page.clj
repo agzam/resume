@@ -29,7 +29,7 @@
 
 (defn keywords-block [kws]
   (let [underscore->spc #(str/replace % #"_" " ")
-        kws             (map (comp underscore->spc name) kws)]
+        kws (map (comp underscore->spc name) kws)]
     [:div.keywords
      [:span.hidden-label "keywords:"]
      [:p (str/join ", " kws)]]))
@@ -48,13 +48,13 @@
 
 (def prior-exp-not-provided-remark
   [:li.prior-exp-not-provided
-   [:p "jobs before 2009 are not displayed; a complete list can be provided upon
-   request."]])
+   [:p (str "jobs before 2009 are not displayed; a complete list can be provided upon "
+            "request.")]])
 
 (defn interval [start end]
   (cond
     (= start end) start
-    (nil? end)    (str "Since " start)
+    (nil? end) (str "Since " start)
     :else (str start "-" end)))
 
 (defn experience [{:keys [work]}]
@@ -125,11 +125,10 @@
   (list
    [:meta {:name "copyright" :content "Ag Ibragimov. All registered trademarks belong to their respective owners"}]
    [:meta {:name "description" :content "Ag Ibragimov. Software Developer. Resume"}]
-   [:meta {:name    "keywords"
-           :content "front-end, back-end, fullstack, developer, engineer,
-                    clojure, clojurescript, javascript, angular, react, object-oriented,
-                    functional, oop, fp emacs, vim, d3, css3, san francisco, closure,
-                    closurescript"}]
+   [:meta {:name "keywords"
+           :content (str "front-end, back-end, fullstack, developer, engineer, clojure, clojurescript, "
+                         "javascript, react, object-oriented, functional, oop, fp, emacs, vim, "
+                         "d3, css3, closure, closurescript, cybersecurity, remote.")}]
    [:meta {:name "revisit-after" :content "2 days"}]
    [:meta {:http-equiv "cache-control" :content "no-cache"}]
    [:meta {:name "viewport" :content "initial-scale=1, width=device-width"}]) )
@@ -140,6 +139,6 @@
     metas
     (include-css "styles.css")
     (include-css "https://fonts.googleapis.com/css?family=Maven%20Pro")
-    [:title (str (:name basics) "." (:label basics))]
+    [:title (str (:name basics) ". " (:label basics))]
     [:body
      (content data)]]))

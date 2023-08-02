@@ -70,11 +70,11 @@
               [:.company
                [:.name {:font-size "1.8rem"}]]])])
 (def body
-  [:body {:font-family  "Maven Pro, Sans-serif"
-          :margin-left  :auto
+  [:body {:font-family "Maven Pro, Sans-serif"
+          :margin-left :auto
           :margin-right :auto
-          :color        (colors :text-default)
-          :line-height  "1.4rem"}
+          :color (colors :text-default)
+          :line-height "1.5rem"}
    [:.content-container {:position :relative}]])
 
 (def common-tags

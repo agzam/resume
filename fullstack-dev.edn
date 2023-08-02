@@ -23,9 +23,9 @@
             :content
             [(str "Generalist: Full-stack software developer. Designed and implemented interactive, "
                   "responsive, and adaptive web and mobile apps, complex enterprise-level "
-                  "solutions, cloud services, APIs. ")
+                  "solutions, cloud services, APIs.")
              (str "Team player: Worked in diverse groups and companies of various sizes, on-site "
-                  "and remotely. ")
+                  "and remotely.")
              "Technical lead: Established, trained and lead diverse groups of engineers."
              "Mentor and a technical evangelist: Organized meetups, workshops, and study groups."
              (str "Automation zealot: Relentlessly seeks ways to enhance productivity and reduce "
@@ -33,8 +33,13 @@
              [:div (str "Polyglot programmer: Proficient in multiple programming languages, including "
                         "Javascript, Typescript, Lua, C#, Python, Clojure, Emacs Lisp, "
                         "Fennel and other dialects of Lisp. ")
-              [:p "Familiar with Common Lisp, Haskell, Ruby, Java, and Go."]
-              [:p (str "Would love to build things using PLs like Rust, Elm, Purescript, OCaml, Julia, Scala.")]]]}}
+              [:p "Comfortable in Common Lisp, Ruby, Java, and Go."]
+              [:p (str "Would love to build things using PLs like Haskell, Rust, Elm, Purescript, OCaml, "
+                       "Julia, Scala. ")]]
+             [:div (str "Cybersecurity Specialist: Understands the nature of vulnerabilities, exploits,
+                         cyber threats, adversary tactics, and techniques.")
+              [:p (str "Currently going through a SANS Institute certification course titled \"Hacker "
+                       "Tools, Techniques, and Incident Handling\".")]]]}}
 
  :work
  {:title "Professional experience"
@@ -58,7 +63,8 @@
                            [:li "Designed and developed a Web-UI for documentation team."]
                            [:li "Built extensive API for Cisco TAC (Technical Assistance Center) portal."]]]
              :keywords [:clojure
-                        :clojurescript "github actions"
+                        :clojurescript
+                        "github actions"
                         :re-frame
                         :elasticsearch
                         :cypress.io]}
