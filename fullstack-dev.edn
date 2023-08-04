@@ -29,13 +29,13 @@
              "Technical lead: Established, trained and lead diverse groups of engineers."
              "Mentor and a technical evangelist: Organized meetups, workshops, and study groups."
              (str "Automation zealot: Relentlessly seeks ways to enhance productivity and reduce "
-                  "the frustration associated with mundane, repetitive tasks. ")
+                  "the frustration associated with mundane, repetitive tasks.")
              [:div (str "Polyglot programmer: Proficient in multiple programming languages, including "
                         "Javascript, Typescript, Lua, C#, Python, Clojure, Emacs Lisp, "
-                        "Fennel and other dialects of Lisp. ")
+                        "Fennel and other dialects of Lisp.")
               [:p "Comfortable in Common Lisp, Ruby, Java, and Go."]
               [:p (str "Would love to build things using PLs like Haskell, Rust, Elm, Purescript, OCaml, "
-                       "Julia, Scala. ")]]
+                       "Julia, Scala.")]]
              [:div (str "Cybersecurity Specialist: Understands the nature of vulnerabilities, exploits,
                          cyber threats, adversary tactics, and techniques.")
               [:p (str "Currently going through a SANS Institute certification course titled \"Hacker "
@@ -61,7 +61,8 @@
                            [:li (str "Hunted down and fixed many bugs; improved the elasticsearch stores; created "
                                      "different types of integrations for internal and third-party teams.")]
                            [:li "Designed and developed a Web-UI for documentation team."]
-                           [:li "Built extensive API for Cisco TAC (Technical Assistance Center) portal."]]]
+                           [:li (str "Built an extensive API for the Cisco TAC (Technical Assistance Center) portal, "
+                                     "reducing the number of incident escalations by nearly half.")]]]
              :keywords [:clojure
                         :clojurescript
                         "github actions"
@@ -81,20 +82,17 @@
                                    "including a comprehensive API for partners:  "
                                    "financial institutions and solar energy installation  "
                                    "companies. ")]
-                          [:p (str "RESTful API is used as a back-end for Dividend's "
-                                   "portals and as a public set of endpoints for "
-                                   "partners. Built on Clojure stack (loosely based on "
-                                   "Luminus) with Salesforce and PostgreSQL as the "
-                                   "system of record.")]
-                          [:p (str "Fronted apps are Clojurescript (Re-frame) based, "
+                          [:p (str "I've worked on RESTful API that's used as a back-end for Dividend's portals and "
+                                   "as a public set of endpoints for partners. Built on Clojure stack (loosely based "
+                                   "on Luminus) with Salesforce and PostgreSQL as the system of record.")]
+                          [:p (str "Fronted apps were Clojurescript (Re-frame) based, "
                                    "with Material UI React components, meant to be "
                                    "utilized from mobile and desktop devices.")]
-                          [:p "Multiple large projects - front-end and back-end:"]
                           [:ul
                            [:li "Built an improved and revised web-portal."]
                            [:li "Created an audit log system from scratch."]
                            [:li (str "Helped to launch a partnership program with multiple capital providers such as "
-                                     "Keybank. ")]
+                                     "Keybank.")]
                            [:li "Implemented internal document warehousing system."]
                            [:li "Vastly improved testing practices and test coverage."]]]
              :keywords [:clojure :clojurescript :re-frame :salesforce
@@ -108,19 +106,21 @@
              :position "Senior Software Developer"
              :start "Feb 2016"
              :end "Aug 2018"
-             :highlights [[:p (str "Lending platform for small businesses. Designed "
-                                   "and built a web-portal for FinOps teams, to allow "
-                                   "them to track transactions, monitor deposits, "
-                                   "manage reconciliations, etc., and maintain net "
-                                   "capital compliance.")]
+             :highlights [[:p (str "Funding Circle is a Lending platform for small businesses. I've designed and "
+                                   "built a web-portal for FinOps teams, to allow them to track transactions, "
+                                   "monitor deposits, manage reconciliations, etc., while maintaining net capital "
+                                   "compliance.")]
                           [:p (str "Portal was built in Clojurescript, initially "
                                    "using Om.next, later restructured to work with "
                                    "Re-frame. With a set of APIs (made with Clojure) "
                                    "on the back-end with materialized views in "
                                    "PostgreSQL, where data gets aggregated from Kafka "
                                    "clusters via Kafka Connect.")]
-                          [:p "Pioneered many unique ideas while building the portal."]
-                          [:p "Additionally, have organized and hosted local Clojure meetup."]
+                          [:p (str "We introduced unique concepts in portal construction, such as utilizing "
+                                   "Integrant to compartmentalize UI elements into individual components - including "
+                                   "specs, styles, and render functions, essentially transforming them into highly "
+                                   "versatile Lego pieces.")]
+                          [:p "Additionally, I have organized and hosted local Clojure meetup."]
                           [:p (str "Multiple \"Best team\" awards. Repeatedly has "
                                    "been nominated and won the \"Employee of the "
                                    "month\" award.")]]
@@ -173,15 +173,13 @@
                             [:p (str "Designed and implemented cloud-based, "
                                      "task-driven, scalable video encoding system.")]
                             [:p (str "Redesigned the entire system from scratch, making it vastly more efficient. "
-                                     "Benchmarks showed a tenfold increase in efficiency. ")]
-                            [:p (str "Written in C#, using SQS and DynamoDB (for "
-                                     "scheduling and state management)")]]
+                                     "Benchmarks showed a tenfold increase in efficiency. ")]]
                            [:li (str "Lead a group of developers in building admin "
                                      "web-site to be used by partners (ASP.net, "
                                      "Angular.js).")]
                            [:li "Implemented Google Chromecast integration for " "Vevo apps."]
-                           [:li "Built Vevo App for Apple TV."]
-                           [:li "Participated in vevo.com redesign."]]]
+                           [:li "Built Apple TV Vevo App."]
+                           [:li "Participated in the main website - vevo.com redesign."]]]
              :keywords [:javascript :typescript :coffeescript
                         "c#" :node.js :ASP.net :angular :AWS :MS_SQL_server]}
 

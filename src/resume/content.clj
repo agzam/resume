@@ -14,7 +14,7 @@
 (defn generate []
   (->> (get-data)
        page/index
-       (spit "target/index.html"))
+       (spit "docs/index.html"))
   (styles/generate "docs/styles.css"))
 
 (defmethod ig/init-key ::generate [_ _]
