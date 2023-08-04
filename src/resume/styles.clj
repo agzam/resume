@@ -85,8 +85,10 @@
    [:li :p {:margin-block-start "5px"
             :margin-block-end "5px"}]
    [:a {:text-decoration :none
-        :color :inherit}
-    :&:visited {:text-decoration :none}]
+        :color :inherit
+        :transition "0.7s all ease"}
+    :&:visited {:text-decoration :none}
+    [:&:hover {:color (colors :accent-bright)}]]
    [:h2 {:font-size "1.8rem"
          :color (colors :accent-light)}]
    [:.hidden-label {:font-size "0.1px"
@@ -131,12 +133,12 @@
 (def experience
   [:.experience
    [:.company {:margin-top "1.5rem"}
-    [:.name {
-             ;; :font-size "1.8rem"
+    [:.name {;; :font-size "1.6rem"
              :white-space :nowrap
              :margin-bottom "5px"
              :color (colors :accent-dark)
-             :z-index 1}]
+             :z-index 1}
+     [:&:hover {:color (colors :accent-bright)}]]
     [:>div {:display :grid
             :grid-template-columns "minmax(25%, 2fr) minmax(30%, 4fr)"
             :grid-gap "10px"
