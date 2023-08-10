@@ -81,11 +81,11 @@
                 [:a.name {:href website} company]
                 [:div.name company])
               [:div.thread-decor-h]
-              (when industry
+              #_(when industry
                [:span.hidden-label "industry:"]
                [:div.company-sector industry])
               [:span.hidden-label "company address:"]
-              [:div.company-location location]
+              #_[:div.company-location location]
               [:span.hidden-label "role:"]
               [:div.role position]
               [:div.interval (interval start end)]

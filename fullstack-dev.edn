@@ -10,11 +10,11 @@
               :url "https://github.com/agzam"
               :username "agzam"
               :icon "github-icon.svg"}
-             {:url "https://twitter.com/iLemming"
+             #_{:url "https://twitter.com/iLemming"
               :network "Twitter"
               :username "@iLemming"
               :icon "twitter-icon.svg"}
-             {:url "https://stackoverflow.com/users/116395/agzam"
+             #_{:url "https://stackoverflow.com/users/116395/agzam"
               :network "Stackoverflow"
               :username "iLemming"
               :icon "stackoverflow-icon.svg"}]
@@ -24,20 +24,21 @@
             [(str "Generalist: Full-stack Developer. Designed and implemented interactive, "
                   "responsive, and adaptive web and mobile apps, complex enterprise-level "
                   "solutions, cloud services, APIs.")
-             (str "Team player: Worked in diverse groups and companies of various sizes, on-site "
-                  "and remotely.")
-             (str "Technical Lead: Established, trained and lead diverse groups of engineers.")
-             (str "Mentor and a technical evangelist: Organized meetups, workshops, and study groups.")
-             (str "Automation zealot: Relentlessly seeks ways to enhance productivity and reduce "
+             (str "Team player: I have Worked in diverse groups and companies of various sizes, "
+                  "on-site and remotely. ")
+             (str "Technical Lead: Established, trained and lead teams.")
+             (str "Mentor and a technical evangelist: Organized meetups, workshops, study groups "
+                  "and training videos. ")
+             (str "Automation zealot: I relentlessly seek ways to enhance productivity and reduce "
                   "the frustration associated with mundane, repetitive tasks.")
              [:div (str "Polyglot Programmer: Proficient in multiple languages, including "
                         "Javascript, Typescript, Lua, C#, Python, Clojure, Emacs Lisp, "
                         "Fennel and other dialects of Lisp.")
               [:p "Comfortable in Common Lisp, Ruby, Java, and Go."]
-              [:p (str "Would love to build things using PLs like Haskell, Rust, Elm, Purescript, OCaml, "
-                       "Julia, Scala.")]]
-             [:div (str "Cybersecurity Specialist: Understands the nature of vulnerabilities, exploits,
-                         cyber threats, adversary tactics, and techniques.")
+              [:p (str "Would love building things using Haskell, Rust, Elm, Purescript, OCaml, Julia, "
+                       "Scala, etc.")]]
+             [:div (str "Cybersecurity Specialist: I understand the nature of vulnerabilities, exploits, "
+                        "cyber threats, adversary tactics, and techniques. ")
               [:p (str "Currently going through a ")
                [:a {:href "https://www.sans.org"} "SANS"]
                (str " Institute certification course titled \"Hacker "
@@ -57,10 +58,10 @@
              :end nil
              :highlights [[:p "XDR (previously known as SecureX) is Cisco's famed cybersecurity threat detection and response platform."]
                           [:ul
-                           [:li (str "Since joining the team have worked on various parts of the platform, mainly, "
+                           [:li (str "Since joining the team have worked on various parts of the platform, "
                                      "participated in expanding IROH (Incident Response Orcestration Hub) and CTIA "
                                      "(Cisco Threat Intelligence API). ")]
-                           [:li (str "Hunted down and fixed many bugs; improved the elasticsearch stores; created "
+                           [:li (str "Hunted down and fixed many bugs; improved elasticsearch stores; created "
                                      "different types of integrations for internal and third-party teams.")]
                            [:li "Designed and developed a Web-UI for documentation team."]
                            [:li (str "Built an extensive API for the Cisco TAC (Technical Assistance Center) portal, "
@@ -79,15 +80,15 @@
              :start "Nov 2018"
              :end "May 2020"
              :highlights [[:p (str "Dividend Finance offers residential solar loans, home improvement, and PACE "
-                                   "financing products. The stack consisted of web portals for homeowners and solar "
-                                   "installers, along with a comprehensive API for partners, such as financial "
-                                   "institutions and solar energy installation companies.")]
-                          [:p (str "I've worked on a RESTful API that's used as a back-end for Dividend's portals "
-                                   "and as a set of public endpoints for partners. It's built on a Clojure stack, "
-                                   "loosely based on Luminus, with Salesforce and PostgreSQL as the systems of "
-                                   "record.")]
-                          [:p (str "The front-end apps were based on Clojurescript (Re-frame), utilizing Material UI "
-                                   "React components, and were designed for use on both mobile and desktop devices. ")]
+                                   "financing products.")]
+                          [:p (str "The stack consisted of web portals for homeowners and solar "
+                                   "installers, including a comprehensive API for partners - financial institutions "
+                                   "and solar equipment installation companies.")]
+                          [:p (str "I've worked on the API - the backend for the web apps that was built on a "
+                                   "Clojure stack, loosely based on Luminus, with Salesforce and PostgreSQL as the "
+                                   "systems of record. ")]
+                          [:p (str "The frontend apps were based on Clojurescript (Re-frame), utilizing Material UI "
+                                   "React components, and were designed for use on both mobile and desktop devices.")]
                           [:ul
                            [:li "Built an improved and revised web-portal."]
                            [:li "Created an audit log system from scratch."]
@@ -111,18 +112,17 @@
                            [:li [:p (str "I have built a web-portal for FinOps teams, to allow them to track transactions, "
                                          "monitor deposits, manage reconciliations, etc., while maintaining net capital "
                                          "compliance.")]
-                            [:p (str "Portal was built in ClojureScript, initially using Om.next. It was later "
-                                     "restructured to work with Re-frame. A set of APIs, made with Clojure, were "
-                                     "created for the back-end. Materialized views in PostgreSQL were used, where data "
-                                     "gets aggregated from Kafka clusters ingested via Kafka Connect.")]
-                            [:p (str "We introduced unique concepts in portal construction, such as utilizing "
-                                     "Integrant to compartmentalize UI elements into individual components - including "
-                                     "specs, styles, and render functions, essentially transforming them into highly "
-                                     "versatile Lego pieces.")]]
-                           [:li "Additionally, I have organized and hosted local Clojure meetup."]
-                           [:li (str "Multiple \"Best team\" awards. Repeatedly has "
-                                     "been nominated and won the \"Employee of the "
-                                     "month\"")]]]
+                            [:p (str "Portal was built in ClojureScript, initially using Om.next, and later we "
+                                     "switched to Re-frame. A set of APIs, made with Clojure, were created for the "
+                                     "backend. Materialized views in PostgreSQL were used, where data gets aggregated "
+                                     "from Kafka clusters ingested via Kafka Connect. ")]
+                            [:p (str "We introduced unique concepts on the front end, like using Integrant to "
+                                     "compartmentalize UI elements into individual components - specs, styles, and "
+                                     "render functions, essentially transforming them into highly versatile Lego "
+                                     "pieces.")]]
+                           [:li "I have organized and hosted local meetups."]
+                           [:li (str "Multiple \"Best team\" prizes. I was repeatedly nominated and awarded the "
+                                     "\"Employee of the month\" ")]]]
              :keywords [:clojure :clojurescript :kafka
                         :rethinkDB :om.next :re-frame
                         :honeySQL :docker :docker-compose :apache_mesos :circleCI
@@ -132,14 +132,14 @@
              :website "http://www.mobitor.com"
              :industry "Medical Equipment Logistics"
              :location "Walnut Creek, CA"
-             :position "Lead Front-end Developer"
+             :position "Lead Frontend Developer"
              :start "Apr 2015"
              :end "Feb 2016"
-             :highlights [[:p (str "Implemented a web-portal, suite for managing "
-                                   "medical devices - orthopedic, spine surgery "
-                                   "implants, and supplemental equipment.")]
-                          [:p (str "The web portal was developed using Angular.js, paired with a Node.js back-end, "
-                                   "which communicated with an API constructed in C#.")]]
+             :highlights [[:p (str "Mobitor was a startup specializing on Medical Equipment Logistics.")]
+                          [:p (str "I have implemented a web portal for managing medical devices - orthopedic, spine "
+                                   "surgery implants, supplemental equipment.")]
+                          [:p (str "Used Angular, paired with a Node backend, "
+                                   "which communicated with a .NET API on C# and MS SQL Server.")]]
              :keywords [:babel.js :coffeescript :node.js :couchbase
                         :rx.js :angular :karma :protractor :gulp.js
                         :bower :postcss :docker]}
@@ -148,33 +148,33 @@
              :website "https://www.invitae.com"
              :industry "Genomics/DNA sequencing"
              :location "San Francisco"
-             :position "Lead Front-end Developer"
+             :position "Lead Frontend Developer"
              :start "May 2014"
              :end "Apr 2015"
              :highlights [[:p (str "Invitae specializes in diagnostic DNA sequencing.")]
                           [:p (str "I've designed and implemented an asset tracking/dashboard web app with various "
                                    "charts, graphs and spreadsheets. Angular based, it was written in Coffeescript, "
-                                   "and supported by Python back-end on Django.")]]
+                                   "and supported by Python backend on Django.")]]
              :keywords [:coffeescript :python :django :node.js :rxjs
                         :ramda.js :angular :d3.js :karma :protractor
                         :gulp :browserify :stylus-css :elasticsearch]}
 
-            {:company "VEVO"
+            {:company "Vevo"
              :website "http://www.vevo.com"
              :industry "Video hosting"
              :location "New York City/San Francisco"
              :position "Senior Software Developer"
              :start "Jan 2012"
              :end "May 2014"
-             :highlights [[:ul
+             :highlights [[:p (str "Vevo is the World's Leading Music Video Network.")]
+                          [:ul
                            [:li
                             [:p (str "Designed and implemented cloud-based, "
-                                     "task-driven, scalable video encoding system.")]
+                                     "task-driven, concurrent, scalable video encoding system.")]
                             [:p (str "Redesigned the entire system from scratch, making it vastly more efficient. "
                                      "Benchmarks showed a tenfold increase in efficiency. ")]]
-                           [:li (str "Lead a group of developers in building admin "
-                                     "web-site to be used by partners (ASP.net, "
-                                     "Angular.js).")]
+                           [:li (str "Lead a group of developers in re-building Admin Web Site for partners and "
+                                     "internal use. ASP.net, Angular.js. ")]
                            [:li (str "Implemented Chromecast integration for Google's pilot program, demonstrating its "
                                      "compatibility with apps like Vevo. ")]
                            [:li "Built the Apple TV Vevo App."]
@@ -186,10 +186,11 @@
              :website "https://www.bunk1.com"
              :industry "Web services"
              :location "New York City"
-             :position "Front-end Developer"
+             :position "Frontend Developer"
              :start "2011"
              :end "2011"
-             :highlights [[:ul
+             :highlights [[:p (str "Bunk1 helps parents stay in touch with kids in summer camps.")]
+                          [:ul
                            [:li (str "Designed an aesthetically pleasing and functional calendar widget for the web "
                                      "application (ASP.net, jquery).")]
                            [:li (str "Developed an iOS App on Xamarin stack.")]]]
@@ -203,7 +204,8 @@
              :position "Application Developer"
              :start "2010"
              :end "2010"
-             :highlights [[:p "Microsoft Dynamics desktop UI shell (WPF, c#)."]]
+             :highlights [[:p "Is a Software Integrator."]
+                          [:p "I have worked on Microsoft Dynamics desktop UI shell (WPF, C#)."]]
              :keywords ["c#" :WPF :MS_SQL_server]}
 
             {:company "Freelance"
@@ -217,7 +219,7 @@
                            [:li (str "High-frequency trading app for Dimension Capital - fast, responsive, secure "
                                      "automated decision-making tool for trading. ")]
                            [:li "QA automation for RI Communications Group."]
-                           [:li "Various web projects (wordpress, php, javascript)."]]]
+                           [:li "Various web projects (Wordpress, PHP, Javascript)."]]]
              :keywords ["c#" :javascript :wordpress :php]}]}
 
  :education {:title "Education"
