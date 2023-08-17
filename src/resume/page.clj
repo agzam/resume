@@ -29,7 +29,9 @@
 
 (defn keywords-block [kws]
   (let [underscore->spc #(str/replace % #"_" " ")
-        kws (map (comp underscore->spc name) kws)]
+        kws (->> kws
+                 (map (comp underscore->spc name))
+                 sort)]
     [:div.keywords
      [:span.hidden-label "keywords:"]
      [:p (str/join ", " kws)]]))

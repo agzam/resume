@@ -19,36 +19,21 @@
               :username "iLemming"
               :icon "stackoverflow-icon.svg"}]
   :summary {:title "Summary"
-            :bullet-points? true
+            :bullet-points? false
             :content
-            [(str "Generalist: Full-stack Developer. Designed and implemented interactive, "
-                  "responsive, and adaptive web and mobile apps, complex enterprise-level "
-                  "solutions, cloud services, APIs.")
-             (str "Team player: I have worked in diverse groups and companies of various sizes, "
-                  "on-site and remotely. ")
-             (str "Technical Lead: Established, trained and lead teams.")
-             (str "Mentor and a technical evangelist: Organized meetups, workshops, study groups "
-                  "and training videos. ")
-             (str "Automation zealot: I relentlessly seek ways to enhance productivity and reduce "
-                  "the frustration associated with mundane, repetitive tasks.")
-             [:div (str "Polyglot Programmer: Proficient in: "
-                        "Javascript, Typescript, Lua, C#, F#, Python, Clojure, Emacs Lisp, "
-                        "Fennel and other dialects of Lisp.")
-              [:p "Comfortable in Common Lisp, Ruby, Java, and Go."]
-              [:p (str "Would love building things using Haskell, Rust, Elm, Purescript, OCaml, Julia, "
-                       "Scala, etc.")]]
-             [:div (str "Cybersecurity Specialist: I understand the nature of vulnerabilities, exploits, "
-                        "cyber threats, adversary tactics, and techniques. ")
-              [:p (str "Currently going through a ")
-               [:a {:href "https://www.sans.org"} "SANS"]
-               (str " Institute certification course titled \"Hacker "
-                    "Tools, Techniques, and Incident Handling\".")]]]}}
+            [:p (str "Full-stack Developer and Generalist proficient in a wide range of programming "
+                     "languages. Experienced in creating interactive web and mobile apps, complex "
+                     "enterprise solutions, and cloud services. Adept at working in diverse teams both "
+                     "on-site and remotely, with a history of taking on leadership roles. Passionate "
+                     "about productivity enhancement and automation. Actively involved in mentoring, "
+                     "tech evangelism, and organizing meetups and workshops. Currently pursuing a "
+                     "certification in Cybersecurity, with a deep understanding of vulnerabilities, "
+                     "exploits, and cyber threats.")]}}
 
  :work
  {:title "Professional experience"
   :prior-experience-not-provided-note
-  (str "jobs before 2009 are not displayed, a comprehensive list can be provided upon "
-       "request ")
+  (str "jobs prior to 2011 are not listed; a comprehensive list can be provided upon request.")
   :content [{:company "Cisco XDR"
              :website "https://security.cisco.com/"
              :industry "Cybersecurity"
@@ -60,13 +45,14 @@
                           [:ul
                            [:li (str "Since joining the team have worked on various parts of the platform, "
                                      "participated in expanding IROH (Incident Response Orcestration Hub) and CTIA "
-                                     "(Cisco Threat Intelligence API). ")]
-                           [:li (str "Hunted down and fixed many bugs; improved elasticsearch stores; created "
+                                     "(Cisco Threat Intelligence API).")]
+                           [:li (str "Hunted down and fixed many bugs; improved Elasticsearch stores; created "
                                      "different types of integrations for internal and third-party teams.")]
                            [:li "Designed and developed a Web-UI for documentation team."]
                            [:li (str "Built an extensive API for the Cisco TAC (Technical Assistance Center) portal,  "
                                      "reducing the number of incident escalations by nearly half. ")]]]
-             :keywords [:clojure
+             :keywords [:aws
+                        :clojure
                         :clojurescript
                         :cypress.io
                         :docker
@@ -75,6 +61,7 @@
                         :graphql
                         :jvm
                         :next.js
+                        :node.js
                         :re-frame
                         :react]}
             {:company "Dividend Finance"
@@ -89,11 +76,11 @@
                           [:p (str "The stack consisted of web portals for homeowners and solar "
                                    "installers, including a comprehensive API for partners - financial institutions "
                                    "and solar equipment installation companies.")]
-                          [:p (str "I've worked on the API - the backend for the web apps that was built on a "
-                                   "Clojure stack, loosely based on Luminus, with Salesforce and PostgreSQL as the "
-                                   "systems of record. ")]
-                          [:p (str "The frontend apps were based on Clojurescript (Re-frame), utilizing Material UI "
-                                   "React components, and were designed for use on both mobile and desktop devices.")]
+                          [:p (str "I have worked on the Clojure-driven API, loosely based on Luminus, with Salesforce "
+                                   "and PostgreSQL as the systems of record.")]
+                          [:p (str "The frontend apps we've built in Clojurescript (Re-frame), utilizing Material UI "
+                                   "React components, and designed to be responsive and usable on Desktop and "
+                                   "Mobile. ")]
                           [:ul
                            [:li "Built an improved and revised web-portal."]
                            [:li "Created an audit log system from scratch."]
@@ -129,14 +116,14 @@
                            [:li [:p (str "I have built a web-portal for FinOps teams, to allow them to track transactions, "
                                          "monitor deposits, manage reconciliations, etc., while maintaining net capital "
                                          "compliance.")]
-                            [:p (str "Portal was built in ClojureScript, initially using Om.next, and later we "
+                            [:p (str "Portal was built in Clojurescript, initially using Om.next, and later we "
                                      "switched to Re-frame. A set of APIs, made with Clojure, were created for the "
                                      "backend. Materialized views in PostgreSQL were used, where data gets aggregated "
                                      "from Kafka clusters ingested via Kafka Connect.")]
-                            [:p (str "We introduced unique concepts on the front end, like using Integrant to "
+                            [:p (str "We introduced unique concepts on the front end, such as using Integrant to "
                                      "compartmentalize UI elements into individual components - specs, styles, and "
                                      "render functions, essentially transforming them into highly versatile Lego "
-                                     "pieces.")]]
+                                     "pieces. ")]]
                            [:li "I have organized and hosted local meetups."]
                            [:li (str "Multiple \"Best team\" prizes. I was repeatedly nominated and awarded the "
                                      "\"Employee of the month\" ")]]]
@@ -227,6 +214,7 @@
                            [:li "Built the Apple TV Vevo App."]
                            [:li "Played major part in redesigning the main website - vevo.com."]]]
              :keywords ["c#"
+                        "f#"
                         :angular
                         :asp.net
                         :coffeescript
@@ -258,7 +246,7 @@
                         :objective-c
                         :xamarin_tools]}
 
-            {:company "USeDirect"
+            #_{:company "USeDirect"
              :website "https://www.usedirect.com"
              :industry "Integrator"
              :location "Roslyn Heights, NY"
@@ -269,7 +257,7 @@
                           [:p "I have worked on Microsoft Dynamics desktop UI shell (WPF, C#)."]]
              :keywords ["c#" :ms_sql_server :wpf]}
 
-            {:company "Freelance"
+            #_{:company "Freelance"
              :website nil
              :industry nil
              :location "New York City"
