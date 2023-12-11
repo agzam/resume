@@ -26,21 +26,31 @@
                      "enterprise solutions, and cloud services. Adept at working in diverse teams both "
                      "on-site and remotely, with a history of taking on leadership roles. Passionate "
                      "about productivity enhancement and automation. Actively involved in mentoring, "
-                     "tech evangelism, and organizing meetups and workshops. Currently pursuing a "
-                     "certification in Cybersecurity, with a deep understanding of vulnerabilities, "
-                     "exploits, and cyber threats.")]}}
+                     "tech evangelism, and organizing meetups and workshops.")]}}
 
  :work
  {:title "Professional experience"
   :prior-experience-not-provided-note
   (str "jobs prior to 2011 are not listed; a comprehensive list can be provided upon request.")
-  :content [{:company "Cisco XDR"
-             :website "https://security.cisco.com/"
+  :content [{:company "Command Zero"
+             :website "https://www.cmdzero.io"
+             :industry "Cybersecurity"
+             :location "Remote"
+             :position "Senior Software Developer"
+             :start "Oct 2023"
+             :end nil
+             :highlights [[:p "Cyber threat intelligence and digital forensics tool."]]
+             :keywords [:aws
+                        :clojure
+                        :cockroachdb
+                        :jvm]}
+            {:company "Cisco XDR"
+             :website "https://security.cisco.com"
              :industry "Cybersecurity"
              :location "Remote"
              :position "Senior Software Developer"
              :start "June 2020"
-             :end nil
+             :end "Oct 2023"
              :highlights [[:p "XDR (previously known as SecureX) is Cisco's famed cybersecurity threat detection and response platform."]
                           [:ul
                            [:li (str "Since joining the team have worked on various parts of the platform, "
