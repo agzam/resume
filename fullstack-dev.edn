@@ -1,6 +1,6 @@
 {:basics
  {:name "Ag Ibragimov"
-  :label "Software Developer"
+  :label "Senior Software Developer"
   :email "agzam.ibragimov@gmail.com"
   :profiles [{:network "LinkedIn"
               :url "https://www.linkedin.com/in/agzam"
@@ -9,24 +9,15 @@
              {:network "GitHub"
               :url "https://github.com/agzam"
               :username "agzam"
-              :icon "github-icon.svg"}
-             #_{:url "https://twitter.com/iLemming"
-              :network "Twitter"
-              :username "@iLemming"
-              :icon "twitter-icon.svg"}
-             #_{:url "https://stackoverflow.com/users/116395/agzam"
-              :network "Stackoverflow"
-              :username "iLemming"
-              :icon "stackoverflow-icon.svg"}]
+              :icon "github-icon.svg"}]
   :summary {:title "Summary"
             :bullet-points? false
             :content
-            [:p (str "Full-stack Developer and Generalist proficient in a wide range of programming "
-                     "languages. Experienced in creating interactive web and mobile apps, complex "
-                     "enterprise solutions, and cloud services. Adept at working in diverse teams both "
-                     "on-site and remotely, with a history of taking on leadership roles. Passionate "
-                     "about productivity enhancement and automation. Actively involved in mentoring, "
-                     "tech evangelism, and organizing meetups and workshops.")]}}
+            [:p (str "Full-stack Developer and Generalist, proficient in a wide range of programming languages, "
+                     "with a proven track record in building solutions - web and mobile apps, cloud services "
+                     "for various industries ranging from Cybersecurity and Fintech to Bioinformatics and Entertainment. "
+                     "Adept at working in diverse teams both on-site and remotely, with a history of taking on leadership roles. "
+                     "Passionate about productivity enhancement and automation.")]}}
 
  :work
  {:title "Professional experience"
@@ -39,7 +30,10 @@
              :position "Senior Software Developer"
              :start "Oct 2023"
              :end nil
-             :highlights [[:p "Cyber threat intelligence and digital forensics tool."]]
+             :highlights [[:p "Cyber threat intelligence and digital forensics tool."]
+                          [:ul
+                           [:li "Enhanced performance of CockroachDB-driven backend"]
+                           [:li "Integrated various metrics into Prometheus/Grafana"]]]
              :keywords [:aws
                         :clojure
                         :cockroachdb
@@ -51,16 +45,22 @@
              :position "Senior Software Developer"
              :start "June 2020"
              :end "Oct 2023"
-             :highlights [[:p "XDR (previously known as SecureX) is Cisco's famed cybersecurity threat detection and response platform."]
+             :highlights [[:p "XDR (previously known as SecureX) - Cisco's famed cybersecurity threat detection and response platform."]
                           [:ul
-                           [:li (str "Since joining the team have worked on various parts of the platform, "
-                                     "participated in expanding IROH (Incident Response Orcestration Hub) and CTIA "
-                                     "(Cisco Threat Intelligence API).")]
-                           [:li (str "Hunted down and fixed many bugs; improved Elasticsearch stores; created "
-                                     "different types of integrations for internal and third-party teams.")]
-                           [:li "Designed and developed a Web-UI for documentation team."]
-                           [:li (str "Built an extensive API for the Cisco TAC (Technical Assistance Center) portal,  "
-                                     "reducing the number of incident escalations by nearly half. ")]]]
+                           [:li (str "I worked on various parts of the system, "
+                                     "including the CTIA and CTIM - Cisco Threat Intelligence API "
+                                     "and the model; and project IROH  (Incident Response Orcestration Hub)")]
+                           [:li (str "Improved Elasticsearch stores; "
+                                     "created different types of integrations with third party services "
+                                     "such as Palo Alto Cortex and Cybereason.")]
+                           [:li (str "Built a portal for Cisco TAC (Technical Assistance Center), "
+                                     "reducing the number of incident escalations by nearly 50%.")]
+                           [:li "Designed and developed a management tool for the documentation team."]
+                           [:li (str "Participated in an annual hackathon with a unique and "
+                                     "unconventional project that stood out among other 300+ submissions "
+                                     "and made all the way to the finals.")]
+                           [:li (str "Enrolled in SANS SEC504 training course - "
+                                     "Hacker Tools, Techniques, and Incident Handling.")]]]
              :keywords [:aws
                         :clojure
                         :clojurescript
