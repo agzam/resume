@@ -7,7 +7,8 @@
         ring/ring-jetty-adapter {:mvn/version "1.9.5"}
         garden/garden {:mvn/version "1.3.10"}
         compojure/compojure {:mvn/version "1.7.0"}
-        io.github.clojure/tools.build {:git/tag "v0.8.1" :git/sha "7d40500"}}
+        io.github.clojure/tools.build {:git/tag "v0.8.1" :git/sha "7d40500"}
+        org.jsoup/jsoup {:mvn/version "1.17.2"}}
  :aliases
  {:test {:extra-paths ["test"]
          :extra-deps {io.github.cognitect-labs/test-runner

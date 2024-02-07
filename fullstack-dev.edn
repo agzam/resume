@@ -22,264 +22,283 @@
  :work
  {:title "Professional experience"
   :prior-experience-not-provided-note
-  (str "jobs prior to 2011 are not listed; a comprehensive list can be provided upon request.")
-  :content [{:company "Command Zero"
-             :website "https://www.cmdzero.io"
-             :industry "Cybersecurity"
-             :location "Remote"
-             :position "Senior Software Developer"
-             :start "Oct 2023"
-             :end nil
-             :highlights [[:p "Cyber threat intelligence and digital forensics tool."]
-                          [:ul
-                           [:li "Enhanced performance of CockroachDB-driven backend"]
-                           [:li "Integrated various metrics into Prometheus/Grafana"]]]
-             :keywords [:aws
-                        :clojure
-                        :cockroachdb
-                        :jvm]}
-            {:company "Cisco XDR"
-             :website "https://security.cisco.com"
-             :industry "Cybersecurity"
-             :location "Remote"
-             :position "Senior Software Developer"
-             :start "June 2020"
-             :end "Oct 2023"
-             :highlights [[:p "XDR (previously known as SecureX) - Cisco's famed cybersecurity threat detection and response platform."]
-                          [:ul
-                           [:li (str "I worked on various parts of the system, "
-                                     "including the CTIA and CTIM - Cisco Threat Intelligence API "
-                                     "and the model; and project IROH  (Incident Response Orcestration Hub)")]
-                           [:li (str "Improved Elasticsearch stores; "
-                                     "created different types of integrations with third party services "
-                                     "such as Palo Alto Cortex and Cybereason.")]
-                           [:li (str "Built a portal for Cisco TAC (Technical Assistance Center), "
-                                     "reducing the number of incident escalations by nearly 50%.")]
-                           [:li "Designed and developed a management tool for the documentation team."]
-                           [:li (str "Participated in an annual hackathon with a unique and "
-                                     "unconventional project that stood out among other 300+ submissions "
-                                     "and made all the way to the finals.")]
-                           [:li (str "Enrolled in SANS SEC504 training course - "
-                                     "Hacker Tools, Techniques, and Incident Handling.")]]]
-             :keywords [:aws
-                        :clojure
-                        :clojurescript
-                        :cypress.io
-                        :docker
-                        :elasticsearch
-                        :github_actions
-                        :graphql
-                        :jvm
-                        :next.js
-                        :node.js
-                        :re-frame
-                        :react]}
-            {:company "Dividend Finance"
-             :website "https://dividendfinance.com"
-             :industry "Fintech"
-             :location "San Francisco/Part-time remote"
-             :position "Senior Software Developer"
-             :start "Nov 2018"
-             :end "May 2020"
-             :highlights [[:p (str "Dividend Finance offers residential solar loans, home improvement, and PACE "
-                                   "financing products.")]
-                          [:p (str "The stack consisted of web portals for homeowners and solar "
-                                   "installers, including a comprehensive API for partners - financial institutions "
-                                   "and solar equipment installation companies.")]
-                          [:p (str "I have worked on the Clojure-driven API, loosely based on Luminus, with Salesforce "
-                                   "and PostgreSQL as the systems of record.")]
-                          [:p (str "The frontend apps we've built in Clojurescript (Re-frame), utilizing Material UI "
-                                   "React components, and designed to be responsive and usable on Desktop and "
-                                   "Mobile. ")]
-                          [:ul
-                           [:li "Built an improved and revised web-portal."]
-                           [:li "Created an audit log system from scratch."]
-                           [:li (str "Helped to launch a partnership program with multiple capital providers such as "
-                                     "Keybank.")]
-                           [:li "Implemented internal document warehousing system."]
-                           [:li "Vastly improved testing practices and test coverage."]]]
-             :keywords [:circleci
-                        :clojure
-                        :clojurescript
-                        :heroku
-                        :jenkins
-                        :jvm
-                        :postgresql
-                        :puppeteer
-                        :rabbitmq
-                        :re-frame
-                        :react
-                        :s3
-                        :salesforce
-                        :selenium
-                        :terraform]}
+  (str "jobs prior to 2012 are not listed; a comprehensive list can be provided upon request.")
+  :content
+  [{:company "Command Zero"
+    :website "https://www.cmdzero.io"
+    :industry "Cybersecurity"
+    :location "Remote"
+    :position "Senior Software Developer"
+    :start "Oct 2023"
+    :end nil
+    :highlights [[:p "Cyber threat intelligence and digital forensics tool."]
+                 [:ul
+                  [:li "Enhanced performance of CockroachDB-driven backend"]
+                  [:li "Integrated various metrics into Prometheus/Grafana"]]]
+    :keywords [:aws
+               :clojure
+               :cockroachdb
+               :jvm]
+    :supervisor {:name "Alexander Saint Croix"
+                 :links ["https://www.linkedin.com/in/saintx/"]}}
+   {:company "Cisco XDR"
+    :website "https://security.cisco.com"
+    :industry "Cybersecurity"
+    :location "Remote"
+    :position "Senior Software Developer"
+    :start "June 2020"
+    :end "Oct 2023"
+    :highlights [[:p "XDR (previously known as SecureX) - Cisco's famed cybersecurity threat detection and response platform."]
+                 [:ul
+                  [:li (str "I worked on various parts of the system, "
+                            "including the CTIA and CTIM - Cisco Threat Intelligence API "
+                            "and the model; and project IROH  (Incident Response Orcestration Hub)")]
+                  [:li (str "Improved Elasticsearch stores; "
+                            "created different types of integrations with third party services "
+                            "such as Palo Alto Cortex and Cybereason.")]
+                  [:li (str "Built a portal for Cisco TAC (Technical Assistance Center), "
+                            "reducing the number of incident escalations by nearly 50%.")]
+                  [:li "Designed and developed a management tool for the documentation team."]
+                  [:li (str "Participated in an annual hackathon with a unique and "
+                            "unconventional project that stood out among other 300+ submissions "
+                            "and made all the way to the finals.")]
+                  [:li (str "Enrolled in SANS SEC504 training course - "
+                            "Hacker Tools, Techniques, and Incident Handling.")]]]
+    :keywords [:aws
+               :clojure
+               :clojurescript
+               :cypress.io
+               :docker
+               :elasticsearch
+               :github_actions
+               :graphql
+               :jvm
+               :next.js
+               :node.js
+               :re-frame
+               :react]
+    :supervisor [{:name "Michael Whitley"
+                  :links ["https://www.linkedin.com/in/michaelwhitley/"]}
+                 {:name "Guillaume Buisson"
+                  :links ["https://www.linkedin.com/in/gbuisson/"]}]}
+   {:company "Dividend Finance"
+    :website "https://dividendfinance.com"
+    :industry "Fintech"
+    :location "San Francisco/Part-time remote"
+    :position "Senior Software Developer"
+    :start "Nov 2018"
+    :end "May 2020"
+    :highlights [[:p (str "Dividend Finance offers residential solar loans, home improvement, and PACE "
+                          "financing products.")]
+                 [:p (str "The stack consisted of web portals for homeowners and solar "
+                          "installers, including a comprehensive API for partners - financial institutions "
+                          "and solar equipment installation companies.")]
+                 [:p (str "I have worked on the Clojure-driven API, loosely based on Luminus, with Salesforce "
+                          "and PostgreSQL as the systems of record.")]
+                 [:p (str "The frontend apps we've built in Clojurescript (Re-frame), utilizing Material UI "
+                          "React components, and designed to be responsive and usable on Desktop and "
+                          "Mobile. ")]
+                 [:ul
+                  [:li "Built an improved and revised web-portal."]
+                  [:li "Created an audit log system from scratch."]
+                  [:li (str "Helped to launch a partnership program with multiple capital providers such as "
+                            "Keybank.")]
+                  [:li "Implemented internal document warehousing system."]
+                  [:li "Vastly improved testing practices and test coverage."]]]
+    :keywords [:circleci
+               :clojure
+               :clojurescript
+               :heroku
+               :jenkins
+               :jvm
+               :postgresql
+               :puppeteer
+               :rabbitmq
+               :re-frame
+               :react
+               :s3
+               :salesforce
+               :selenium
+               :terraform]
+    :supervisor {:name "Jeff Madynski"
+                 :links ["https://www.linkedin.com/in/jeff-madynski-50b636"]}}
 
-            {:company "Funding Circle"
-             :website "https://fundingcircle.com"
-             :industry "Fintech"
-             :location "San Francisco/Part-time remote"
-             :position "Senior Software Developer"
-             :start "Feb 2016"
-             :end "Aug 2018"
-             :highlights [[:p (str "Funding Circle is a peer-to-peer lending platform.")]
-                          [:ul
-                           [:li [:p (str "I have built a web-portal for FinOps teams, to allow them to track transactions, "
-                                         "monitor deposits, manage reconciliations, etc., while maintaining net capital "
-                                         "compliance.")]
-                            [:p (str "Portal was built in Clojurescript, initially using Om.next, and later we "
-                                     "switched to Re-frame. A set of APIs, made with Clojure, were created for the "
-                                     "backend. Materialized views in PostgreSQL were used, where data gets aggregated "
-                                     "from Kafka clusters ingested via Kafka Connect.")]
-                            [:p (str "We introduced unique concepts on the front end, such as using Integrant to "
-                                     "compartmentalize UI elements into individual components - specs, styles, and "
-                                     "render functions, essentially transforming them into highly versatile Lego "
-                                     "pieces. ")]]
-                           [:li "I have organized and hosted local meetups."]
-                           [:li (str "Multiple \"Best team\" prizes. I was repeatedly nominated and awarded the "
-                                     "\"Employee of the month\" ")]]]
-             :keywords [:mesos
-                        :circleci
-                        :clojure
-                        :clojurescript
-                        :docker
-                        :honeysql
-                        :jvm
-                        :kafka
-                        :om.next
-                        :re-frame
-                        :react
-                        :rethinkdb
-                        :ruby
-                        :ruby_on_rails]}
+   {:company "Funding Circle"
+    :website "https://fundingcircle.com"
+    :industry "Fintech"
+    :location "San Francisco/Part-time remote"
+    :position "Senior Software Developer"
+    :start "Feb 2016"
+    :end "Aug 2018"
+    :highlights [[:p (str "Funding Circle is a peer-to-peer lending platform.")]
+                 [:ul
+                  [:li [:p (str "I have built a web-portal for FinOps teams, to allow them to track transactions, "
+                                "monitor deposits, manage reconciliations, etc., while maintaining net capital "
+                                "compliance.")]
+                   [:p (str "Portal was built in Clojurescript, initially using Om.next, and later we "
+                            "switched to Re-frame. A set of APIs, made with Clojure, were created for the "
+                            "backend. Materialized views in PostgreSQL were used, where data gets aggregated "
+                            "from Kafka clusters ingested via Kafka Connect.")]
+                   [:p (str "We introduced unique concepts on the front end, such as using Integrant to "
+                            "compartmentalize UI elements into individual components - specs, styles, and "
+                            "render functions, essentially transforming them into highly versatile Lego "
+                            "pieces. ")]]
+                  [:li "I have organized and hosted local meetups."]
+                  [:li (str "Multiple \"Best team\" prizes. I was repeatedly nominated and awarded the "
+                            "\"Employee of the month\" ")]]]
+    :keywords [:mesos
+               :circleci
+               :clojure
+               :clojurescript
+               :docker
+               :honeysql
+               :jvm
+               :kafka
+               :om.next
+               :re-frame
+               :react
+               :rethinkdb
+               :ruby
+               :ruby_on_rails]
+    :supervisor {:name "Charles Reese"
+                 :links ["https://www.linkedin.com/in/charlespreese"]}}
 
-            {:company "Mobitor"
-             :website "http://www.mobitor.com"
-             :industry "Medical Equipment Logistics"
-             :location "Walnut Creek, CA"
-             :position "Lead Frontend Developer"
-             :start "Apr 2015"
-             :end "Feb 2016"
-             :highlights [[:p (str "Mobitor was a startup specializing on Medical Equipment Logistics.")]
-                          [:p (str "I have implemented a web portal for managing medical devices - orthopedic, spine "
-                                   "surgery implants, supplemental equipment.")]
-                          [:p (str "Used Angular, paired with a Node backend, "
-                                   "which communicated with a .NET API on C# and MS SQL Server.")]]
-             :keywords [:angular
-                        :babel.js
-                        :bower
-                        :coffeescript
-                        :couchbase
-                        :docker
-                        :gulp.js
-                        :karma
-                        :node.js
-                        :postcss
-                        :protractor
-                        :rx.js]}
+   {:company "Mobitor"
+    :website "http://www.mobitor.com"
+    :industry "Medical Equipment Logistics"
+    :location "Walnut Creek, CA"
+    :position "Lead Frontend Developer"
+    :start "Apr 2015"
+    :end "Feb 2016"
+    :highlights [[:p (str "Mobitor was a startup specializing on Medical Equipment Logistics.")]
+                 [:p (str "I have implemented a web portal for managing medical devices - orthopedic, spine "
+                          "surgery implants, supplemental equipment.")]
+                 [:p (str "Used Angular, paired with a Node backend, "
+                          "which communicated with a .NET API on C# and MS SQL Server.")]]
+    :keywords [:angular
+               :babel.js
+               :bower
+               :coffeescript
+               :couchbase
+               :docker
+               :gulp.js
+               :karma
+               :node.js
+               :postcss
+               :protractor
+               :rx.js]
+    :supervisor {:name "Anton Vyshnyak"
+                 :links []}}
 
-            {:company "Invitae"
-             :website "https://www.invitae.com"
-             :industry "Genomics/DNA sequencing"
-             :location "San Francisco"
-             :position "Lead Frontend Developer"
-             :start "May 2014"
-             :end "Apr 2015"
-             :highlights [[:p (str "Invitae specializes in diagnostic DNA sequencing.")]
-                          [:p (str "I've designed and implemented an asset tracking/dashboard web app with various "
-                                   "charts, graphs and spreadsheets. Angular based, it was written in Coffeescript, "
-                                   "and supported by Python backend on Django.")]]
-             :keywords [:angular
-                        :browserify
-                        :coffeescript
-                        :d3.js
-                        :django
-                        :elasticsearch
-                        :gulp
-                        :karma
-                        :node.js
-                        :protractor
-                        :python
-                        :ramda.js
-                        :rxjs
-                        :stylus-css]}
+   {:company "Invitae"
+    :website "https://www.invitae.com"
+    :industry "Genomics/DNA sequencing"
+    :location "San Francisco"
+    :position "Lead Frontend Developer"
+    :start "May 2014"
+    :end "Apr 2015"
+    :highlights [[:p (str "Invitae specializes in diagnostic DNA sequencing.")]
+                 [:p (str "I've designed and implemented an asset tracking/dashboard web app with various "
+                          "charts, graphs and spreadsheets. Angular based, it was written in Coffeescript, "
+                          "and supported by Python backend on Django.")]]
+    :keywords [:angular
+               :browserify
+               :coffeescript
+               :d3.js
+               :django
+               :elasticsearch
+               :gulp
+               :karma
+               :node.js
+               :protractor
+               :python
+               :ramda.js
+               :rxjs
+               :stylus-css]
+    :supervisor {:name "Alex Furman"
+                 :links ["https://www.linkedin.com/in/alexfurman"]}}
 
-            {:company "Vevo"
-             :website "http://www.vevo.com"
-             :industry "Video hosting"
-             :location "New York City/San Francisco"
-             :position "Senior Software Developer"
-             :start "Jan 2012"
-             :end "May 2014"
-             :highlights [[:p (str "Vevo is the World's Leading Music Video Network.")]
-                          [:ul
-                           [:li
-                            [:p (str "Designed and implemented cloud-based, "
-                                     "task-driven, concurrent, scalable video encoding system.")]
-                            [:p (str "Redesigned the entire system from scratch, making it vastly more efficient. "
-                                     "Benchmarks showed a tenfold increase in efficiency. ")]]
-                           [:li (str "Lead a group of developers in re-building Admin Web Site for partners and "
-                                     "internal use. ASP.net, Angular.js. ")]
-                           [:li (str "Implemented Chromecast integration for Google's pilot program, demonstrating its "
-                                     "compatibility with apps like Vevo. ")]
-                           [:li "Built the Apple TV Vevo App."]
-                           [:li "Played major part in redesigning the main website - vevo.com."]]]
-             :keywords ["c#"
-                        "f#"
-                        :angular
-                        :asp.net
-                        :coffeescript
-                        :dynamo_db
-                        :javascript
-                        :ms_sql_server
-                        :node.js
-                        :s3
-                        :sqs
-                        :typescript]}
+   {:company "Vevo"
+    :website "http://www.vevo.com"
+    :industry "Video hosting"
+    :location "New York City/San Francisco"
+    :position "Senior Software Developer"
+    :start "Jan 2012"
+    :end "May 2014"
+    :highlights [[:p (str "Vevo is the World's Leading Music Video Network.")]
+                 [:ul
+                  [:li
+                   [:p (str "Designed and implemented cloud-based, "
+                            "task-driven, concurrent, scalable video encoding system.")]
+                   [:p (str "Redesigned the entire system from scratch, making it vastly more efficient. "
+                            "Benchmarks showed a tenfold increase in efficiency. ")]]
+                  [:li (str "Lead a group of developers in re-building Admin Web Site for partners and "
+                            "internal use. ASP.net, Angular.js. ")]
+                  [:li (str "Implemented Chromecast integration for Google's pilot program, demonstrating its "
+                            "compatibility with apps like Vevo. ")]
+                  [:li "Built the Apple TV Vevo App."]
+                  [:li "Played major part in redesigning the main website - vevo.com."]]]
+    :keywords ["c#"
+               "f#"
+               :angular
+               :asp.net
+               :coffeescript
+               :dynamo_db
+               :javascript
+               :ms_sql_server
+               :node.js
+               :s3
+               :sqs
+               :typescript]
+    :supervisor {:name "Argam DerHartunian"
+                 :links ["https://www.linkedin.com/in/argamderhartunian"]}}
 
-            {:company "Bunk1.com"
-             :website "https://www.bunk1.com"
-             :industry "Web services"
-             :location "New York City"
-             :position "Frontend Developer"
-             :start "2011"
-             :end "2011"
-             :highlights [[:p (str "Bunk1 helps parents stay in touch with kids in summer camps.")]
-                          [:ul
-                           [:li (str "Designed an aesthetically pleasing and functional calendar widget for the web "
-                                     "application (ASP.net, jquery).")]
-                           [:li (str "Developed an iOS App on Xamarin stack.")]]]
-             :keywords ["c#"
-                        :asp.net
-                        :backbone
-                        :javascript
-                        :jquery
-                        :objective-c
-                        :xamarin_tools]}
+   #_{:company "Bunk1.com"
+    :website "https://www.bunk1.com"
+    :industry "Web services"
+    :location "New York City"
+    :position "Frontend Developer"
+    :start "2011"
+    :end "2011"
+    :highlights [[:p (str "Bunk1 helps parents stay in touch with kids in summer camps.")]
+                 [:ul
+                  [:li (str "Designed an aesthetically pleasing and functional calendar widget for the web "
+                            "application (ASP.net, jquery).")]
+                  [:li (str "Developed an iOS App on Xamarin stack.")]]]
+    :keywords ["c#"
+               :asp.net
+               :backbone
+               :javascript
+               :jquery
+               :objective-c
+               :xamarin_tools]
+    :supervisor {:name "Eric Natale"
+                 :links []}}
 
-            #_{:company "USeDirect"
-             :website "https://www.usedirect.com"
-             :industry "Integrator"
-             :location "Roslyn Heights, NY"
-             :position "Application Developer"
-             :start "2010"
-             :end "2010"
-             :highlights [[:p "Is a Software Integrator."]
-                          [:p "I have worked on Microsoft Dynamics desktop UI shell (WPF, C#)."]]
-             :keywords ["c#" :ms_sql_server :wpf]}
+   #_{:company "USeDirect"
+      :website "https://www.usedirect.com"
+      :industry "Integrator"
+      :location "Roslyn Heights, NY"
+      :position "Application Developer"
+      :start "2010"
+      :end "2010"
+      :highlights [[:p "Is a Software Integrator."]
+                   [:p "I have worked on Microsoft Dynamics desktop UI shell (WPF, C#)."]]
+      :keywords ["c#" :ms_sql_server :wpf]}
 
-            #_{:company "Freelance"
-             :website nil
-             :industry nil
-             :location "New York City"
-             :position "Freelance Programmer"
-             :start "2009"
-             :end "2009"
-             :highlights [[:ul
-                           [:li (str "High-frequency trading app for Dimension Capital - fast, responsive, secure "
-                                     "automated decision-making tool for trading. ")]
-                           [:li "QA automation for RI Communications Group."]
-                           [:li "Various web projects (Wordpress, PHP, Javascript)."]]]
-             :keywords ["c#" :javascript :php :wordpress]}]}
+   #_{:company "Freelance"
+      :website nil
+      :industry nil
+      :location "New York City"
+      :position "Freelance Programmer"
+      :start "2009"
+      :end "2009"
+      :highlights [[:ul
+                    [:li (str "High-frequency trading app for Dimension Capital - fast, responsive, secure "
+                              "automated decision-making tool for trading. ")]
+                    [:li "QA automation for RI Communications Group."]
+                    [:li "Various web projects (Wordpress, PHP, Javascript)."]]]
+      :keywords ["c#" :javascript :php :wordpress]}]}
 
  :education {:title "Education"
              :content [{:institution "Tashkent University of Information Technologies."
