@@ -30,7 +30,7 @@
     :location "Remote"
     :position "Senior Software Developer"
     :start "Oct 2023"
-    :end nil
+    :end "Jan 2024"
     :highlights [[:p "Cyber threat intelligence and digital forensics tool."]
                  [:ul
                   [:li "Enhanced performance of CockroachDB-driven backend"]
@@ -129,7 +129,7 @@
     :location "San Francisco/Part-time remote"
     :position "Senior Software Developer"
     :start "Feb 2016"
-    :end "Aug 2018"
+    :end "Nov 2018"
     :highlights [[:p (str "Funding Circle is a peer-to-peer lending platform.")]
                  [:ul
                   [:li [:p (str "I have built a web-portal for FinOps teams, to allow them to track transactions, "

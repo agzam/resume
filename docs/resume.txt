@@ -11,7 +11,8 @@ Full-stack Developer and Generalist, proficient in a wide range of programming l
 
 Company: Command Zero
 Title: Senior Software Developer
-From: Oct 2023
+From: 10/2023
+To: 01/2024
 Keywords: aws, clojure, cockroachdb, jvm
 Description:
 - Enhanced performance of CockroachDB-driven backend
@@ -19,8 +20,8 @@ Description:
 
 Company: Cisco XDR
 Title: Senior Software Developer
-From: June 2020
-To: Oct 2023
+From: 06/2020
+To: 10/2023
 Keywords: aws, clojure, clojurescript, cypress.io, docker, elasticsearch, github_actions, graphql, jvm, next.js, node.js, re-frame, react
 Description:
 - I worked on various parts of the system, including the CTIA and CTIM - Cisco Threat Intelligence API and the model; and project IROH  (Incident Response Orcestration Hub)
@@ -32,8 +33,8 @@ Description:
 
 Company: Dividend Finance
 Title: Senior Software Developer
-From: Nov 2018
-To: May 2020
+From: 11/2018
+To: 05/2020
 Keywords: circleci, clojure, clojurescript, heroku, jenkins, jvm, postgresql, puppeteer, rabbitmq, re-frame, react, s3, salesforce, selenium, terraform
 Description:
 The stack consisted of web portals for homeowners and solar installers, including a comprehensive API for partners - financial institutions and solar equipment installation companies.
@@ -47,8 +48,8 @@ The stack consisted of web portals for homeowners and solar installers, includin
 
 Company: Funding Circle
 Title: Senior Software Developer
-From: Feb 2016
-To: Aug 2018
+From: 02/2016
+To: 11/2018
 Keywords: mesos, circleci, clojure, clojurescript, docker, honeysql, jvm, kafka, om.next, re-frame, react, rethinkdb, ruby, ruby_on_rails
 Description:
 - I have built a web-portal for FinOps teams, to allow them to track transactions, monitor deposits, manage reconciliations, etc., while maintaining net capital compliance.
@@ -60,8 +61,8 @@ Description:
 
 Company: Mobitor
 Title: Lead Frontend Developer
-From: Apr 2015
-To: Feb 2016
+From: 04/2015
+To: 02/2016
 Keywords: angular, babel.js, bower, coffeescript, couchbase, docker, gulp.js, karma, node.js, postcss, protractor, rx.js
 Description:
 I have implemented a web portal for managing medical devices - orthopedic, spine surgery implants, supplemental equipment.
@@ -69,16 +70,16 @@ I have implemented a web portal for managing medical devices - orthopedic, spine
 
 Company: Invitae
 Title: Lead Frontend Developer
-From: May 2014
-To: Apr 2015
+From: 05/2014
+To: 04/2015
 Keywords: angular, browserify, coffeescript, d3.js, django, elasticsearch, gulp, karma, node.js, protractor, python, ramda.js, rxjs, stylus-css
 Description:
 I've designed and implemented an asset tracking/dashboard web app with various charts, graphs and spreadsheets. Angular based, it was written in Coffeescript, and supported by Python backend on Django.
 
 Company: Vevo
 Title: Senior Software Developer
-From: Jan 2012
-To: May 2014
+From: 01/2012
+To: 05/2014
 Keywords: c#, f#, angular, asp.net, coffeescript, dynamo_db, javascript, ms_sql_server, node.js, s3, sqs, typescript
 Description:
 - Designed and implemented cloud-based, task-driven, concurrent, scalable video encoding system.
@@ -88,13 +89,4 @@ Description:
 - Implemented Chromecast integration for Google's pilot program, demonstrating its compatibility with apps like Vevo. 
 - Built the Apple TV Vevo App.
 - Played major part in redesigning the main website - vevo.com.
-
-Company: Bunk1.com
-Title: Frontend Developer
-From: 2011
-To: 2011
-Keywords: c#, asp.net, backbone, javascript, jquery, objective-c, xamarin_tools
-Description:
-- Designed an aesthetically pleasing and functional calendar widget for the web application (ASP.net, jquery).
-- Developed an iOS App on Xamarin stack.
 

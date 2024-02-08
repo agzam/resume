@@ -6,7 +6,8 @@
             [integrant.core :as ig]
             [hiccup.core :as h]
             [clojure.string :as str])
-  (:import [org.jsoup Jsoup]))
+  (:import [org.jsoup Jsoup]
+           [java.text SimpleDateFormat]))
 
 (defn get-data []
   (->> "fullstack-dev.edn"
@@ -25,6 +26,16 @@
         :ul (str/join "" (map #(str "- " (hiccup->text %) "\n") rest))
         (str/join " " (map hiccup->text rest))))
     :else ""))
+
+(defn datestr->mmyyyy
+  "Converts date-string. Oct 2023 -> 10/2023"
+  [datestr]
+  (let [old-fmt (SimpleDateFormat. "MMM yyyy")
+        new-fmt (SimpleDateFormat. "MM/yyyy")
+        old-date (when-not (str/blank? datestr)
+                   (.parse old-fmt datestr))]
+    (when old-date
+      (.format new-fmt old-date))))
 
 (defn generate-plain-text
   "Generate plain text resume, for automated resume parsing systems."
@@ -55,8 +66,8 @@
                                  "Description:\n%s\n")
                             company
                             position
-                            start
-                            (or end "")
+                            (datestr->mmyyyy start)
+                            (or (datestr->mmyyyy end) "")
                             (->>
                              keywords
                              (map name)
