@@ -50,22 +50,24 @@
                        (-> data :basics :label)
                        (-> data :basics :email))
         summary (->> data :basics :summary
-                    :content hiccup->text
-                    (format "# Summary:\n%s\n"))
+                     :content hiccup->text
+                     (format "# Summary:\n%s\n"))
         parse-exp (fn [{:keys [highlights
                                start end
-                               company position
+                               position company location
                                keywords]}]
-                    (format (str "Company: %s\n"
-                                 "Title: %s\n"
+                    (format (str "Title: %s\n"
+                                 "Company: %s\n"
+                                 "Location: %s\n"
                                  "From: %s\n"
                                  (if end
-                                  "To: %s\n"
-                                  "%s")
-                                 "Keywords: %s\n"
+                                   "To: %s\n"
+                                   "%s")
+                                 "Skills: %s\n"
                                  "Description:\n%s\n")
-                            company
                             position
+                            company
+                            location
                             (datestr->mmyyyy start)
                             (or (datestr->mmyyyy end) "")
                             (->>
@@ -78,7 +80,7 @@
                         (str/join ""))]
     (str personal-info
          summary
-         "# Work experience:\n\n"
+         "# Work history:\n\n"
          experience)))
 
 (defn generate []
