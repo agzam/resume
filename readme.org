@@ -12,7 +12,10 @@
     user> (ig-repl/go)
   #+end_src
   #+begin_src sh
+  # Mac
   open localhost:3000
+  # Linux
+  xdg-open localhost:3000
 
   user> (ig-repl/go)
   #+end_src

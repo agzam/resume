@@ -2,6 +2,9 @@
  {:name "Ag Ibragimov"
   :label "Senior Software Developer"
   :email "agzam.ibragimov@gmail.com"
+  :location {:city "Little Elm"
+             :state "TX"
+             :zipcode "75068"}
   :profiles [{:network "LinkedIn"
               :url "https://www.linkedin.com/in/agzam"
               :username "agzam"
@@ -34,14 +37,16 @@
     :highlights [[:p "Cyber threat intelligence and digital forensics tool."]
                  [:ul
                   [:li "Enhanced performance of CockroachDB-driven backend"]
-                  [:li "Integrated various metrics into Prometheus/Grafana"]]]
-    :keywords [:aws
-               :clojure
+                  [:li "Integrated various metrics into Prometheus/Grafana"]
+                  [:li "Explored architectural redesign ideas using Polylith"]]]
+    :keywords [:clojure
                :cockroachdb
-               :jvm]
+               :jvm
+               :aws
+               :polylith]
     :supervisor {:name "Alexander Saint Croix"
                  :links ["https://www.linkedin.com/in/saintx/"]}}
-   {:company "Cisco XDR"
+   {:company "Cisco"
     :website "https://security.cisco.com"
     :industry "Cybersecurity"
     :location "San Jose,CA/Remote"
@@ -64,19 +69,19 @@
                             "and made all the way to the finals.")]
                   [:li (str "Enrolled in SANS SEC504 training course - "
                             "Hacker Tools, Techniques, and Incident Handling.")]]]
-    :keywords [:aws
-               :clojure
+    :keywords [:clojure
                :clojurescript
+               :react
+               :re-frame
+               :elasticsearch
+               :aws
                :cypress.io
                :docker
-               :elasticsearch
                :github_actions
                :graphql
                :jvm
                :next.js
-               :node.js
-               :re-frame
-               :react]
+               :node.js]
     :supervisor [{:name "Michael Whitley"
                   :links ["https://www.linkedin.com/in/michaelwhitley/"]}
                  {:name "Guillaume Buisson"
@@ -105,16 +110,16 @@
                             "Keybank.")]
                   [:li "Implemented internal document warehousing system."]
                   [:li "Vastly improved testing practices and test coverage."]]]
-    :keywords [:circleci
-               :clojure
+    :keywords [:clojure
                :clojurescript
+               :jvm
+               :re-frame
+               :circleci
                :heroku
                :jenkins
-               :jvm
                :postgresql
                :puppeteer
                :rabbitmq
-               :re-frame
                :react
                :s3
                :salesforce
@@ -146,10 +151,10 @@
                   [:li "I have organized and hosted local meetups."]
                   [:li (str "Multiple \"Best team\" prizes. I was repeatedly nominated and awarded the "
                             "\"Employee of the month\" ")]]]
-    :keywords [:mesos
-               :circleci
-               :clojure
+    :keywords [:clojure
                :clojurescript
+               :mesos
+               :circleci
                :docker
                :honeysql
                :jvm
@@ -254,26 +259,26 @@
                  :links ["https://www.linkedin.com/in/argamderhartunian"]}}
 
    #_{:company "Bunk1.com"
-    :website "https://www.bunk1.com"
-    :industry "Web services"
-    :location "New York City"
-    :position "Frontend Developer"
-    :start "2011"
-    :end "2011"
-    :highlights [[:p (str "Bunk1 helps parents stay in touch with kids in summer camps.")]
-                 [:ul
-                  [:li (str "Designed an aesthetically pleasing and functional calendar widget for the web "
-                            "application (ASP.net, jquery).")]
-                  [:li (str "Developed an iOS App on Xamarin stack.")]]]
-    :keywords ["c#"
-               :asp.net
-               :backbone
-               :javascript
-               :jquery
-               :objective-c
-               :xamarin_tools]
-    :supervisor {:name "Eric Natale"
-                 :links []}}
+      :website "https://www.bunk1.com"
+      :industry "Web services"
+      :location "New York City"
+      :position "Frontend Developer"
+      :start "2011"
+      :end "2011"
+      :highlights [[:p (str "Bunk1 helps parents stay in touch with kids in summer camps.")]
+                   [:ul
+                    [:li (str "Designed an aesthetically pleasing and functional calendar widget for the web "
+                              "application (ASP.net, jquery).")]
+                    [:li (str "Developed an iOS App on Xamarin stack.")]]]
+      :keywords ["c#"
+                 :asp.net
+                 :backbone
+                 :javascript
+                 :jquery
+                 :objective-c
+                 :xamarin_tools]
+      :supervisor {:name "Eric Natale"
+                   :links []}}
 
    #_{:company "USeDirect"
       :website "https://www.usedirect.com"
@@ -299,6 +304,33 @@
                     [:li "QA automation for RI Communications Group."]
                     [:li "Various web projects (Wordpress, PHP, Javascript)."]]]
       :keywords ["c#" :javascript :php :wordpress]}]}
+
+ :projects
+ {:title "Personal projects"
+  :note "brief selection of personal projects, not a comprehensive list"
+  :content
+  [{:name "Spacehammer"
+    :link "https://github.com/agzam/spacehammer"
+    :description (str "Keyboard-oriented productivity tool for macOS. "
+                      "Allows you to quickly navigate between applications, "
+                      "manage volume and music playback; edit any text input in "
+                      "your preferred editor, and many more.")}
+   {:name "wiktionary-bro.el"
+    :link "https://github.com/agzam/wiktionary-bro.el"
+    :description (str "A convenient way to look up the etymology of any word.")}
+   {:name "mw-thesaurus.el"
+    :link "https://github.com/agzam/mw-thesaurus.el"
+    :description (str "Merriam-Webster Thesaurus in Emacs.")}
+   {:name "browser-hist.el"
+    :link "https://github.com/agzam/browser-hist.el"
+    :description (str "Search through the browser history in Emacs. "
+                      "Opens up possibilities for automating tasks "
+                      "such as retrieving all URLs from a page "
+                      "or extracting page descriptions.")}
+   {:name "youtube-sub-extractor.el"
+    :link "https://github.com/agzam/youtube-sub-extractor.el"
+    :description (str "Extract subtitles from YouTube videos.")}]}
+
 
  :education {:title "Education"
              :content [{:institution "Tashkent University of Information Technologies."

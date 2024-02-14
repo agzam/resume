@@ -58,14 +58,14 @@
    (at-media {:screen :only
               :min-width "801px"
               :max-width "1800px"}
-             [:body {:max-width "70%"
-                     :width "70%"}
+             [:body {:max-width "75%"
+                     :width "75%"}
               [:.experience [:.company [:.name {:white-space :pre-wrap
                                                 :font-size "1.3rem"}]]]])
    (at-media {:screen :only
               :min-width "1800px"}
-             [:body {:max-width "40%"
-                     :width "40%"}]
+             [:body {:max-width "50%"
+                     :width "50%"}]
              [:.experience
               [:.company
                [:.name {:font-size "1.8rem"}]]])])
@@ -170,6 +170,39 @@
       [:h5 {:margin-block-start 0
             :margin-block-end 0}]]]]])
 
+(def projects
+  [:.projects
+   [:.project {:margin-top "1.5rem"}
+    [:.name {:font-size "1.2rem"
+             :white-space :nowrap
+             :margin-bottom "5px"
+             :color (colors :accent-dark)
+             :z-index 1}
+     [:&:hover {:color (colors :accent-bright)}]]
+    [:>div {:display :grid
+            :grid-template-columns "minmax(25%, 2fr) minmax(30%, 4fr)"
+            :grid-gap "10px"
+            :grid-template-areas "'summary details'"
+            :grid-template-rows :max-content}
+     [:.summary {:grid-area "summary"
+                 :display :flex
+                 :flex-direction :column
+                 :position :relative}
+      [:.name :.company-sector]]
+     [:.description
+      {:grid-area "details"
+       :text-align :justify
+       :position :relative}
+      [:ul (merge ul-defaults {:list-style :circle})]]]]
+   [:li.note
+    {:margin-top "1.5rem"}
+    [:p {:display :table
+         :margin-right :auto
+         :margin-left :auto
+         :font-size "0.9rem"
+         :text-align :justify
+         :color (colors :unimportant)}]]])
+
 (defcssfn linear-gradient)
 
 (def thread-decors
@@ -195,9 +228,11 @@
        :height "calc(100% + 25px)"
        :top "13px"
        :left "-15px"}]
-     [(& :.company (gs/nth-last-of-type "2"))
+     [".company:nth-last-of-type(2)"
+      ".project:nth-last-of-type(2)"
       [:.thread-decor-v {:background-image v-grad
                          :height "calc(100% + 15px)"}]]
+
      (let [rad 10
            px #(str % "px")]
        [(& :.thread-decor-h (gs/after))
@@ -241,6 +276,7 @@
      summary
      header
      experience
+     projects
      thread-decors
      prior-exp-not-provided-remark
      education

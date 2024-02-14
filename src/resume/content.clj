@@ -27,11 +27,11 @@
         (str/join " " (map hiccup->text rest))))
     :else ""))
 
-(defn datestr->mmyyyy
-  "Converts date-string. Oct 2023 -> 10/2023"
+(defn datestr->yyyy-mm
+  "Converts date-string. Oct 2023 -> 2023-10"
   [datestr]
   (let [old-fmt (SimpleDateFormat. "MMM yyyy")
-        new-fmt (SimpleDateFormat. "MM/yyyy")
+        new-fmt (SimpleDateFormat. "yyyy-MM")
         old-date (when-not (str/blank? datestr)
                    (.parse old-fmt datestr))]
     (when old-date
@@ -40,15 +40,30 @@
 (defn generate-plain-text
   "Generate plain text resume, for automated resume parsing systems."
   [data]
-  (let [personal-info (format
-                       (str
-                        "%s\n%s\n%s\n"
-                        "plain-text version for automated parsers, "
-                        "for a human-readable, visit:\n"
-                        "https://agzam.github.io/resume\n\n")
-                       (-> data :basics :name)
-                       (-> data :basics :label)
-                       (-> data :basics :email))
+  (let [personal-info
+        (let [{:keys [name label email location]
+               :as basics} (-> data :basics)
+              {:keys [city state zipcode]} location
+              li (->> basics :profiles
+                      (filter #(-> % :network (= "LinkedIn")))
+                      first :url)
+              gh (->> basics :profiles
+                      (filter #(-> % :network (= "LinkedIn")))
+                      first :url)]
+         (format
+          (str
+           "plain-text version for automated parsers, "
+           "for a human-readable, visit:\n"
+           "https://agzam.github.io/resume\n\n"
+           "Name: %s\n"
+           "Title: %s\n"
+           "Email: %s\n"
+           "LinkedIn: %s\n"
+           "GitHub: %s\n"
+           "City: %s\n"
+           "State: %s\n"
+           "Zipcode: %s\n\n")
+          name label email li gh city state zipcode))
         summary (->> data :basics :summary
                      :content hiccup->text
                      (format "# Summary:\n%s\n"))
@@ -64,12 +79,12 @@
                                    "To: %s\n"
                                    "%s")
                                  "Skills: %s\n"
-                                 "Description:\n%s\n")
+                                 "Description:\n%s")
                             position
                             company
                             location
-                            (datestr->mmyyyy start)
-                            (or (datestr->mmyyyy end) "")
+                            (datestr->yyyy-mm start)
+                            (or (datestr->yyyy-mm end) "")
                             (->>
                              keywords
                              (map name)
@@ -77,10 +92,10 @@
                             (hiccup->text highlights)))
         experience (->> data :work :content
                         (map parse-exp)
-                        (str/join ""))]
+                        (str/join "--------------------------------------------------\n"))]
     (str personal-info
          summary
-         "# Work history:\n\n"
+         "# Work history:\n--------------------------------------------------\n"
          experience)))
 
 (defn generate []

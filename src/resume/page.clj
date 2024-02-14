@@ -100,6 +100,25 @@
           [:li.prior-exp-not-provided
            [:p prior-experience-not-provided-note]])]]))
 
+(defn projects [{:keys [projects]}]
+  (let [{:keys [title content note]} projects]
+    [:div.projects
+     [:h2 title]
+     [:ul.projects
+      (->>
+       content
+       (map
+        (fn [{:keys [name link description]}]
+          [:li.project
+           [:div
+            [:div.summary
+             [:a.name {:href link} name]
+             [:div.thread-decor-h]]
+            [:div.description
+             [:div.thread-decor-v]
+             [:div.text description]]]])))
+      [:li.note [:p note]]]]))
+
 (defn education [{:keys [education]}]
   (let [{:keys [title content]} education]
     [:div.education
@@ -119,7 +138,11 @@
 (defn content [data]
   [:div.content-container
    pdf-icon
-   (for [f [header summary experience education]]
+   (for [f [header
+            summary
+            experience
+            projects
+            education]]
      (f data))
    updated])
 
