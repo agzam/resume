@@ -25,7 +25,12 @@
  :work
  {:title "Professional experience"
   :prior-experience-not-provided-note
-  (str "jobs prior to 2012 are not listed; a comprehensive list can be provided upon request.")
+  (str "Jobs prior to 2012 are not listed; a comprehensive list can be provided upon request. "
+       "Professional experience includes projects such as "
+       "high-frequency trading app, "
+       "aircargo company project in Dubai, "
+       "TV commercial monitoring suite for state broadcast TV company, "
+       "hotel management ERP system, and more.")
   :content
   [{:company "Command Zero"
     :website "https://www.cmdzero.io"
@@ -307,7 +312,7 @@
 
  :projects
  {:title "Personal projects"
-  :note "brief selection of personal projects, not a comprehensive list"
+  :note "Only brief selection of personal projects, not a comprehensive list"
   :content
   [{:name "Spacehammer"
     :link "https://github.com/agzam/spacehammer"

@@ -200,7 +200,7 @@
          :margin-right :auto
          :margin-left :auto
          :font-size "0.9rem"
-         :text-align :justify
+         :text-align :center
          :color (colors :unimportant)}]]])
 
 (defcssfn linear-gradient)
@@ -251,7 +251,7 @@
         :margin-right :auto
         :margin-left :auto
         :font-size "0.9rem"
-        :text-align :justify
+        :text-align :center
         :color (colors :unimportant)}]])
 
 (def education
