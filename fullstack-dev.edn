@@ -21,13 +21,17 @@
                      "for various industries ranging from Cybersecurity and Fintech to Bioinformatics and Entertainment. "
                      "Adept at working in diverse teams both on-site and remotely, with a history of taking on leadership roles. "
                      "Passionate about productivity enhancement and automation.")]}
-  :skills [:p (str "Clojure, Clojurescript, Javascript, Typescript, Python, "
-                   "C#, F#, Lua, Fennel, Common Lisp, SQL, some Go and Ruby.  "
-                   "CSS, including preprocessors such as SASS, LESS and Stylus;  "
-                   "frameworks, like Tailwind, MUI and Bootstrap; transitions and animations. "
-                   "Node.js. Cypress.io, Karma and Puppeteer. GitHub Actions. "
-                   "React.js, Angular.js, Next.js, D3, C3. PostgreSQL, Elasticsearch, "
-                   "Couchbase, DynamoDB, CockroachDB, XTDB. AWS. Kafka, RabbitMQ, SQS. Docker.")]}
+  :skills
+  [:div
+   [:p (str "Clojure, Clojurescript, Javascript, Typescript, Python, Java, "
+            "C#, F#, Lua, Fennel, Common Lisp, SQL, some Go and Ruby.")]
+   [:p (str "CSS, including preprocessors such as SASS, LESS and Stylus;  "
+            "frameworks, like Tailwind, MUI and Bootstrap; transitions and animations.")]
+   [:p (str "Node.js. Cypress.io, Karma and Puppeteer. GitHub Actions.")]
+   [:p (str "React.js, Angular.js, Next.js, D3, C3.")]
+   [:p (str "PostgreSQL, Elasticsearch, "
+            "Couchbase, DynamoDB, CockroachDB, XTDB.")]
+   [:p (str "AWS. Kafka, RabbitMQ, SQS. Docker.")]]}
 
  :work
  {:title "Professional experience"
