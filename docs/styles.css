@@ -147,7 +147,7 @@ h2 {
   font-size: x-small;
   line-height: 15px;
   margin-left: 2px;
-  color: #a5a296;
+  color: #bfbdb4;
 }
 
 .experience .company >div .summary .role {
@@ -175,6 +175,7 @@ h2 {
   margin-bottom: 0;
   padding-top: 20px;
   font-size: small;
+  color: #bfbdb4;
 }
 
 .experience .company >div .keywords h5 {
@@ -235,7 +236,7 @@ h2 {
   margin-left: auto;
   font-size: 0.9rem;
   text-align: center;
-  color: #a5a296;
+  color: #bfbdb4;
 }
 
 .thread-decor-h {
@@ -282,7 +283,7 @@ h2 {
   margin-left: auto;
   font-size: 0.9rem;
   text-align: center;
-  color: #a5a296;
+  color: #bfbdb4;
 }
 
 .institution {
@@ -294,7 +295,7 @@ h2 {
   margin-top: 2rem;
   margin-bottom: 2rem;
   font-size: 6px;
-  color: #a5a296;
+  color: #bfbdb4;
 }
 
 @media print {

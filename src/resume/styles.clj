@@ -11,7 +11,7 @@
    :accent-light "#bcab84"
    :text-default "#4f3f3f"
    :accent-bright "#f1d4a6"
-   :unimportant "#a5a296"})
+   :unimportant "#bfbdb4"})
 
 (def background-tint
   [:body
@@ -166,7 +166,8 @@
      [:.keywords {:margin-top :auto
                   :margin-bottom 0
                   :padding-top "20px"
-                  :font-size :small}
+                  :font-size :small
+                  :color (colors :unimportant)}
       [:h5 {:margin-block-start 0
             :margin-block-end 0}]]]]])
 
