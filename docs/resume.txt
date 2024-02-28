@@ -18,8 +18,8 @@ Full-stack Developer and Generalist, proficient in a wide range of programming l
 Title: Senior Software Developer
 Company: Command Zero
 Location: Austin,TX/Remote
-From: 2023-10
-To: 2024-01
+From: 10/2023
+To: 01/2024
 Skills: clojure, cockroachdb, jvm, aws, polylith
 Description:
 - Enhanced performance of CockroachDB-driven backend
@@ -29,8 +29,8 @@ Description:
 Title: Senior Software Developer
 Company: Cisco
 Location: San Jose,CA/Remote
-From: 2020-06
-To: 2023-10
+From: 06/2020
+To: 10/2023
 Skills: clojure, clojurescript, react, re-frame, elasticsearch, aws, cypress.io, docker, github_actions, graphql, jvm, next.js, node.js
 Description:
 - I worked on various parts of the system, including the CTIA and CTIM - Cisco Threat Intelligence API and the model; and project IROH  (Incident Response Orcestration Hub)
@@ -43,8 +43,8 @@ Description:
 Title: Senior Software Developer
 Company: Dividend Finance
 Location: San Francisco/Hybrid
-From: 2018-11
-To: 2020-05
+From: 11/2018
+To: 05/2020
 Skills: clojure, clojurescript, jvm, re-frame, circleci, heroku, jenkins, postgresql, puppeteer, rabbitmq, react, s3, salesforce, selenium, terraform
 Description:
 The stack consisted of web portals for homeowners and solar installers, including a comprehensive API for partners - financial institutions and solar equipment installation companies.
@@ -59,8 +59,8 @@ The stack consisted of web portals for homeowners and solar installers, includin
 Title: Senior Software Developer
 Company: Funding Circle
 Location: San Francisco/Hybrid
-From: 2016-02
-To: 2018-11
+From: 02/2016
+To: 11/2018
 Skills: clojure, clojurescript, mesos, circleci, docker, honeysql, jvm, kafka, om.next, re-frame, react, rethinkdb, ruby, ruby_on_rails
 Description:
 - I have built a web-portal for FinOps teams, to allow them to track transactions, monitor deposits, manage reconciliations, etc., while maintaining net capital compliance.
@@ -73,8 +73,8 @@ Description:
 Title: Lead Frontend Developer
 Company: Mobitor
 Location: Walnut Creek, CA
-From: 2015-04
-To: 2016-02
+From: 04/2015
+To: 02/2016
 Skills: angular, babel.js, bower, coffeescript, couchbase, docker, gulp.js, karma, node.js, postcss, protractor, rx.js
 Description:
 I have implemented a web portal for managing medical devices - orthopedic, spine surgery implants, supplemental equipment.
@@ -83,8 +83,8 @@ I have implemented a web portal for managing medical devices - orthopedic, spine
 Title: Lead Frontend Developer
 Company: Invitae
 Location: San Francisco
-From: 2014-05
-To: 2015-04
+From: 05/2014
+To: 04/2015
 Skills: angular, browserify, coffeescript, d3.js, django, elasticsearch, gulp, karma, node.js, protractor, python, ramda.js, rxjs, stylus-css
 Description:
 I've designed and implemented an asset tracking/dashboard web app with various charts, graphs and spreadsheets. Angular based, it was written in Coffeescript, and supported by Python backend on Django.
@@ -92,8 +92,8 @@ I've designed and implemented an asset tracking/dashboard web app with various c
 Title: Senior Software Developer
 Company: Vevo
 Location: New York City/San Francisco
-From: 2012-01
-To: 2014-05
+From: 01/2012
+To: 05/2014
 Skills: c#, f#, angular, asp.net, coffeescript, dynamo_db, javascript, ms_sql_server, node.js, s3, sqs, typescript
 Description:
 - Designed and implemented cloud-based, task-driven, concurrent, scalable video encoding system.

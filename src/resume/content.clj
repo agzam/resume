@@ -27,11 +27,11 @@
         (str/join " " (map hiccup->text rest))))
     :else ""))
 
-(defn datestr->yyyy-mm
+(defn datestr->mm-yyyy
   "Converts date-string. Oct 2023 -> 2023-10"
   [datestr]
   (let [old-fmt (SimpleDateFormat. "MMM yyyy")
-        new-fmt (SimpleDateFormat. "yyyy-MM")
+        new-fmt (SimpleDateFormat. "MM/yyyy")
         old-date (when-not (str/blank? datestr)
                    (.parse old-fmt datestr))]
     (when old-date
@@ -83,8 +83,8 @@
                             position
                             company
                             location
-                            (datestr->yyyy-mm start)
-                            (or (datestr->yyyy-mm end) "")
+                            (datestr->mm-yyyy start)
+                            (or (datestr->mm-yyyy end) "")
                             (->>
                              keywords
                              (map name)

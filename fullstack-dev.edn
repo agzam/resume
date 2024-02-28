@@ -20,7 +20,14 @@
                      "with a proven track record in building solutions - web and mobile apps, cloud services "
                      "for various industries ranging from Cybersecurity and Fintech to Bioinformatics and Entertainment. "
                      "Adept at working in diverse teams both on-site and remotely, with a history of taking on leadership roles. "
-                     "Passionate about productivity enhancement and automation.")]}}
+                     "Passionate about productivity enhancement and automation.")]}
+  :skills [:p (str "Clojure, Clojurescript, Javascript, Typescript, Python, "
+                   "C#, F#, Lua, Fennel, Common Lisp, SQL, some Go and Ruby.  "
+                   "CSS, including preprocessors such as SASS, LESS and Stylus;  "
+                   "frameworks, like Tailwind, MUI and Bootstrap; transitions and animations. "
+                   "Node.js. Cypress.io, Karma and Puppeteer. GitHub Actions. "
+                   "React.js, Angular.js, Next.js, D3, C3. PostgreSQL, Elasticsearch, "
+                   "Couchbase, DynamoDB, CockroachDB, XTDB. AWS. Kafka, RabbitMQ, SQS. Docker.")]}
 
  :work
  {:title "Professional experience"
