@@ -25,7 +25,7 @@
   [:div
    [:p (str "Clojure, Clojurescript, Javascript, Typescript, Python, Java, "
             "C#, F#, Lua, Fennel, Common Lisp, SQL, some Go and Ruby.")]
-   [:p (str "CSS, including preprocessors such as SASS, LESS and Stylus;  "
+   [:p (str "HTML5, CSS, including preprocessors such as SASS, LESS and Stylus;  "
             "frameworks, like Tailwind, MUI and Bootstrap; transitions and animations.")]
    [:p (str "Node.js. Cypress.io, Karma and Puppeteer. GitHub Actions.")]
    [:p (str "React.js, Angular.js, Next.js, D3, C3.")]
