@@ -4,5 +4,5 @@
 
 (defn -main
   "Generates resume content to be hosted on GH pages"
-  [& args]
+  [& _args]
   (content/generate))

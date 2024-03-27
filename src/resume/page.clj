@@ -53,10 +53,6 @@
    [:h2 "Skills"]
    [:p (-> data :basics :skills)]])
 
-(def prior-exp-not-provided-remark
-  [:li.prior-exp-not-provided
-   [:p (str "jobs before 2009 are not displayed; a complete list can be provided upon "
-            "request.")]])
 
 (defn interval [start end]
   (cond

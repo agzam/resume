@@ -4,10 +4,8 @@
             [resume.page :as page]
             [resume.styles :as styles]
             [integrant.core :as ig]
-            [hiccup.core :as h]
             [clojure.string :as str])
-  (:import [org.jsoup Jsoup]
-           [java.text SimpleDateFormat]))
+  (:import [java.text SimpleDateFormat]))
 
 (defn get-data []
   (->> "fullstack-dev.edn"
