@@ -20,9 +20,17 @@
     (let [tag  (first hiccup)
           rest (next hiccup)]
       (case tag
-        :p  (str (str/join " " (map hiccup->text rest)) "\n")
-        :ul (str/join "" (map #(str "- " (hiccup->text %) "\n") rest))
-        (str/join " " (map hiccup->text rest))))
+        :p  (str (->> rest
+                      (map hiccup->text)
+                      (cons (hiccup->text tag))
+                      (str/join " "))
+                 "\n")
+        :ul (->> rest
+                 (map #(str "- " (hiccup->text %) "\n"))
+                 (str/join ""))
+        (->> hiccup
+             (map hiccup->text)
+             (str/join " "))))
     :else ""))
 
 (defn datestr->mm-yyyy
