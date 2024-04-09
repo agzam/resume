@@ -3,14 +3,13 @@
             [clojure.string :as str]))
 
 (defn links-block [data]
-  (let [link (fn [{:keys [network url icon]}]
+  (let [link (fn [{:keys [url icon]}]
                [:li [:a {:href url}
                      (when icon [:img {:src (str "img/" icon)}])
-                     network]])
+                     (str/replace url #"https://|mailto:" "")]])
         email (-> data :basics :email)]
     [:ul.links
      (link {:url (str "mailto:" email)
-            :network email
             :icon "email-icon.svg"})
      (map link (-> data :basics :profiles))]))
 

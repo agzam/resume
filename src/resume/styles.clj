@@ -29,8 +29,8 @@
                      :font-size "75%"
                      :max-width "99%"}
               ;; hide all links except email
-              [".links li:not(:first-child) a" {:display :none}]
-              [:.links [:img {:display :none}]]
+              #_[".links li:not(:first-child) a" {:display :none}]
+              #_[:.links [:img {:display :none}]]
               [:.header {:margin-top "0.5rem"}]
               [:.experience
                [:h2 {:font-size "1.3rem"}]

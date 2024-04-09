@@ -352,4 +352,6 @@
              :content [{:institution "Tashkent University of Information Technologies."
                         :website "https://tuit.uz/en"
                         :area "Engineering"
-                        :study-type "Bachelor"}]}}
+                        :study-type "Bachelor"
+                        :start 1994
+                        :end 1998}]}}

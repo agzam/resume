@@ -306,16 +306,6 @@ h2 {
     max-width: 99%;
   }
   
-  body .links li:not(:first-child) a {
-    display: none;
-  }
-  
-  
-  
-  body .links img {
-    display: none;
-  }
-  
   body .header {
     margin-top: 0.5rem;
   }
