@@ -153,11 +153,20 @@
    [:meta {:name "description" :content "Ag Ibragimov. Software Developer. Resume"}]
    [:meta {:name "keywords"
            :content (str "front-end, back-end, fullstack, developer, engineer, clojure, clojurescript, "
-                         "javascript, react, object-oriented, functional, oop, fp, emacs, vim, "
-                         "d3, css3, closure, closurescript, cybersecurity, remote.")}]
+                         "javascript, react, object-oriented, functional, FP, Emacs, Vim, "
+                         "d3, css3, cybersecurity.")}]
    [:meta {:name "revisit-after" :content "2 days"}]
    [:meta {:http-equiv "cache-control" :content "no-cache"}]
-   [:meta {:name "viewport" :content "initial-scale=1, width=device-width"}]) )
+   [:meta {:name "viewport" :content "initial-scale=1, width=device-width"}]
+
+   ;; Opengraph stuff
+   (for [[prop content] {:title "Ag Ibragimov. Software Developer."
+                         :type "website"
+                         :url "https://agzam.github.io/resume"
+                         :description "Experienced software developer."
+                         :image "img/avatar.jpeg"}]
+     [:meta {:property (str "og" prop)
+             :content content}])))
 
 (defn index [{:keys [basics] :as data}]
   (html5
