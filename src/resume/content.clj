@@ -13,25 +13,6 @@
        edn/read-string
        eval))
 
-(defn hiccup->text [hiccup]
-  (cond
-    (string? hiccup) hiccup
-    (sequential? hiccup)
-    (let [tag  (first hiccup)
-          rest (next hiccup)]
-      (case tag
-        :p  (str (->> rest
-                      (map hiccup->text)
-                      (cons (hiccup->text tag))
-                      (str/join " "))
-                 "\n")
-        :ul (->> rest
-                 (map #(str "- " (hiccup->text %) "\n"))
-                 (str/join ""))
-        (->> hiccup
-             (map hiccup->text)
-             (str/join " "))))
-    :else ""))
 
 (defn datestr->mm-yyyy
   "Converts date-string. Oct 2023 -> 2023-10"
@@ -71,7 +52,7 @@
            "Zipcode: %s\n\n")
           name label email li gh city state zipcode))
         summary (->> data :basics :summary
-                     :content hiccup->text
+                     :content page/hiccup->text
                      (format "# Summary:\n%s\n"))
         parse-exp (fn [{:keys [highlights
                                start end
@@ -95,7 +76,7 @@
                              keywords
                              (map name)
                              (str/join ", "))
-                            (hiccup->text highlights)))
+                            (page/hiccup->text highlights)))
         experience (->> data :work :content
                         (map parse-exp)
                         (str/join "--------------------------------------------------\n"))]

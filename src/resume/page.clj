@@ -2,6 +2,26 @@
   (:require [hiccup.page :refer [html5 include-css]]
             [clojure.string :as str]))
 
+(defn hiccup->text [hiccup]
+  (cond
+    (string? hiccup) hiccup
+    (sequential? hiccup)
+    (let [tag  (first hiccup)
+          rest (next hiccup)]
+      (case tag
+        :p  (str (->> rest
+                      (map hiccup->text)
+                      (cons (hiccup->text tag))
+                      (str/join " "))
+                 "\n")
+        :ul (->> rest
+                 (map #(str "- " (hiccup->text %) "\n"))
+                 (str/join ""))
+        (->> hiccup
+             (map hiccup->text)
+             (str/join " "))))
+    :else ""))
+
 (defn links-block [data]
   (let [link (fn [{:keys [url icon]}]
                [:li [:a {:href url}
@@ -52,7 +72,6 @@
    [:h2 "Skills"]
    [:p (-> data :basics :skills)]])
 
-
 (defn interval [start end]
   (cond
     (= start end) start
@@ -63,42 +82,42 @@
   (let [{:keys [title
                 content
                 prior-experience-not-provided-note]} work]
-      [:div.experience
-       [:h2 title]
-       [:ul.experience
-        (map
-         (fn [{:keys [company
-                      website
-                      industry
-                      location
-                      position
-                      start
-                      end
-                      highlights
-                      keywords]}]
-           [:li.company
-            [:div
-             [:div.summary
-              (if website
-                [:a.name {:href website} company]
-                [:div.name company])
-              [:div.thread-decor-h]
-              #_(when industry
-               [:span.hidden-label "industry:"]
-               [:div.company-sector industry])
-              [:span.hidden-label "company address:"]
-              #_[:div.company-location location]
-              [:span.hidden-label "role:"]
-              [:div.role position]
-              [:div.interval (interval start end)]
-              (keywords-block keywords)]
-             [:div.details
-              [:div.thread-decor-v]
-              [:div.text (map identity highlights)]]]])
-         content)
-        (when prior-experience-not-provided-note
-          [:li.prior-exp-not-provided
-           [:p prior-experience-not-provided-note]])]]))
+    [:div.experience
+     [:h2 title]
+     [:ul.experience
+      (map
+       (fn [{:keys [company
+                    website
+                    industry
+                    location
+                    position
+                    start
+                    end
+                    highlights
+                    keywords]}]
+         [:li.company
+          [:div
+           [:div.summary
+            (if website
+              [:a.name {:href website} company]
+              [:div.name company])
+            [:div.thread-decor-h]
+            #_(when industry
+                [:span.hidden-label "industry:"]
+                [:div.company-sector industry])
+            [:span.hidden-label "company address:"]
+            #_[:div.company-location location]
+            [:span.hidden-label "role:"]
+            [:div.role position]
+            [:div.interval (interval start end)]
+            (keywords-block keywords)]
+           [:div.details
+            [:div.thread-decor-v]
+            [:div.text (map identity highlights)]]]])
+       content)
+      (when prior-experience-not-provided-note
+        [:li.prior-exp-not-provided
+         [:p prior-experience-not-provided-note]])]]))
 
 (defn projects [{:keys [projects]}]
   (let [{:keys [title content note]} projects]
@@ -147,7 +166,11 @@
      (f data))
    updated])
 
-(def metas
+(defn- first-sentence [s]
+  (-> s (str/split #"\. ") first str/trim))
+
+(defn metas
+  [data]
   (list
    [:meta {:name "copyright" :content "Ag Ibragimov. All registered trademarks belong to their respective owners"}]
    [:meta {:name "description" :content "Ag Ibragimov. Software Developer. Resume"}]
@@ -163,7 +186,7 @@
    (for [[prop content] {:title "Ag Ibragimov. Software Developer."
                          :type "website"
                          :url "https://agzam.github.io/resume"
-                         :description "Experienced software developer."
+                         :description (-> data :basics :summary :content hiccup->text first-sentence)
                          :image "img/avatar.jpeg"}]
      [:meta {:property (str "og" prop)
              :content content}])))
@@ -171,7 +194,7 @@
 (defn index [{:keys [basics] :as data}]
   (html5
    [:head
-    metas
+    (metas data)
     (include-css "styles.css")
     (include-css "https://fonts.googleapis.com/css?family=Maven%20Pro")
     [:title (str (:name basics) ". " (:label basics))]
