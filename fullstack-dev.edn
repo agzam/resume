@@ -12,7 +12,11 @@
              {:network "GitHub"
               :url "https://github.com/agzam"
               :username "agzam"
-              :icon "github-icon.svg"}]
+              :icon "github-icon.svg"}
+             {:network "Home"
+              :url "https://maps.app.goo.gl/f3VXCWkkptwUMcxA9"
+              :label "Little Elm, TX, 75068"
+              :icon "home.svg"}]
   :summary {:title "Summary"
             :bullet-points? false
             :content

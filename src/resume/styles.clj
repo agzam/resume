@@ -46,7 +46,6 @@
                {:margin-top "0.5rem"
                 :grid-template-columns "minmax(25%, 2fr)"
                 :grid-template-areas "'title' 'links'"}
-               [:.location {:display :none}]
                [".links li:not(:first-child) a" {:display :none}]
                [:.links {:justify-self :flex-start
                          :margin-top 0}]]

@@ -349,10 +349,6 @@ h2 {
     grid-template-areas: 'title' 'links';
   }
   
-  body .header .location {
-    display: none;
-  }
-  
   body .header .links li:not(:first-child) a {
     display: none;
   }

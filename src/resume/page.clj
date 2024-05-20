@@ -23,10 +23,12 @@
     :else ""))
 
 (defn links-block [data]
-  (let [link (fn [{:keys [url icon]}]
+  (let [link (fn [{:keys [url icon label]}]
                [:li [:a {:href url}
                      (when icon [:img {:src (str "img/" icon)}])
-                     (str/replace url #"https://|mailto:" "")]])
+                     (cond
+                       label label
+                       url (str/replace url #"https://|mailto:" ""))]])
         email (-> data :basics :email)]
     [:ul.links
      (link {:url (str "mailto:" email)
@@ -38,12 +40,11 @@
    [:img {:src "img/pdf-icon.svg"}]])
 
 (defn header [{:keys [basics] :as data}]
-  (let [{:keys [name label location]} basics]
+  (let [{:keys [name label]} basics]
     [:div.header
      [:div.title
       [:h1.name name]
-      [:p.role label]
-      [:p.location (:region location)]]
+      [:p.role label]]
      (links-block data)]))
 
 (defn keywords-block [kws]
