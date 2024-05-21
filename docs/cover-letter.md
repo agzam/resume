@@ -1,16 +1,34 @@
-Dear Hiring Manager,
+Dear Hiring Manager/Recruiter,
 
-I hope this message finds you well. My name is Ag, and I am an accomplished software engineer with over 15 years of diverse experience spanning multiple programming languages, industries, and system types. My strengths include problem-solving and the swift acquisition of language and domain knowledge. These skills have made me highly effective in adapting to and overcoming new technological challenges.
+My name is Ag. I am an accomplished software developer with over 15 years of diverse experience spanning multiple programming languages, industries, and system types. I'd like to give you a few reasons why you should consider hiring me.
 
-In recent years, I have focused on using Clojure, a language in which I have substantial expertise. However, my broad programming background includes successful projects using Javascript, Typescript, Python, C#, F#, Common Lisp, Elisp, Lua, and Fennel. Regardless of the language or environment, I have consistently been able to master and apply any stack, framework or industry standard to provide measurable value.
+- Are you developing a Web Portal that needs to look exceptional on both mobile devices and desktops?
+- Do you require it to feature interactive dashboards, charts, and graphs?
+- Are you concerned about system performance?
+- Is your database often a bottleneck in your system?
+- Do you need expertise in building third-party API integrations or developing APIs from scratch?
+- Are you aiming to create native mobile applications?
+- Do you need to gather extensive data by scraping public websites?
+- Is there a need to develop analytics, risk model calculations, or a rules engine?
+- Are you integrating with a payment processor or designing your own?
+- Is your system Kafka-oriented, managing vast amounts of data streaming through it?
+- Do you need someone who can improve your cybersecurity posture, someone knowledgeable about network and DDoS attacks, exploits, SQL, and command injections?
+- Someone who understands caching, logging, and metrics.
+- Who can build you end-to-end testing machinery?
+- Who can easily write command-line tools, scripts or desktop applications?
+- Straighten out and improve your CI/CD pipeline.
+- Someone who can leverage modern AI tools for summarizing, transcribing, and generating data?
+- Understands containerization, orchestration, and virtualization?
+- Someone who has experience working in diverse, distributed teams?
+- Has a proven track record of participation in open-source community.
+- Who created video tutorials for educational purposes and hosted meetups.
+- Someone who can find, hire, train, and lead developers in an outsourcing model?
+- A person who's fluent in multiple languages?
+- Has a great sense of humor, high emotional intelligence, elevated empathy, and is a great conversationalist?
 
-A notable aspect of my career has been my contribution to various industries, creating systems for sectors such as video processing — where I constructed a video encoding engine that was ten times more efficient than its predecessor; retail sales — where I dealt with continuously changing requirements; finance — where money necessitated reliability and defect-free software; cybersecurity — where I developed a keen comprehension of advanced cybersecurity strategies, last year I finished SANS Institute certification course “SEC 504: Hacker Tools, Techniques, and Incident Handling”. In each of these positions, I've tried to develop a deep understanding of the respective field. This multi-sector experience has honed my skills in developing mobile and web applications, as well as backend systems. I am also proficient with various front-end and backend frameworks.
+If so, I am confident that I can meet and exceed your expectations. My diverse industry experience and passion for embracing new technologies can significantly enhance your team's capabilities and contribute positively to your company's success. 
 
-In addition to my professional experience, I am an active participant in the open-source community. I have authored several unique Emacs packages, created video tutorials for educational purposes, hosted meetups and made significant contributions to various projects. I highly value the automation of processes to increase efficiency and precision. In my free time I'm learning Spanish.
+I look forward to the opportunity to discuss how I can be a valuable asset to your organization.
 
-In summary, I am excited about the prospect of bringing my technological expertise, adaptability, and passion to your dynamic team. I am confident that my wide-ranging industry experience and keen interest in learning new technologies can significantly enhance your team and improve its cybersecurity posture.
-
-Thank you for considering my application. I look forward to potentially discussing how my experience and skills align with your team's needs.
-
-Best Regards,
-Ag.
+Sincerely,
+Ag
