@@ -41,10 +41,10 @@
  {:title "Professional experience"
   :prior-experience-not-provided-note
   (str "Jobs prior to 2012 are not listed; a comprehensive list can be provided upon request. "
-       "Professional experience includes projects such as "
+       "Professional experience includes projects such as: "
        "high-frequency trading app, "
-       "aircargo company project in Dubai, "
-       "TV commercial monitoring suite for state broadcast TV company, "
+       "air cargo company project in Dubai, "
+       "TV commercial monitoring suite for a state broadcast TV company, "
        "hotel management ERP system, and more.")
   :content
   [{:company "Command Zero"
@@ -56,9 +56,9 @@
     :end "Jan 2024"
     :highlights [[:p "Cyber threat intelligence and digital forensics tool."]
                  [:ul
-                  [:li "Enhanced performance of CockroachDB-driven backend"]
-                  [:li "Integrated various metrics into Prometheus/Grafana"]
-                  [:li "Explored architectural redesign ideas using Polylith"]]]
+                  [:li "Enhanced performance of CockroachDB-driven backend."]
+                  [:li "Integrated various metrics into Prometheus/Grafana."]
+                  [:li "Explored architectural redesign ideas using Polylith."]]]
     :keywords [:clojure
                :cockroachdb
                :jvm
@@ -75,7 +75,7 @@
     :end "Oct 2023"
     :highlights [[:p "XDR (previously known as SecureX) - Cisco's famed cybersecurity threat detection and response platform."]
                  [:ul
-                  [:li (str "I worked on various parts of the system, "
+                  [:li (str "Worked on various parts of the system, "
                             "including the CTIA and CTIM - Cisco Threat Intelligence API "
                             "and the model; and project IROH  (Incident Response Orcestration Hub)")]
                   [:li (str "Improved Elasticsearch stores; "
@@ -84,11 +84,11 @@
                   [:li (str "Built a portal for Cisco TAC (Technical Assistance Center), "
                             "reducing the number of incident escalations by nearly 50%.")]
                   [:li "Designed and developed a management tool for the documentation team."]
-                  [:li (str "Participated in an annual hackathon with a unique and "
-                            "unconventional project that stood out among other 300+ submissions "
-                            "and made all the way to the finals.")]
+                  [:li (str "Participated in an annual hackathon with a unique and unconventional "
+                            "project that stood out among over 300 other submissions "
+                            "and made it all the way to the finals.")]
                   [:li (str "Enrolled in SANS SEC504 training course - "
-                            "Hacker Tools, Techniques, and Incident Handling.")]]]
+                            "\"Hacker Tools, Techniques, and Incident Handling.\"")]]]
     :keywords [:clojure
                :clojurescript
                :react
@@ -113,16 +113,16 @@
     :position "Senior Software Developer"
     :start "Nov 2018"
     :end "May 2020"
-    :highlights [[:p (str "Dividend Finance offers residential solar loans, home improvement, and PACE "
-                          "financing products.")]
+    :highlights [[:p (str "Dividend Finance offers residential solar loans, home improvement, "
+                          "and PACE financing products.")]
                  [:p (str "The stack consisted of web portals for homeowners and solar "
-                          "installers, including a comprehensive API for partners - financial institutions "
-                          "and solar equipment installation companies.")]
-                 [:p (str "I have worked on the Clojure-driven API, loosely based on Luminus, with Salesforce "
-                          "and PostgreSQL as the systems of record.")]
-                 [:p (str "The frontend apps we've built in Clojurescript (Re-frame), utilizing Material UI "
-                          "React components, and designed to be responsive and usable on Desktop and "
-                          "Mobile. ")]
+                          "installers, including a comprehensive API for partners, financial "
+                          "institutions, and solar equipment installation companies. ")]
+                 [:p (str "Worked on the Clojure-driven API, loosely based on Luminus, "
+                          "with Salesforce and PostgreSQL as the systems of record.")]
+                 [:p (str "The frontend apps were built in ClojureScript (Re-frame), "
+                          "utilizing Material-UI React components, "
+                          "and designed to be responsive and usable on desktop and mobile.")]
                  [:ul
                   [:li "Built an improved and revised web-portal."]
                   [:li "Created an audit log system from scratch."]
@@ -157,19 +157,20 @@
     :end "Nov 2018"
     :highlights [[:p (str "Funding Circle is a peer-to-peer lending platform.")]
                  [:ul
-                  [:li [:p (str "I have built a web-portal for FinOps teams, to allow them to track transactions, "
-                                "monitor deposits, manage reconciliations, etc., while maintaining net capital "
-                                "compliance.")]
-                   [:p (str "Portal was built in Clojurescript, initially using Om.next, and later we "
-                            "switched to Re-frame. A set of APIs, made with Clojure, were created for the "
-                            "backend. Materialized views in PostgreSQL were used, where data gets aggregated "
-                            "from Kafka clusters ingested via Kafka Connect.")]
-                   [:p (str "We introduced unique concepts on the front end, such as using Integrant to "
-                            "compartmentalize UI elements into individual components - specs, styles, and "
-                            "render functions, essentially transforming them into highly versatile Lego "
-                            "pieces. ")]]
-                  [:li "I have organized and hosted local meetups."]
-                  [:li (str "Multiple \"Best team\" prizes. I was repeatedly nominated and awarded the "
+                  [:li [:p (str "Built a web portal for FinOps teams to allow them to track "
+                                "transactions, monitor deposits, manage reconciliations, etc., "
+                                "while maintaining net capital compliance.")]
+                   [:p (str "Portal made in ClojureScript, initially using Om.next, "
+                            "and later we switched to Re-frame. "
+                            "A set of APIs, made with Clojure, was created for the backend. "
+                            "Materialized views in PostgreSQL were used, where data "
+                            "gets aggregated from Kafka clusters ingested via Kafka Connect.")]
+                   [:p (str "Introduced unique concepts on the front end, such as using "
+                            "Integrant to compartmentalize UI elements into individual components:  "
+                            "specs, styles, and render functions, essentially transforming them  "
+                            "into highly versatile \"Lego pieces.\" ")]]
+                  [:li "Organized and hosted local meetups."]
+                  [:li (str "Multiple \"Best team\" awards. Repeatedly nominated and received the "
                             "\"Employee of the month\" ")]]]
     :keywords [:clojure
                :clojurescript
@@ -195,11 +196,12 @@
     :position "Lead Frontend Developer"
     :start "Apr 2015"
     :end "Feb 2016"
-    :highlights [[:p (str "Mobitor was a startup specializing on Medical Equipment Logistics.")]
-                 [:p (str "I have implemented a web portal for managing medical devices - orthopedic, spine "
-                          "surgery implants, supplemental equipment.")]
+    :highlights [[:p (str "Mobitor was a startup specializing in Medical Equipment Logistics. ")]
+                 [:p (str "Implemented a web portal for managing medical devices - "
+                          "orthopedic and spine surgery implants, "
+                          "and supplemental equipment. ")]
                  [:p (str "Used Angular, paired with a Node backend, "
-                          "which communicated with a .NET API on C# and MS SQL Server.")]]
+                          "which communicated with a .NET API in C# and MS SQL Server.")]]
     :keywords [:angular
                :babel.js
                :bower
@@ -223,9 +225,10 @@
     :start "May 2014"
     :end "Apr 2015"
     :highlights [[:p (str "Invitae specializes in diagnostic DNA sequencing.")]
-                 [:p (str "I've designed and implemented an asset tracking/dashboard web app with various "
-                          "charts, graphs and spreadsheets. Angular based, it was written in Coffeescript, "
-                          "and supported by Python backend on Django.")]]
+                 [:p (str "Designed and implemented an asset tracking/dashboard web app "
+                          "with various charts, graphs, and spreadsheets. "
+                          "Angular-based, it was written in Coffeescript and "
+                          "supported by a Python backend on Django.")]]
     :keywords [:angular
                :browserify
                :coffeescript
@@ -253,15 +256,15 @@
     :highlights [[:p (str "Vevo is the World's Leading Music Video Network.")]
                  [:ul
                   [:li
-                   [:p (str "Designed and implemented cloud-based, "
-                            "task-driven, concurrent, scalable video encoding system.")]
+                   [:p (str "Designed and implemented a cloud-based, task-driven, concurrent, "
+                            "and scalable video encoding system.")]
                    [:p (str "Redesigned the entire system from scratch, making it vastly more efficient. "
-                            "Benchmarks showed a tenfold increase in efficiency. ")]]
-                  [:li (str "Lead a group of developers in re-building Admin Web Site for partners and "
+                            "Benchmarks showed a ten-fold increase in efficiency. ")]]
+                  [:li (str "Led a group of developers in re-building Admin Web Site for partners and "
                             "internal use. ASP.net, Angular.js. ")]
                   [:li (str "Implemented Chromecast integration for Google's pilot program, demonstrating its "
                             "compatibility with apps like Vevo. ")]
-                  [:li "Built the Apple TV Vevo App."]
+                  [:li "Built the first Apple TV Vevo App."]
                   [:li "Played major part in redesigning the main website - vevo.com."]]]
     :keywords ["c#"
                "f#"
