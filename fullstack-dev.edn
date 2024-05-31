@@ -72,7 +72,7 @@
  :work
  {:title "Professional experience"
   :prior-experience-not-provided-note
-  (str "Jobs prior to 2012 are not listed; a comprehensive list can be provided upon request. "
+  (str "In order to keep it short and relevant, jobs prior to 2012 are not listed; a comprehensive list can be provided upon request. "
        "Professional experience includes projects such as: "
        "high-frequency trading app, "
        "air cargo company project in Dubai, "
