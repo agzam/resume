@@ -26,16 +26,48 @@
                      "Adept at working in diverse teams both on-site and remotely, with a history of taking on leadership roles. "
                      "Passionate about productivity enhancement and automation.")]}
   :skills
-  [:div
-   [:p (str "Clojure, Clojurescript, Javascript, Typescript, Python, Java, "
-            "C#, F#, Lua, Fennel, Common Lisp, SQL, some Go and Ruby.")]
-   [:p (str "HTML5, CSS, including preprocessors such as SASS, LESS and Stylus;  "
-            "frameworks, like Tailwind, MUI and Bootstrap; transitions and animations.")]
-   [:p (str "Node.js. Cypress.io, Karma and Puppeteer. GitHub Actions.")]
-   [:p (str "React.js, Angular.js, Next.js, D3, C3.")]
-   [:p (str "PostgreSQL, Elasticsearch, "
-            "Couchbase, DynamoDB, CockroachDB, XTDB.")]
-   [:p (str "AWS. Kafka, RabbitMQ, SQS. Docker.")]]}
+  [:ul.skills
+   [:li
+    [:p
+     [:span.label "Languages:"]
+     [:span (str "Clojure/Clojurescript, JavaScript/Typescript,  "
+              "Python, Java, C#/F#, Lua/Fennel, SQL/Datalog,  "
+              "Common Lisp/Elisp, Golang, and Ruby.")]]]
+   [:li [:span.label "Front-End:"]
+    [:p (str "HTML5; CSS, including preprocessors such as SASS,   "
+             "LESS, and Stylus; frameworks like Tailwind, MUI, and Bootstrap;   "
+             "transitions and animations.  ")]
+    [:p (str "DataViz - D3, C3, VegaLite.")]
+    [:p (str "WebAPIs - DOM, Console, Fetch, "
+             "Canvas, Web Storage, WebSockets, Geolocation, "
+             "WebRTC, History, Clipboard, etc.")]
+    [:p (str "Frameworks: React, Angular, Next.")]]
+   [:li
+    [:span.label "Back-End:"]
+    [:p (str "Postgres, Elasticsearch, Couchbase, CockroachDB, "
+             "XTDB, Kafka, RabbitMQ, Redis, Docker, K8s, Nix, "
+             "AWS - S3, SQS, DynamoDB, etc.")]
+    [:p (str "CircleCI, Jenkins, Concourse, GitHub Actions.")]]
+   [:li
+    [:span.label "Architecture & Design:"]
+    [:p (str "Microservices, Polylith, SOA, "
+             "Serverless, n-tier, MVC, MVVM, DDD, CQRS, "
+             "Event Sourcing, Rate Limiting, Caching, etc.")]]
+   [:li
+    [:span.label "Testing:"]
+    [:p (str "Cypress, Jest, Karma, Mocha, Chai, Jasmine, "
+             "Nightwatch, Puppeteer, Selenium,")]
+    [:p (str "clojure/test.check - generative, simulation "
+             "and concurrent testing, etc.")]]
+   [:li
+    [:span.label "Operating Systems:"]
+    [:p (str "Linux - Ubuntu, Debian, Alpine, Fedora, CentOS, Arch; "
+             "shells and command-line utilities.")]
+    [:p (str "Windows - PowerShell, .NET, IIS, WPF, AD, WSL;")]
+    [:p (str "OSX - Applescript/JXA, Automator;")]]
+   [:li
+    [:span.label "AI Tools:"]
+    [:p (str "OpenAI API, Whisper.cpp, Ollama.")]]]}
 
  :work
  {:title "Professional experience"

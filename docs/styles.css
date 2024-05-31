@@ -77,6 +77,21 @@ h2 {
   padding-inline-start: 1rem;
 }
 
+.skills ul {
+  text-align: left;
+  list-style: circle;
+  padding-inline-start: 1rem;
+}
+
+.skills .label {
+  color: #c29e4b;
+  margin-right: 0.2rem;
+}
+
+.skills p:first-of-type {
+  display: inline;
+}
+
 .header {
   display: grid;
   margin-top: 3rem;

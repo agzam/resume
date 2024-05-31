@@ -129,6 +129,13 @@
 (def summary
   [:.summary [:ul ul-defaults]])
 
+(def skills
+  [:.skills [:ul (merge ul-defaults {:list-style :circle
+                                     :text-align :left})]
+   [:.label {:color "#c29e4b"
+             :margin-right :0.2rem}]
+   [:p:first-of-type {:display :inline}]])
+
 (def experience
   [:.experience
    [:.company {:margin-top "1.5rem"}
@@ -274,6 +281,7 @@
      common-tags
      pdf-link
      summary
+     skills
      header
      experience
      projects

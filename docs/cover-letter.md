@@ -24,7 +24,7 @@ My name is Ag. I am an accomplished software developer with over 15 years of div
 - Who created video tutorials for educational purposes and hosted meetups.
 - Someone who can find, hire, train, and lead developers in an outsourcing model?
 - A person who's fluent in multiple languages?
-- Has a great sense of humor, high emotional intelligence, elevated empathy, and is a great conversationalist?
+- Has a good sense of humor, high emotional intelligence, compassion, and is a great conversationalist.
 
 If so, I am confident that I can meet and exceed your expectations. My diverse industry experience and passion for embracing new technologies can significantly enhance your team's capabilities and contribute positively to your company's success. 
 
