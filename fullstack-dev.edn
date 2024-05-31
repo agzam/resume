@@ -38,7 +38,7 @@
              "LESS, and Stylus; frameworks like Tailwind, MUI, and Bootstrap;   "
              "transitions and animations.  ")]
     [:p (str "DataViz - D3, C3, VegaLite.")]
-    [:p (str "WebAPIs - DOM, Console, Fetch, "
+    [:p (str "WebAPIs - DOM, Console, Web Animation, Notification, "
              "Canvas, Web Storage, WebSockets, Geolocation, "
              "WebRTC, History, Clipboard, etc.")]
     [:p (str "Frameworks: React, Angular, Next.")]]
