@@ -2,7 +2,7 @@ plain-text version for automated parsers, for a human-readable, visit:
 https://agzam.github.io/resume
 
 Name: Ag Ibragimov
-Title: Senior Software Developer
+Title: Distinguished Software Developer
 Email: agzam.ibragimov@gmail.com
 LinkedIn: https://www.linkedin.com/in/agzam
 GitHub: https://www.linkedin.com/in/agzam

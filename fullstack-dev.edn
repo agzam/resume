@@ -1,6 +1,6 @@
 {:basics
  {:name "Ag Ibragimov"
-  :label "Senior Software Developer"
+  :label "Distinguished Software Developer"
   :email "agzam.ibragimov@gmail.com"
   :location {:city "Little Elm"
              :state "TX"
