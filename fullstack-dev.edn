@@ -45,8 +45,8 @@
    [:li
     [:span.label "Back-End:"]
     [:p (str "Postgres, Elasticsearch, Couchbase, CockroachDB, "
-             "XTDB, Kafka, RabbitMQ, Redis, Docker, K8s, Nix, "
-             "AWS - S3, SQS, DynamoDB, etc.")]
+             "XTDB, Kafka, RabbitMQ, Redis, Docker, K8s, Nix, min.io, ")]
+    [:p (str "AWS - S3, SQS, DynamoDB, EC2, ECS, EKS, Lambda, etc.")]
     [:p (str "CircleCI, Jenkins, Concourse, GitHub Actions.")]]
    [:li
     [:span.label "Architecture & Design:"]
