@@ -35,7 +35,7 @@
                       (filter #(-> % :network (= "LinkedIn")))
                       first :url)
               gh (->> basics :profiles
-                      (filter #(-> % :network (= "LinkedIn")))
+                      (filter #(-> % :network (= "GitHub")))
                       first :url)]
          (format
           (str

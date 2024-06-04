@@ -5,7 +5,7 @@ Name: Ag Ibragimov
 Title: Experienced Software Developer
 Email: agzam.ibragimov@gmail.com
 LinkedIn: https://www.linkedin.com/in/agzam
-GitHub: https://www.linkedin.com/in/agzam
+GitHub: https://github.com/agzam
 City: Little Elm
 State: TX
 Zipcode: 75068
