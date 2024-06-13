@@ -1,10 +1,11 @@
 (ns resume.content
   (:require [clojure.edn :as edn]
             [clojure.java.io :as io]
-            [resume.page :as page]
-            [resume.styles :as styles]
+            [clojure.string :as str]
             [integrant.core :as ig]
-            [clojure.string :as str])
+            [resume.page :as page]
+            [resume.simple-format :as simple-format]
+            [resume.styles :as styles])
   (:import [java.text SimpleDateFormat]))
 
 (defn get-data []
@@ -58,8 +59,8 @@
                                start end
                                position company location
                                keywords]}]
-                    (format (str "Title: %s\n"
-                                 "Company: %s\n"
+                    (format (str "Company: %s\n"
+                                 "Job Title: %s\n"
                                  "Location: %s\n"
                                  "From: %s\n"
                                  (if end
@@ -89,10 +90,11 @@
   (let [data (get-data)]
     (->> data generate-plain-text
          (spit "docs/resume.txt"))
-   (->> data
-        page/index
-        (spit "docs/index.html"))
-   (styles/generate "docs/styles.css")))
+    (simple-format/generate data)
+    (->> data
+         page/index
+         (spit "docs/index.html"))
+    (styles/generate "docs/styles.css")))
 
 (defmethod ig/init-key ::generate [_ _]
   (generate))

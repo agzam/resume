@@ -319,6 +319,13 @@ h2 {
     background: none !important;
     font-size: 75%;
     max-width: 99%;
+    size: letter;
+    margin: 10mm;
+  }
+  
+  body .simple-format {
+    font-size: 16pt;
+    transform-origin: top left;
   }
   
   body .header {
@@ -427,4 +434,37 @@ h2 {
     font-size: 1.8rem;
   }
 
+}
+
+.simple-format ul.experience .company {
+  display: block;
+}
+
+.simple-format ul.experience .company .summary {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5rem;
+}
+
+.simple-format ul.experience .company .summary .name {
+  display: inline-block;
+  font-size: 1.5rem;
+}
+
+.simple-format ul.experience .company .summary .role {
+  display: inline-block;
+  margin-left: 1rem;
+}
+
+.simple-format ul.experience .company .summary .interval {
+  display: inline-block;
+}
+
+.simple-format ul.experience .details {
+  display: block;
+}
+
+.simple-format ul.experience .details ul {
+  list-style: disc;
+  padding-left: 1rem;
 }

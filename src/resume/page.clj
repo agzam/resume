@@ -1,6 +1,7 @@
 (ns resume.page
-  (:require [hiccup.page :refer [html5 include-css]]
-            [clojure.string :as str]))
+  (:require
+   [hiccup.page :refer [html5 include-css]]
+   [clojure.string :as str]))
 
 (defn hiccup->text [hiccup]
   (cond

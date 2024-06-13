@@ -27,7 +27,13 @@
   [(at-media {:print true}
              [:body {:background "none !important"
                      :font-size "75%"
-                     :max-width "99%"}
+                     :max-width "99%"
+                     :size :letter
+                     :margin :10mm}
+              [:.simple-format
+               {:font-size :16pt
+                ;; :transform "scale(0.6)"
+                :transform-origin "top left"}]
               ;; hide all links except email
               #_[".links li:not(:first-child) a" {:display :none}]
               #_[:.links [:img {:display :none}]]
@@ -272,6 +278,22 @@
     :font-size "6px"
     :color (colors :unimportant)}])
 
+(def simple-format
+  [:.simple-format
+   [:ul.experience
+    [:.company {:display :block}
+     [:.summary {:display :flex
+                 :justify-content :space-between
+                 :font-size :1.5rem}
+      [:.name {:display :inline-block
+               :font-size :1.5rem}]
+      [:.role {:display :inline-block
+               :margin-left :1rem}]
+      [:.interval {:display :inline-block}]]]
+    [:.details {:display :block}
+     [:ul {:list-style :disc
+           :padding-left :1rem}]]]])
+
 (defn generate
   ([path]
    (css
@@ -289,6 +311,7 @@
      prior-exp-not-provided-remark
      education
      updated-date
-     media-queries]))
+     media-queries
+     simple-format]))
   ([]
    (generate "docs/styles.css")))

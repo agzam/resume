@@ -15,8 +15,8 @@ Zipcode: 75068
 
 # Work history:
 --------------------------------------------------
-Title: Senior Software Developer
-Company: Command Zero
+Company: Senior Software Developer
+Job Title: Command Zero
 Location: Austin,TX/Remote
 From: 10/2023
 To: 01/2024
@@ -27,8 +27,8 @@ Description:
 -  Integrated various metrics into Prometheus/Grafana.
 -  Explored architectural redesign ideas using Polylith.
 --------------------------------------------------
-Title: Senior Software Developer
-Company: Cisco
+Company: Senior Software Developer
+Job Title: Cisco
 Location: San Jose,CA/Remote
 From: 06/2020
 To: 10/2023
@@ -42,8 +42,8 @@ Description:
 -  Participated in an annual hackathon with a unique and unconventional project that stood out among over 300 other submissions and made it all the way to the finals.
 -  Enrolled in SANS SEC504 training course - "Hacker Tools, Techniques, and Incident Handling."
 --------------------------------------------------
-Title: Senior Software Developer
-Company: Dividend Finance
+Company: Senior Software Developer
+Job Title: Dividend Finance
 Location: San Francisco/Hybrid
 From: 11/2018
 To: 05/2020
@@ -59,8 +59,8 @@ Description:
 -  Implemented internal document warehousing system.
 -  Vastly improved testing practices and test coverage.
 --------------------------------------------------
-Title: Senior Software Developer
-Company: Funding Circle
+Company: Senior Software Developer
+Job Title: Funding Circle
 Location: San Francisco/Hybrid
 From: 02/2016
 To: 11/2018
@@ -74,8 +74,8 @@ Description:
 -  Organized and hosted local meetups.
 -  Multiple "Best team" awards. Repeatedly nominated and received the "Employee of the month" 
 --------------------------------------------------
-Title: Lead Frontend Developer
-Company: Mobitor
+Company: Lead Frontend Developer
+Job Title: Mobitor
 Location: Walnut Creek, CA
 From: 04/2015
 To: 02/2016
@@ -85,8 +85,8 @@ Description:
   Implemented a web portal for managing medical devices - orthopedic and spine surgery implants, and supplemental equipment. 
   Used Angular, paired with a Node backend, which communicated with a .NET API in C# and MS SQL Server.
 --------------------------------------------------
-Title: Lead Frontend Developer
-Company: Invitae
+Company: Lead Frontend Developer
+Job Title: Invitae
 Location: San Francisco
 From: 05/2014
 To: 04/2015
@@ -95,8 +95,8 @@ Description:
  Invitae specializes in diagnostic DNA sequencing.
   Designed and implemented an asset tracking/dashboard web app with various charts, graphs, and spreadsheets. Angular-based, it was written in Coffeescript and supported by a Python backend on Django.
 --------------------------------------------------
-Title: Senior Software Developer
-Company: Vevo
+Company: Senior Software Developer
+Job Title: Vevo
 Location: New York City/San Francisco
 From: 01/2012
 To: 05/2014
