@@ -11,7 +11,7 @@ State: TX
 Zipcode: 75068
 
 # Summary:
- Full-stack Developer and Generalist, proficient in a wide range of programming languages, with a proven track record in building solutions - web and mobile apps, cloud services for various industries ranging from Cybersecurity and Fintech to Bioinformatics and Entertainment. Adept at working in diverse teams both on-site and remotely, with a history of taking on leadership roles. Passionate about productivity enhancement and automation.
+ Full-stack Developer; Generalist; Wide range of programming languages; Proven track record in building solutions - web and mobile apps, cloud services; Expertise spanning various industries - from Cybersecurity and Fintech to Bioinformatics and Video Processing. Adept at working in diverse teams, remotely and on-site, proficient of taking on leadership roles. Passionate about productivity enhancement and automation.
 
 # Work history:
 --------------------------------------------------
@@ -23,9 +23,9 @@ To: 01/2024
 Skills: clojure, cockroachdb, jvm, aws, polylith
 Description:
  Cyber threat intelligence and digital forensics tool.
- -  Enhanced performance of CockroachDB-driven backend.
+ -  CockroachDB-driven backend enhancements.
 -  Integrated various metrics into Prometheus/Grafana.
--  Explored architectural redesign ideas using Polylith.
+-  Polylith-based architectural redesign.
 --------------------------------------------------
 Company: Senior Software Developer
 Job Title: Cisco
@@ -35,12 +35,12 @@ To: 10/2023
 Skills: clojure, clojurescript, react, re-frame, elasticsearch, aws, cypress.io, docker, github_actions, graphql, jvm, next.js, node.js
 Description:
  XDR (previously known as SecureX) - Cisco's famed cybersecurity threat detection and response platform.
- -  Worked on various parts of the system, including the CTIA and CTIM - Cisco Threat Intelligence API and the model; and project IROH  (Incident Response Orcestration Hub)
--  Improved Elasticsearch stores; created different types of integrations with third party services such as Palo Alto Cortex and Cybereason.
--  Built a portal for Cisco TAC (Technical Assistance Center), reducing the number of incident escalations by nearly 50%.
--  Designed and developed a management tool for the documentation team.
--  Participated in an annual hackathon with a unique and unconventional project that stood out among over 300 other submissions and made it all the way to the finals.
--  Enrolled in SANS SEC504 training course - "Hacker Tools, Techniques, and Incident Handling."
+ -  CTIA and CTIM - Cisco Threat Intelligence API and the model; project IROH - Incident Response Orcestration Hub.
+-  Elasticsearch performance improvements;  Third party service integrations, e.g., Palo Alto Cortex and Cybereason.
+-  Built Cisco TAC portal, dropping number of incident escalations by nearly 50%.
+-  Designed, prototyped and developed high complexity management tool for the docs team.
+-  Annual hackathon participation with a unique and unconventional project. Nominated as a finalist among just a few, out of 300+ other submissions.
+-  SANS SEC504 certification - "Hacker Tools, Techniques, and Incident Handling."
 --------------------------------------------------
 Company: Senior Software Developer
 Job Title: Dividend Finance
@@ -50,14 +50,14 @@ To: 05/2020
 Skills: clojure, clojurescript, jvm, re-frame, circleci, heroku, jenkins, postgresql, puppeteer, rabbitmq, react, s3, salesforce, selenium, terraform
 Description:
  Dividend Finance offers residential solar loans, home improvement, and PACE financing products.
-  The stack consisted of web portals for homeowners and solar installers, including a comprehensive API for partners, financial institutions, and solar equipment installation companies. 
-  Worked on the Clojure-driven API, loosely based on Luminus, with Salesforce and PostgreSQL as the systems of record.
-  The frontend apps were built in ClojureScript (Re-frame), utilizing Material-UI React components, and designed to be responsive and usable on desktop and mobile.
+  Developed web portal for homeowners and solar installers with a comprehensive API for partners, financial institutions, and solar equipment companies.
+  Clojure-driven API, loosely based on Luminus, with SFDC and Postgres as the systems of record.
+  Clojurescript (Re-frame) frontend with Material-UI React Components. Responsive design aimed for both desktop and mobile.
  -  Built an improved and revised web-portal.
 -  Created an audit log system from scratch.
--  Helped to launch a partnership program with multiple capital providers such as Keybank.
+-  Key role in launching new partnership program with multiple capital providers like Keybank.
 -  Implemented internal document warehousing system.
--  Vastly improved testing practices and test coverage.
+-  Vastly improved testing practices and test coverage. Forged E2E testing framework from scratch.
 --------------------------------------------------
 Company: Senior Software Developer
 Job Title: Funding Circle
@@ -67,12 +67,12 @@ To: 11/2018
 Skills: clojure, clojurescript, mesos, circleci, docker, honeysql, jvm, kafka, om.next, re-frame, react, rethinkdb, ruby, ruby_on_rails
 Description:
  Funding Circle is a peer-to-peer lending platform.
- -   Built a web portal for FinOps teams to allow them to track transactions, monitor deposits, manage reconciliations, etc., while maintaining net capital compliance.
-  Portal made in ClojureScript, initially using Om.next, and later we switched to Re-frame. A set of APIs, made with Clojure, was created for the backend. Materialized views in PostgreSQL were used, where data gets aggregated from Kafka clusters ingested via Kafka Connect.
-  Introduced unique concepts on the front end, such as using Integrant to compartmentalize UI elements into individual components:  specs, styles, and render functions, essentially transforming them  into highly versatile "Lego pieces." 
+ -   Built a web portal for FinOps teams for transaction tracking, deposit monitoring, reconciliation management, etc., while safeguarding net capital compliance.
+  Clojurescript-based portal, initially crafted with Om.next, later refactored for Re-frame. Set of Clojure APIs on the backend. Materialized views in Postgres with data ingested from Kafka clusters.
+  Introduced innovative ideas on the front end, such as compartmentalization of UI elements into individual blocks: specs, styles, and render functions, essentially transforming them into highly versatile "Lego pieces."  
 
--  Organized and hosted local meetups.
--  Multiple "Best team" awards. Repeatedly nominated and received the "Employee of the month" 
+-  Organized, hosted and supervised local meetups.
+-  Several "Employee of the month" nominations, Multiple "Best team" awards.
 --------------------------------------------------
 Company: Lead Frontend Developer
 Job Title: Mobitor
@@ -93,7 +93,7 @@ To: 04/2015
 Skills: angular, browserify, coffeescript, d3.js, django, elasticsearch, gulp, karma, node.js, protractor, python, ramda.js, rxjs, stylus-css
 Description:
  Invitae specializes in diagnostic DNA sequencing.
-  Designed and implemented an asset tracking/dashboard web app with various charts, graphs, and spreadsheets. Angular-based, it was written in Coffeescript and supported by a Python backend on Django.
+  Designed and implemented an asset tracking/dashboard web app with various charts, graphs, and spreadsheets. Angular-based, written in Coffeescript and supported by a Django, Python backend.
 --------------------------------------------------
 Company: Senior Software Developer
 Job Title: Vevo
@@ -107,6 +107,6 @@ Description:
   Redesigned the entire system from scratch, making it vastly more efficient. Benchmarks showed a ten-fold increase in efficiency. 
 
 -  Led a group of developers in re-building Admin Web Site for partners and internal use. ASP.net, Angular.js. 
--  Implemented Chromecast integration for Google's pilot program, demonstrating its compatibility with apps like Vevo. 
--  Built the first Apple TV Vevo App.
+-  Implemented Chromecast integration for Google's partner pilot program, placing Vevo among the very first Chromecast-compatible apps in the world.
+-  Built the very first Apple TV Vevo App.
 -  Played major part in redesigning the main website - vevo.com.

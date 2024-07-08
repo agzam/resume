@@ -20,10 +20,10 @@
   :summary {:title "Summary"
             :bullet-points? false
             :content
-            [:p (str "Full-stack Developer and Generalist, proficient in a wide range of programming languages, "
-                     "with a proven track record in building solutions - web and mobile apps, cloud services "
-                     "for various industries ranging from Cybersecurity and Fintech to Bioinformatics and Entertainment. "
-                     "Adept at working in diverse teams both on-site and remotely, with a history of taking on leadership roles. "
+            [:p (str "Full-stack Developer; Generalist; Wide range of programming languages; "
+                     "Proven track record in building solutions - web and mobile apps, cloud services; "
+                     "Expertise spanning various industries - from Cybersecurity and Fintech to Bioinformatics and Video Processing. "
+                     "Adept at working in diverse teams, remotely and on-site, proficient of taking on leadership roles. "
                      "Passionate about productivity enhancement and automation.")]}
   :skills
   [:ul.skills
@@ -45,7 +45,7 @@
    [:li
     [:span.label "Back-End:"]
     [:p (str "Postgres, Elasticsearch, Couchbase, CockroachDB, "
-             "XTDB, Kafka, RabbitMQ, Redis, Docker, K8s, Nix, min.io, ")]
+             "XTDB, Kafka, RabbitMQ, Redis, min.io.")]
     [:p (str "AWS - S3, SQS, DynamoDB, EC2, ECS, EKS, Lambda, etc.")]
     [:p (str "CircleCI, Jenkins, Concourse, GitHub Actions.")]]
    [:li
@@ -57,27 +57,29 @@
     [:span.label "Testing:"]
     [:p (str "Cypress, Jest, Karma, Mocha, Chai, Jasmine, "
              "Nightwatch, Puppeteer, Selenium,")]
-    [:p (str "clojure/test.check - generative, simulation "
-             "and concurrent testing, etc.")]]
+    [:p (str "clojure/test.check - generative, simulation, "
+             "concurrent, end-to-end, etc., types of testing.")]]
    [:li
     [:span.label "Operating Systems:"]
-    [:p (str "Linux - Ubuntu, Debian, Alpine, Fedora, CentOS, Arch; "
-             "shells and command-line utilities.")]
-    [:p (str "Windows - PowerShell, .NET, IIS, WPF, AD, WSL;")]
+    [:div
+     [:p (str "Linux - Ubuntu, Debian, Alpine, Fedora, CentOS, Arch; "
+                   "shells, command-line utilities.")]
+     [:p (str "QEMU/KVM, VirtualBox, WSL, Docker, Kubernetes.")]]
+    [:p (str "Windows - PowerShell, .NET, IIS, WPF, AD")]
     [:p (str "OSX - Applescript/JXA, Automator;")]]
    [:li
     [:span.label "AI Tools:"]
-    [:p (str "OpenAI API, Whisper.cpp, Ollama.")]]]}
+    [:p (str "OpenAI API - GPT4, Anthropic - Claude, Alpha Cephei - Vosk,  Whisper.cpp, Ollama.")]]]}
 
  :work
  {:title "Professional experience"
   :prior-experience-not-provided-note
-  (str "In order to keep it short and relevant, jobs prior to 2012 are not listed; a comprehensive list can be provided upon request. "
-       "Professional experience includes projects such as: "
-       "high-frequency trading app, "
-       "air cargo company project in Dubai, "
-       "TV commercial monitoring suite for a state broadcast TV company, "
-       "hotel management ERP system, and more.")
+  (str "To keep it short and relevant, jobs prior to 2012 not listed; comprehensive list available upon request. "
+       "Past experiences include projects such as: "
+       "High-frequency trading app, "
+       "Air cargo company project in Dubai, "
+       "TV commercial monitoring suite for a national TV company, "
+       "Hotel management ERP system, and more.")
   :content
   [{:company "Command Zero"
     :website "https://www.cmdzero.io"
@@ -88,9 +90,9 @@
     :end "Jan 2024"
     :highlights [[:p "Cyber threat intelligence and digital forensics tool."]
                  [:ul
-                  [:li "Enhanced performance of CockroachDB-driven backend."]
+                  [:li "CockroachDB-driven backend enhancements."]
                   [:li "Integrated various metrics into Prometheus/Grafana."]
-                  [:li "Explored architectural redesign ideas using Polylith."]]]
+                  [:li "Polylith-based architectural redesign."]]]
     :keywords [:clojure
                :cockroachdb
                :jvm
@@ -107,19 +109,17 @@
     :end "Oct 2023"
     :highlights [[:p "XDR (previously known as SecureX) - Cisco's famed cybersecurity threat detection and response platform."]
                  [:ul
-                  [:li (str "Worked on various parts of the system, "
-                            "including the CTIA and CTIM - Cisco Threat Intelligence API "
-                            "and the model; and project IROH  (Incident Response Orcestration Hub)")]
-                  [:li (str "Improved Elasticsearch stores; "
-                            "created different types of integrations with third party services "
-                            "such as Palo Alto Cortex and Cybereason.")]
-                  [:li (str "Built a portal for Cisco TAC (Technical Assistance Center), "
-                            "reducing the number of incident escalations by nearly 50%.")]
-                  [:li "Designed and developed a management tool for the documentation team."]
-                  [:li (str "Participated in an annual hackathon with a unique and unconventional "
-                            "project that stood out among over 300 other submissions "
-                            "and made it all the way to the finals.")]
-                  [:li (str "Enrolled in SANS SEC504 training course - "
+                  [:li (str "CTIA and CTIM - Cisco Threat Intelligence API and the model; "
+                            "project IROH - Incident Response Orcestration Hub.")]
+                  [:li (str "Elasticsearch performance improvements;  "
+                            "Third party service integrations, "
+                            "e.g., Palo Alto Cortex and Cybereason.")]
+                  [:li (str "Built Cisco TAC portal, dropping number of incident escalations by nearly 50%.")]
+                  [:li (str "Designed, prototyped and developed high complexity "
+                            "management tool for the docs team.")]
+                  [:li (str "Annual hackathon participation with a unique and unconventional project. "
+                            "Nominated as a finalist among just a few, out of 300+ other submissions.")]
+                  [:li (str "SANS SEC504 certification - "
                             "\"Hacker Tools, Techniques, and Incident Handling.\"")]]]
     :keywords [:clojure
                :clojurescript
@@ -147,21 +147,21 @@
     :end "May 2020"
     :highlights [[:p (str "Dividend Finance offers residential solar loans, home improvement, "
                           "and PACE financing products.")]
-                 [:p (str "The stack consisted of web portals for homeowners and solar "
-                          "installers, including a comprehensive API for partners, financial "
-                          "institutions, and solar equipment installation companies. ")]
-                 [:p (str "Worked on the Clojure-driven API, loosely based on Luminus, "
-                          "with Salesforce and PostgreSQL as the systems of record.")]
-                 [:p (str "The frontend apps were built in ClojureScript (Re-frame), "
-                          "utilizing Material-UI React components, "
-                          "and designed to be responsive and usable on desktop and mobile.")]
+                 [:p (str "Developed web portal for homeowners and solar installers "
+                          "with a comprehensive API for partners, financial institutions, "
+                          "and solar equipment companies.")]
+                 [:p (str "Clojure-driven API, loosely based on Luminus, "
+                          "with SFDC and Postgres as the systems of record.")]
+                 [:p (str "Clojurescript (Re-frame) frontend with Material-UI React Components. "
+                          "Responsive design aimed for both desktop and mobile.")]
                  [:ul
                   [:li "Built an improved and revised web-portal."]
                   [:li "Created an audit log system from scratch."]
-                  [:li (str "Helped to launch a partnership program with multiple capital providers such as "
-                            "Keybank.")]
+                  [:li (str "Key role in launching new partnership program with "
+                            "multiple capital providers like Keybank.")]
                   [:li "Implemented internal document warehousing system."]
-                  [:li "Vastly improved testing practices and test coverage."]]]
+                  [:li (str "Vastly improved testing practices and test coverage. "
+                            "Forged E2E testing framework from scratch.")]]]
     :keywords [:clojure
                :clojurescript
                :jvm
@@ -189,21 +189,21 @@
     :end "Nov 2018"
     :highlights [[:p (str "Funding Circle is a peer-to-peer lending platform.")]
                  [:ul
-                  [:li [:p (str "Built a web portal for FinOps teams to allow them to track "
-                                "transactions, monitor deposits, manage reconciliations, etc., "
-                                "while maintaining net capital compliance.")]
-                   [:p (str "Portal made in ClojureScript, initially using Om.next, "
-                            "and later we switched to Re-frame. "
-                            "A set of APIs, made with Clojure, was created for the backend. "
-                            "Materialized views in PostgreSQL were used, where data "
-                            "gets aggregated from Kafka clusters ingested via Kafka Connect.")]
-                   [:p (str "Introduced unique concepts on the front end, such as using "
-                            "Integrant to compartmentalize UI elements into individual components:  "
-                            "specs, styles, and render functions, essentially transforming them  "
-                            "into highly versatile \"Lego pieces.\" ")]]
-                  [:li "Organized and hosted local meetups."]
-                  [:li (str "Multiple \"Best team\" awards. Repeatedly nominated and received the "
-                            "\"Employee of the month\" ")]]]
+                  [:li [:p (str "Built a web portal for FinOps teams for transaction tracking, "
+                                "deposit monitoring, reconciliation management, etc., "
+                                "while safeguarding net capital compliance.")]
+                   [:p (str "Clojurescript-based portal, initially crafted with Om.next, "
+                            "later refactored for Re-frame. "
+                            "Set of Clojure APIs on the backend. "
+                            "Materialized views in Postgres with data "
+                            "ingested from Kafka clusters.")]
+                   [:p (str "Introduced innovative ideas on the front end, such as "
+                            "compartmentalization of UI elements into individual blocks: "
+                            "specs, styles, and render functions, essentially transforming them "
+                            "into highly versatile \"Lego pieces.\"  ")]]
+                  [:li "Organized, hosted and supervised local meetups."]
+                  [:li (str "Several \"Employee of the month\" nominations, "
+                            "Multiple \"Best team\" awards.")]]]
     :keywords [:clojure
                :clojurescript
                :mesos
@@ -259,8 +259,8 @@
     :highlights [[:p (str "Invitae specializes in diagnostic DNA sequencing.")]
                  [:p (str "Designed and implemented an asset tracking/dashboard web app "
                           "with various charts, graphs, and spreadsheets. "
-                          "Angular-based, it was written in Coffeescript and "
-                          "supported by a Python backend on Django.")]]
+                          "Angular-based, written in Coffeescript and "
+                          "supported by a Django, Python backend.")]]
     :keywords [:angular
                :browserify
                :coffeescript
@@ -294,9 +294,9 @@
                             "Benchmarks showed a ten-fold increase in efficiency. ")]]
                   [:li (str "Led a group of developers in re-building Admin Web Site for partners and "
                             "internal use. ASP.net, Angular.js. ")]
-                  [:li (str "Implemented Chromecast integration for Google's pilot program, demonstrating its "
-                            "compatibility with apps like Vevo. ")]
-                  [:li "Built the first Apple TV Vevo App."]
+                  [:li (str "Implemented Chromecast integration for Google's partner pilot program, "
+                            "placing Vevo among the very first Chromecast-compatible apps in the world.")]
+                  [:li "Built the very first Apple TV Vevo App."]
                   [:li "Played major part in redesigning the main website - vevo.com."]]]
     :keywords ["c#"
                "f#"
