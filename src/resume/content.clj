@@ -57,7 +57,7 @@
                      (format "# Summary:\n%s\n"))
         parse-exp (fn [{:keys [highlights
                                start end
-                               position company location
+                               company position location
                                keywords]}]
                     (format (str "Company: %s\n"
                                  "Job Title: %s\n"
@@ -68,8 +68,8 @@
                                    "%s")
                                  "Skills: %s\n"
                                  "Description:\n%s")
-                            position
                             company
+                            position
                             location
                             (datestr->mm-yyyy start)
                             (or (datestr->mm-yyyy end) "")

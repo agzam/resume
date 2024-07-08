@@ -15,8 +15,8 @@ Zipcode: 75068
 
 # Work history:
 --------------------------------------------------
-Company: Senior Software Developer
-Job Title: Command Zero
+Company: Command Zero
+Job Title: Senior Software Developer
 Location: Austin,TX/Remote
 From: 10/2023
 To: 01/2024
@@ -27,23 +27,23 @@ Description:
 -  Integrated various metrics into Prometheus/Grafana.
 -  Polylith-based architectural redesign.
 --------------------------------------------------
-Company: Senior Software Developer
-Job Title: Cisco
+Company: Cisco
+Job Title: Senior Software Developer
 Location: San Jose,CA/Remote
 From: 06/2020
 To: 10/2023
 Skills: clojure, clojurescript, react, re-frame, elasticsearch, aws, cypress.io, docker, github_actions, graphql, jvm, next.js, node.js
 Description:
  XDR (previously known as SecureX) - Cisco's famed cybersecurity threat detection and response platform.
- -  CTIA and CTIM - Cisco Threat Intelligence API and the model; project IROH - Incident Response Orcestration Hub.
+ -  CTIA and CTIM - Cisco Threat Intelligence API and the model; project IROH - Incident Response Orchestration Hub.
 -  Elasticsearch performance improvements;  Third party service integrations, e.g., Palo Alto Cortex and Cybereason.
 -  Built Cisco TAC portal, dropping number of incident escalations by nearly 50%.
 -  Designed, prototyped and developed high complexity management tool for the docs team.
 -  Annual hackathon participation with a unique and unconventional project. Nominated as a finalist among just a few, out of 300+ other submissions.
 -  SANS SEC504 certification - "Hacker Tools, Techniques, and Incident Handling."
 --------------------------------------------------
-Company: Senior Software Developer
-Job Title: Dividend Finance
+Company: Dividend Finance
+Job Title: Senior Software Developer
 Location: San Francisco/Hybrid
 From: 11/2018
 To: 05/2020
@@ -59,8 +59,8 @@ Description:
 -  Implemented internal document warehousing system.
 -  Vastly improved testing practices and test coverage. Forged E2E testing framework from scratch.
 --------------------------------------------------
-Company: Senior Software Developer
-Job Title: Funding Circle
+Company: Funding Circle
+Job Title: Senior Software Developer
 Location: San Francisco/Hybrid
 From: 02/2016
 To: 11/2018
@@ -74,8 +74,8 @@ Description:
 -  Organized, hosted and supervised local meetups.
 -  Several "Employee of the month" nominations, Multiple "Best team" awards.
 --------------------------------------------------
-Company: Lead Frontend Developer
-Job Title: Mobitor
+Company: Mobitor
+Job Title: Lead Frontend Developer
 Location: Walnut Creek, CA
 From: 04/2015
 To: 02/2016
@@ -85,8 +85,8 @@ Description:
   Implemented a web portal for managing medical devices - orthopedic and spine surgery implants, and supplemental equipment. 
   Used Angular, paired with a Node backend, which communicated with a .NET API in C# and MS SQL Server.
 --------------------------------------------------
-Company: Lead Frontend Developer
-Job Title: Invitae
+Company: Invitae
+Job Title: Lead Frontend Developer
 Location: San Francisco
 From: 05/2014
 To: 04/2015
@@ -95,8 +95,8 @@ Description:
  Invitae specializes in diagnostic DNA sequencing.
   Designed and implemented an asset tracking/dashboard web app with various charts, graphs, and spreadsheets. Angular-based, written in Coffeescript and supported by a Django, Python backend.
 --------------------------------------------------
-Company: Senior Software Developer
-Job Title: Vevo
+Company: Vevo
+Job Title: Senior Software Developer
 Location: New York City/San Francisco
 From: 01/2012
 To: 05/2014

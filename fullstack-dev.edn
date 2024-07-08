@@ -110,7 +110,7 @@
     :highlights [[:p "XDR (previously known as SecureX) - Cisco's famed cybersecurity threat detection and response platform."]
                  [:ul
                   [:li (str "CTIA and CTIM - Cisco Threat Intelligence API and the model; "
-                            "project IROH - Incident Response Orcestration Hub.")]
+                            "project IROH - Incident Response Orchestration Hub.")]
                   [:li (str "Elasticsearch performance improvements;  "
                             "Third party service integrations, "
                             "e.g., Palo Alto Cortex and Cybereason.")]
