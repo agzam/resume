@@ -30,7 +30,7 @@
    [:li
     [:p
      [:span.label "Languages:"]
-     [:span (str "Clojure/Clojurescript, JavaScript/Typescript,  "
+     [:span (str "Clojure/Clojurescript, Javascript/Typescript,  "
               "Python, Java, C#/F#, Lua/Fennel, SQL/Datalog,  "
               "Common Lisp/Elisp, Golang, and Ruby.")]]]
    [:li [:span.label "Front-End:"]
@@ -81,7 +81,30 @@
        "TV commercial monitoring suite for a national TV company, "
        "Hotel management ERP system, and more.")
   :content
-  [{:company "Command Zero"
+  [{:company "Qlik (Stitchdata)"
+    :website "https://www.stitchdata.com"
+    :industry "Data Management"
+    :location "Remote"
+    :position "Senior Software Developer"
+    :start "Jul 2024"
+    :highlights [[:p "Automated cloud data pipelines"]
+                 [:ul
+                  [:li "Prometheus metrics"]
+                  [:li "Various microservices"]]]
+    :keywords [:clojure
+               :jvm
+               :aws
+               :k8s
+               :docker
+               :github_actions
+               :prometheus
+               :javascript
+               :playwright
+               :postgres
+               :mysql]
+    :supervisor {:name "Arthur Ulfeldt"
+                 :links ["https://www.linkedin.com/in/arthur-ulfeldt-5150aa5/"]}}
+   {:company "Command Zero"
     :website "https://www.cmdzero.io"
     :industry "Cybersecurity"
     :location "Austin,TX/Remote"

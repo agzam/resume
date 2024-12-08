@@ -15,6 +15,16 @@ Zipcode: 75068
 
 # Work history:
 --------------------------------------------------
+Company: Qlik (Stitchdata)
+Job Title: Senior Software Developer
+Location: Remote
+From: 07/2024
+Skills: clojure, jvm, aws, k8s, docker, github_actions, prometheus, javascript, playwright, postgres, mysql
+Description:
+ Automated cloud data pipelines
+ -  Prometheus metrics
+-  Various microservices
+--------------------------------------------------
 Company: Command Zero
 Job Title: Senior Software Developer
 Location: Austin,TX/Remote
