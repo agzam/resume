@@ -1,6 +1,8 @@
 {:basics
  {:name "Ag Ibragimov"
-  :label "Experienced Software Developer"
+  :label [:ul
+          [:li "Experienced Software Developer."]
+          [:li "Lisp Hacker."]]
   :email "agzam.ibragimov@gmail.com"
   :location {:city "Little Elm"
              :state "TX"
@@ -20,23 +22,24 @@
   :summary {:title "Summary"
             :bullet-points? false
             :content
-            [:p (str "Full-stack Developer; Generalist; Wide range of programming languages; "
-                     "Proven track record in building solutions - web and mobile apps, cloud services; "
-                     "Expertise spanning various industries - from Cybersecurity and Fintech to Bioinformatics and Video Processing. "
-                     "Adept at working in diverse teams, remotely and on-site, proficient of taking on leadership roles. "
-                     "Passionate about productivity enhancement and automation.")]}
+            [:p (str "Full-stack generalist; multiple programming languages; "
+                     "Proven track record in building solutions for over 20 years - web, mobile, cloud services; "
+                     "Expertise spans various industries - Cybersecurity, Fintech, Bioinformatics, Video Processing, etc. "
+                     "Skilled at collaborating effectively in diverse teams, remotely and on-site, capable of assuming leadership roles. "
+                     "Passionate about automation and productivity enhancement tooling. "
+                     "Educator - occasionally post explanatory videos.")]}
   :skills
   [:ul.skills
    [:li
     [:p
      [:span.label "Languages:"]
-     [:span (str "Clojure/Clojurescript, Javascript/Typescript,  "
-              "Python, Java, C#/F#, Lua/Fennel, SQL/Datalog,  "
-              "Common Lisp/Elisp, Golang, and Ruby.")]]]
+     [:span (str "Clojure(script), Javascript/Typescript,  "
+                 "Python, Java, C#/F#, Lua/Fennel, bash/zsh, "
+                 "Common Lisp/Elisp/Janet")]]]
    [:li [:span.label "Front-End:"]
-    [:p (str "HTML5; CSS, including preprocessors such as SASS,   "
-             "LESS, and Stylus; frameworks like Tailwind, MUI, and Bootstrap;   "
-             "transitions and animations.  ")]
+    [:p (str "HTML5; CSS and preprocessors - SASS, "
+             "LESS, Stylus; Tailwind, MUI, Bootstrap, etc.;  "
+             "master of transitions and animations. ")]
     [:p (str "DataViz - D3, C3, VegaLite.")]
     [:p (str "WebAPIs - DOM, Console, Web Animation, Notification, "
              "Canvas, Web Storage, WebSockets, Geolocation, "
@@ -55,43 +58,49 @@
              "Event Sourcing, Rate Limiting, Caching, etc.")]]
    [:li
     [:span.label "Testing:"]
-    [:p (str "Cypress, Jest, Karma, Mocha, Chai, Jasmine, "
-             "Nightwatch, Puppeteer, Selenium,")]
+    [:p (str "Playwright, Cypress, Jest, Karma, Mocha, Chai, Jasmine, "
+             "Nightwatch, Puppeteer, Selenium.")]
     [:p (str "clojure/test.check - generative, simulation, "
              "concurrent, end-to-end, etc., types of testing.")]]
    [:li
     [:span.label "Operating Systems:"]
     [:div
-     [:p (str "Linux - Ubuntu, Debian, Alpine, Fedora, CentOS, Arch; "
-                   "shells, command-line utilities.")]
+     [:p (str "Linux - Arch, Ubuntu, Debian, Fedora; "
+              "shells, command-line utilities.")]
      [:p (str "QEMU/KVM, VirtualBox, WSL, Docker, Kubernetes.")]]
     [:p (str "Windows - PowerShell, .NET, IIS, WPF, AD")]
-    [:p (str "OSX - Applescript/JXA, Automator;")]]
+    [:p (str "macOS - Applescript/JXA, Hammerspoon.")]]
    [:li
     [:span.label "AI Tools:"]
-    [:p (str "OpenAI API - GPT4, Anthropic - Claude, Alpha Cephei - Vosk,  Whisper.cpp, Ollama.")]]]}
+    [:p (str "Anthropic, OpenAI, Ollama, Whisper.cpp.")]]]}
 
  :work
  {:title "Professional experience"
   :prior-experience-not-provided-note
-  (str "To keep it short and relevant, jobs prior to 2012 not listed; comprehensive list available upon request. "
+  (str "To keep it relevant, jobs prior to 2012 not listed; comprehensive list available upon request. "
        "Past experiences include projects such as: "
        "High-frequency trading app, "
        "Air cargo company project in Dubai, "
        "TV commercial monitoring suite for a national TV company, "
        "Hotel management ERP system, and more.")
   :content
-  [{:company "Qlik (Stitchdata)"
+  [{:company "Qlik/Stitchdata"
     :website "https://www.stitchdata.com"
     :industry "Data Management"
     :location "Remote"
     :position "Senior Software Developer"
     :start "Jul 2024"
-    :highlights [[:p "Automated cloud data pipelines"]
+    :highlights [[:p "Automated cloud data ETL pipelines"]
                  [:ul
-                  [:li "Prometheus metrics"]
-                  [:li "Various microservices"]]]
+                  [:li (str "Key role in implementing QCDI project "
+                            "- Qlik Cloud Data Integration")]
+                  [:li "Prometheus/Grafana metrics"]
+                  [:li (str "Identified and remedied multiple vulnerabilities, "
+                            "including a critical security flaw in token-based authentication "
+                            "occurring sporadically that remained undetected for months.")]]]
     :keywords [:clojure
+               :python
+               :javascript
                :jvm
                :aws
                :k8s
@@ -130,7 +139,7 @@
     :position "Senior Software Developer"
     :start "June 2020"
     :end "Oct 2023"
-    :highlights [[:p "XDR (previously known as SecureX) - Cisco's famed cybersecurity threat detection and response platform."]
+    :highlights [[:p "XDR (formerly known as SecureX) - Cisco's famed cybersecurity threat detection and response platform."]
                  [:ul
                   [:li (str "CTIA and CTIM - Cisco Threat Intelligence API and the model; "
                             "project IROH - Incident Response Orchestration Hub.")]
@@ -172,13 +181,13 @@
                           "and PACE financing products.")]
                  [:p (str "Developed web portal for homeowners and solar installers "
                           "with a comprehensive API for partners, financial institutions, "
-                          "and solar equipment companies.")]
+                          "and solar equipment firms.")]
                  [:p (str "Clojure-driven API, loosely based on Luminus, "
                           "with SFDC and Postgres as the systems of record.")]
                  [:p (str "Clojurescript (Re-frame) frontend with Material-UI React Components. "
                           "Responsive design aimed for both desktop and mobile.")]
                  [:ul
-                  [:li "Built an improved and revised web-portal."]
+                  [:li "Built a refined and revised web-portal."]
                   [:li "Created an audit log system from scratch."]
                   [:li (str "Key role in launching new partnership program with "
                             "multiple capital providers like Keybank.")]
@@ -320,7 +329,7 @@
                   [:li (str "Implemented Chromecast integration for Google's partner pilot program, "
                             "placing Vevo among the very first Chromecast-compatible apps in the world.")]
                   [:li "Built the very first Apple TV Vevo App."]
-                  [:li "Played major part in redesigning the main website - vevo.com."]]]
+                  [:li "Played major part in redesigning vevo.com."]]]
     :keywords ["c#"
                "f#"
                :angular
@@ -385,7 +394,7 @@
 
  :projects
  {:title "Personal projects"
-  :note "Only brief selection of personal projects, not a comprehensive list"
+  :note "brief selection, not a comprehensive list - rest is on github.com/agzam"
   :content
   [{:name "Spacehammer"
     :link "https://github.com/agzam/spacehammer"
@@ -405,10 +414,12 @@
                       "Opens up possibilities for automating tasks "
                       "such as retrieving all URLs from a page "
                       "or extracting page descriptions.")}
-   {:name "youtube-sub-extractor.el"
-    :link "https://github.com/agzam/youtube-sub-extractor.el"
-    :description (str "Extract subtitles from YouTube videos.")}]}
-
+   {:name "consult-hn"
+    :link "https://github.com/agzam/consult-hn"
+    :description "Hackernews search."}
+   {:name "mxp - Emacs Piper"
+    :link "https://github.com/agzam/mxp"
+    :description "Shell script for piping in and out of Emacs buffers"}]}
 
  :education {:title "Education"
              :content [{:institution "Tashkent University of Information Technologies."

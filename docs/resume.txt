@@ -11,19 +11,20 @@ State: TX
 Zipcode: 75068
 
 # Summary:
- Full-stack Developer; Generalist; Wide range of programming languages; Proven track record in building solutions - web and mobile apps, cloud services; Expertise spanning various industries - from Cybersecurity and Fintech to Bioinformatics and Video Processing. Adept at working in diverse teams, remotely and on-site, proficient of taking on leadership roles. Passionate about productivity enhancement and automation.
+ Full-stack generalist; multiple programming languages; Proven track record in building solutions - web, mobile, cloud services; Expertise spans various industries - Cybersecurity, Fintech, Bioinformatics, Video Processing, etc. Skilled at collaborating effectively in diverse teams, remotely and on-site, capable of assuming leadership roles. Passionate about automation and productivity enhancement tooling. Educator - occasionally post explanatory videos.
 
 # Work history:
 --------------------------------------------------
-Company: Qlik (Stitchdata)
+Company: Qlik/Stitchdata
 Job Title: Senior Software Developer
 Location: Remote
 From: 07/2024
-Skills: clojure, jvm, aws, k8s, docker, github_actions, prometheus, javascript, playwright, postgres, mysql
+Skills: clojure, python, javascript, jvm, aws, k8s, docker, github_actions, prometheus, javascript, playwright, postgres, mysql
 Description:
- Automated cloud data pipelines
- -  Prometheus metrics
--  Various microservices
+ Automated cloud data ETL pipelines
+ -  Key role in implementing QCDI project - Qlik Cloud Data Integration
+-  Prometheus/Grafana metrics
+-  Identified and remedied multiple vulnerabilities, including a critical security flaw in token-based authentication occurring sporadically that remained undetected for months.
 --------------------------------------------------
 Company: Command Zero
 Job Title: Senior Software Developer
@@ -44,7 +45,7 @@ From: 06/2020
 To: 10/2023
 Skills: clojure, clojurescript, react, re-frame, elasticsearch, aws, cypress.io, docker, github_actions, graphql, jvm, next.js, node.js
 Description:
- XDR (previously known as SecureX) - Cisco's famed cybersecurity threat detection and response platform.
+ XDR (formerly known as SecureX) - Cisco's famed cybersecurity threat detection and response platform.
  -  CTIA and CTIM - Cisco Threat Intelligence API and the model; project IROH - Incident Response Orchestration Hub.
 -  Elasticsearch performance improvements;  Third party service integrations, e.g., Palo Alto Cortex and Cybereason.
 -  Built Cisco TAC portal, dropping number of incident escalations by nearly 50%.
@@ -60,10 +61,10 @@ To: 05/2020
 Skills: clojure, clojurescript, jvm, re-frame, circleci, heroku, jenkins, postgresql, puppeteer, rabbitmq, react, s3, salesforce, selenium, terraform
 Description:
  Dividend Finance offers residential solar loans, home improvement, and PACE financing products.
-  Developed web portal for homeowners and solar installers with a comprehensive API for partners, financial institutions, and solar equipment companies.
+  Developed web portal for homeowners and solar installers with a comprehensive API for partners, financial institutions, and solar equipment firms.
   Clojure-driven API, loosely based on Luminus, with SFDC and Postgres as the systems of record.
   Clojurescript (Re-frame) frontend with Material-UI React Components. Responsive design aimed for both desktop and mobile.
- -  Built an improved and revised web-portal.
+ -  Built a refined and revised web-portal.
 -  Created an audit log system from scratch.
 -  Key role in launching new partnership program with multiple capital providers like Keybank.
 -  Implemented internal document warehousing system.
@@ -119,4 +120,4 @@ Description:
 -  Led a group of developers in re-building Admin Web Site for partners and internal use. ASP.net, Angular.js. 
 -  Implemented Chromecast integration for Google's partner pilot program, placing Vevo among the very first Chromecast-compatible apps in the world.
 -  Built the very first Apple TV Vevo App.
--  Played major part in redesigning the main website - vevo.com.
+-  Played major part in redesigning vevo.com.
