@@ -2,7 +2,7 @@ plain-text version for automated parsers, for a human-readable, visit:
 https://agzam.github.io/resume
 
 Name: Ag Ibragimov
-Title: Experienced Software Developer
+Title: [:ul [:li "Experienced Software Developer."] [:li "Lisp Hacker."]]
 Email: agzam.ibragimov@gmail.com
 LinkedIn: https://www.linkedin.com/in/agzam
 GitHub: https://github.com/agzam
@@ -11,7 +11,7 @@ State: TX
 Zipcode: 75068
 
 # Summary:
- Full-stack generalist; multiple programming languages; Proven track record in building solutions - web, mobile, cloud services; Expertise spans various industries - Cybersecurity, Fintech, Bioinformatics, Video Processing, etc. Skilled at collaborating effectively in diverse teams, remotely and on-site, capable of assuming leadership roles. Passionate about automation and productivity enhancement tooling. Educator - occasionally post explanatory videos.
+ Full-stack generalist; multiple programming languages; Proven track record in building solutions for over 20 years - web, mobile, cloud services; Expertise spans various industries - Cybersecurity, Fintech, Bioinformatics, Video Processing, etc. Skilled at collaborating effectively in diverse teams, remotely and on-site, capable of assuming leadership roles. Passionate about automation and productivity enhancement tooling. Educator - occasionally post explanatory videos.
 
 # Work history:
 --------------------------------------------------
