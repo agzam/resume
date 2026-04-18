@@ -2,7 +2,7 @@
  {:name "Ag Ibragimov"
   :label [:ul
           [:li "Experienced Software Developer."]
-          [:li "Lisp Hacker. Code eater. Agent shepherd"]]
+          [:li "Senior Fullstack engineer."]]
   :email "agzam.ibragimov@gmail.com"
   :location {:city "Little Elm"
              :state "TX"
@@ -23,12 +23,9 @@
             :bullet-points? false
             :content
             [:div
-             [:p "Full-stack generalist; various programming languages."]
-             [:p "Proven track record - building solutions for over two decades - web, mobile, cloud services, agentic weaving."]
-             [:p "Various industries - Cybersecurity, Fintech, Bioinformatics, Video and Data Processing."]
-             [:p "Great collaborator - diverse teams, remote and on-site. easily take leadership roles."]
-             [:p "Toolsmith and automation addict."]
-             [:p "Educator - sizably increase team's overall fungibility."]]}
+             [:p "True generalist. 20+ years across  web, mobile, cloud and LLM agent systems."]
+             [:p "Cybersecurity, Fintech, Bioinformatics, Video and Data Processing."]
+             [:p "Strong remote collaborator; Toolsmith and automation addict."]]}
   :skills
   [:ul.skills
    [:li
@@ -37,6 +34,12 @@
      [:span (str "Clojure(script), Javascript/Typescript,  "
                  "Python, Java, C#/F#, Lua/Fennel, bash/zsh, "
                  "Common Lisp/Elisp/Janet")]]]
+   [:li
+    [:span.label "AI Tools:"]
+    [:p (str
+         "Ollama, Whisper, Claude, etc. "
+         "Custom complex MCPs with context enrichment embeddings. "
+         "Fully autonomous AI-driven pipelines.")]]
    [:li [:span.label "Front-End:"]
     [:p (str "HTML5; CSS and preprocessors - SASS, "
              "LESS, Stylus; Tailwind, MUI, Bootstrap, etc.;  "
@@ -70,11 +73,7 @@
               "shells, command-line utilities.")]
      [:p (str "QEMU/KVM, VirtualBox, WSL, Docker, Kubernetes.")]]
     [:p (str "Windows - PowerShell, .NET, IIS, WPF, AD")]
-    [:p (str "macOS - OSA/JXA, Hammerspoon.")]]
-   [:li
-    [:span.label "AI Tools:"]
-    [:p (str "Custom complex MCPs with context enrichment embeddings. "
-             "Fully autonomous AI-driven pipelines.")]]]}
+    [:p (str "macOS - OSA/JXA, Hammerspoon.")]]]}
 
  :work
  {:title "Professional experience"
@@ -92,30 +91,29 @@
     :location "Remote"
     :position "Senior Software Developer"
     :start "Jul 2024"
-    :highlights [[:p "Automated cloud data ETL pipelines"]
+    :highlights [[:p "Automated cloud data ETL pipelines."]
                  [:ul
                   [:li (str "Key role in implementing QCDI project "
                             "- Qlik Cloud Data Integration")]
-                  [:li (str "Designed and implemented autonomous agentic automation workflows.")]
+                  [:li (str "Autonomous agentic automation workflows - PR-review assistance; E2E Testing; Metrics monitoring.")]
                   [:li (str "Streamlined a bunch of GHAs for performance. ")]
-                  [:li "Prometheus/Grafana metrics"]
+                  [:li "Prometheus/Grafana metrics."]
                   [:li "Fixed multiple vulnerabilities, including a critical token-auth flaw undetected for months."]]]
-    :keywords [:clojure
-               :python
-               :javascript
-               :jvm
-               :aws
-               :k8s
+    :keywords [:aws
+               :claude
+               :clojure
+               :copilot
                :docker
                :github_actions
-               :prometheus
                :javascript
+               :jvm
+               :k8s
+               :mcp
+               :mysql
                :playwright
                :postgres
-               :mysql
-               :claude
-               :mcp
-               :copilot]
+               :prometheus
+               :python]
     :supervisor {:name "Arthur Ulfeldt"
                  :links ["https://www.linkedin.com/in/arthur-ulfeldt-5150aa5/"]}}
    {:company "Command Zero"
@@ -401,18 +399,25 @@
  {:title "Personal projects"
   :note "brief selection, not a comprehensive list - rest is on github.com/agzam"
   :content
-  [{:name "Spacehammer"
+  [{:name "Custom LLM tooling"
+    :link "https://github.com/agzam/death-contraptions"
+    :description (str "General AI harness: custom MCPs: "
+                      "(Emacs eval, JXA browser, k8s, Kitty, Slack, Splunk, "
+                      "org-roam with semantic search over notes with custom embeddings) plus a "
+                      "setup script that propagates config to Claude Code, ECA, "
+                      "Claude Desktop, and gptel.")}
+   {:name "Spacehammer"
     :link "https://github.com/agzam/spacehammer"
-    :description (str "Modal keyboard toolkit.")}
+    :description (str "Popular Modal keyboard toolkit.")}
    {:name "wiktionary-bro.el"
     :link "https://github.com/agzam/wiktionary-bro.el"
-    :description (str "A convenient way to look up the etymology of any word.")}
+    :description (str "Prominent etymology lookup tool.")}
    {:name "mw-thesaurus.el"
     :link "https://github.com/agzam/mw-thesaurus.el"
-    :description (str "Merriam-Webster Thesaurus in Emacs.")}
+    :description (str "Merriam-Webster Thesaurus.")}
    {:name "browser-hist.el"
     :link "https://github.com/agzam/browser-hist.el"
-    :description (str "Search through the browser history. "
+    :description (str "Browser history search. "
                       "Opens up possibilities for automating tasks "
                       "like retrieving every URL from a page.")}
    {:name "consult-hn"

@@ -2,7 +2,7 @@ plain-text version for automated parsers, for a human-readable, visit:
 https://agzam.github.io/resume
 
 Name: Ag Ibragimov
-Title: Experienced Software Developer. Lisp Hacker. Code eater. Agent shepherd
+Title: Experienced Software Developer. Senior Fullstack engineer.
 Email: agzam.ibragimov@gmail.com
 LinkedIn: https://www.linkedin.com/in/agzam
 GitHub: https://github.com/agzam
@@ -11,12 +11,9 @@ State: TX
 Zipcode: 75068
 
 # Summary:
-Full-stack generalist; various programming languages.
- Proven track record - building solutions for over two decades - web, mobile, cloud services, agentic weaving.
- Various industries - Cybersecurity, Fintech, Bioinformatics, Video and Data Processing.
- Great collaborator - diverse teams, remote and on-site. easily take leadership roles.
- Toolsmith and automation addict.
- Educator - sizably increase team's overall fungibility.
+True generalist. 20+ years across  web, mobile, cloud and LLM agent systems.
+ Cybersecurity, Fintech, Bioinformatics, Video and Data Processing.
+ Strong remote collaborator; Toolsmith and automation addict.
 
 # Work history:
 ---
@@ -24,12 +21,12 @@ Company: Qlik/Stitchdata
 Job Title: Senior Software Developer
 Location: Remote
 From: 07/2024
-Skills: clojure, python, javascript, jvm, aws, k8s, docker, github_actions, prometheus, javascript, playwright, postgres, mysql, claude, mcp, copilot
+Skills: aws, claude, clojure, copilot, docker, github_actions, javascript, jvm, k8s, mcp, mysql, playwright, postgres, prometheus, python
 Description:
 - Key role in implementing QCDI project - Qlik Cloud Data Integration
-- Designed and implemented autonomous agentic automation workflows.
+- Autonomous agentic automation workflows - PR-review assistance; E2E Testing; Metrics monitoring.
 - Streamlined a bunch of GHAs for performance. 
-- Prometheus/Grafana metrics
+- Prometheus/Grafana metrics.
 - Fixed multiple vulnerabilities, including a critical token-auth flaw undetected for months.
 ---
 Company: Command Zero
