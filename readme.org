@@ -1,21 +1,37 @@
 * To build
   #+begin_src sh
-    clojure -m resume.app
+    bb generate
   #+end_src
-* To Build and deploy
+
+  Produces =docs/index.html=, =docs/simple.html=, and =docs/resume.txt=.
+
+* To build and deploy
   #+begin_src sh
     ./deploy.sh
   #+end_src
-* For development
-  start REPL, connect/jack-in
-  #+begin_src clojure
-    user> (ig-repl/go)
-  #+end_src
-  #+begin_src sh
-  # Mac
-  open localhost:3000
-  # Linux
-  xdg-open localhost:3000
 
-  user> (ig-repl/go)
+* For development
+  Start a REPL and connect:
+  #+begin_src sh
+    bb nrepl-server
+  #+end_src
+
+  Then from your editor:
+  #+begin_src clojure
+    (require '[resume.core :as core])
+    (require '[resume.server :as server])
+
+    ;; Generate all files
+    (core/generate)
+
+    ;; Or start a dev server at localhost:3000
+    (server/start!)
+
+    ;; Regenerate and restart
+    (server/restart!)
+  #+end_src
+
+  Or run the server directly:
+  #+begin_src sh
+    bb serve
   #+end_src

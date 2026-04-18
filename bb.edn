@@ -1,0 +1,10 @@
+{:paths ["src"]
+ :deps {}
+ :tasks
+ {generate {:doc "Generate all resume files"
+            :task (do (require '[resume.core])
+                      ((resolve 'resume.core/-main)))}
+  serve {:doc "Start dev server on port 3000"
+         :task (do (require '[resume.server])
+                   ((resolve 'resume.server/start!))
+                   (deref (promise)))}}}

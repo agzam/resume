@@ -2,7 +2,7 @@ plain-text version for automated parsers, for a human-readable, visit:
 https://agzam.github.io/resume
 
 Name: Ag Ibragimov
-Title: [:ul [:li "Experienced Software Developer."] [:li "Lisp Hacker."]]
+Title: Experienced Software Developer. Lisp Hacker. Code eater. Agent shepherd
 Email: agzam.ibragimov@gmail.com
 LinkedIn: https://www.linkedin.com/in/agzam
 GitHub: https://github.com/agzam
@@ -11,21 +11,27 @@ State: TX
 Zipcode: 75068
 
 # Summary:
- Full-stack generalist; multiple programming languages; Proven track record in building solutions for over 20 years - web, mobile, cloud services; Expertise spans various industries - Cybersecurity, Fintech, Bioinformatics, Video Processing, etc. Skilled at collaborating effectively in diverse teams, remotely and on-site, capable of assuming leadership roles. Passionate about automation and productivity enhancement tooling. Educator - occasionally post explanatory videos.
+Full-stack generalist; various programming languages.
+ Proven track record - building solutions for over two decades - web, mobile, cloud services, agentic weaving.
+ Various industries - Cybersecurity, Fintech, Bioinformatics, Video and Data Processing.
+ Great collaborator - diverse teams, remote and on-site. easily take leadership roles.
+ Toolsmith and automation addict.
+ Educator - sizably increase team's overall fungibility.
 
 # Work history:
---------------------------------------------------
+---
 Company: Qlik/Stitchdata
 Job Title: Senior Software Developer
 Location: Remote
 From: 07/2024
-Skills: clojure, python, javascript, jvm, aws, k8s, docker, github_actions, prometheus, javascript, playwright, postgres, mysql
+Skills: clojure, python, javascript, jvm, aws, k8s, docker, github_actions, prometheus, javascript, playwright, postgres, mysql, claude, mcp, copilot
 Description:
- Automated cloud data ETL pipelines
- -  Key role in implementing QCDI project - Qlik Cloud Data Integration
--  Prometheus/Grafana metrics
--  Identified and remedied multiple vulnerabilities, including a critical security flaw in token-based authentication occurring sporadically that remained undetected for months.
---------------------------------------------------
+- Key role in implementing QCDI project - Qlik Cloud Data Integration
+- Designed and implemented autonomous agentic automation workflows.
+- Streamlined a bunch of GHAs for performance. 
+- Prometheus/Grafana metrics
+- Fixed multiple vulnerabilities, including a critical token-auth flaw undetected for months.
+---
 Company: Command Zero
 Job Title: Senior Software Developer
 Location: Austin,TX/Remote
@@ -33,11 +39,10 @@ From: 10/2023
 To: 01/2024
 Skills: clojure, cockroachdb, jvm, aws, polylith
 Description:
- Cyber threat intelligence and digital forensics tool.
- -  CockroachDB-driven backend enhancements.
--  Integrated various metrics into Prometheus/Grafana.
--  Polylith-based architectural redesign.
---------------------------------------------------
+- CockroachDB-driven backend enhancements.
+- Integrated various metrics into Prometheus/Grafana.
+- Polylith-based architectural redesign.
+---
 Company: Cisco
 Job Title: Senior Software Developer
 Location: San Jose,CA/Remote
@@ -45,14 +50,13 @@ From: 06/2020
 To: 10/2023
 Skills: clojure, clojurescript, react, re-frame, elasticsearch, aws, cypress.io, docker, github_actions, graphql, jvm, next.js, node.js
 Description:
- XDR (formerly known as SecureX) - Cisco's famed cybersecurity threat detection and response platform.
- -  CTIA and CTIM - Cisco Threat Intelligence API and the model; project IROH - Incident Response Orchestration Hub.
--  Elasticsearch performance improvements;  Third party service integrations, e.g., Palo Alto Cortex and Cybereason.
--  Built Cisco TAC portal, dropping number of incident escalations by nearly 50%.
--  Designed, prototyped and developed high complexity management tool for the docs team.
--  Annual hackathon participation with a unique and unconventional project. Nominated as a finalist among just a few, out of 300+ other submissions.
--  SANS SEC504 certification - "Hacker Tools, Techniques, and Incident Handling."
---------------------------------------------------
+- CTIA and CTIM - Cisco Threat Intelligence API and the model; project IROH - Incident Response Orchestration Hub.
+- Elasticsearch performance improvements;  Third party service integrations, e.g., Palo Alto Cortex and Cybereason.
+- Built Cisco TAC portal, dropping number of incident escalations by nearly 50%.
+- Designed, prototyped and developed high complexity management tool for the docs team.
+- Annual hackathon participation with a unique and unconventional project. Nominated as a finalist among just a few, out of 300+ other submissions.
+- SANS SEC504 certification - "Hacker Tools, Techniques, and Incident Handling."
+---
 Company: Dividend Finance
 Job Title: Senior Software Developer
 Location: San Francisco/Hybrid
@@ -60,16 +64,15 @@ From: 11/2018
 To: 05/2020
 Skills: clojure, clojurescript, jvm, re-frame, circleci, heroku, jenkins, postgresql, puppeteer, rabbitmq, react, s3, salesforce, selenium, terraform
 Description:
- Dividend Finance offers residential solar loans, home improvement, and PACE financing products.
-  Developed web portal for homeowners and solar installers with a comprehensive API for partners, financial institutions, and solar equipment firms.
-  Clojure-driven API, loosely based on Luminus, with SFDC and Postgres as the systems of record.
-  Clojurescript (Re-frame) frontend with Material-UI React Components. Responsive design aimed for both desktop and mobile.
- -  Built a refined and revised web-portal.
--  Created an audit log system from scratch.
--  Key role in launching new partnership program with multiple capital providers like Keybank.
--  Implemented internal document warehousing system.
--  Vastly improved testing practices and test coverage. Forged E2E testing framework from scratch.
---------------------------------------------------
+Developed web portal for homeowners and solar installers with a comprehensive API for partners, financial institutions, and solar equipment firms.
+ Clojure-driven API, loosely based on Luminus, with SFDC and Postgres as the systems of record.
+ Clojurescript (Re-frame) frontend with Material-UI React Components. Responsive design aimed for both desktop and mobile.
+ - Built a refined and revised web-portal.
+- Created an audit log system from scratch.
+- Key role in launching new partnership program with multiple capital providers like Keybank.
+- Implemented internal document warehousing system.
+- Vastly improved testing practices and test coverage. Forged E2E testing framework from scratch.
+---
 Company: Funding Circle
 Job Title: Senior Software Developer
 Location: San Francisco/Hybrid
@@ -77,14 +80,13 @@ From: 02/2016
 To: 11/2018
 Skills: clojure, clojurescript, mesos, circleci, docker, honeysql, jvm, kafka, om.next, re-frame, react, rethinkdb, ruby, ruby_on_rails
 Description:
- Funding Circle is a peer-to-peer lending platform.
- -   Built a web portal for FinOps teams for transaction tracking, deposit monitoring, reconciliation management, etc., while safeguarding net capital compliance.
-  Clojurescript-based portal, initially crafted with Om.next, later refactored for Re-frame. Set of Clojure APIs on the backend. Materialized views in Postgres with data ingested from Kafka clusters.
-  Introduced innovative ideas on the front end, such as compartmentalization of UI elements into individual blocks: specs, styles, and render functions, essentially transforming them into highly versatile "Lego pieces."  
+- Built a web portal for FinOps teams for transaction tracking, deposit monitoring, reconciliation management, etc., while safeguarding net capital compliance.
+ Clojurescript-based portal, initially crafted with Om.next, later refactored for Re-frame. Set of Clojure APIs on the backend. Materialized views in Postgres with data ingested from Kafka clusters.
+ Introduced innovative ideas on the front end, such as compartmentalization of UI elements into individual blocks: specs, styles, and render functions, essentially transforming them into highly versatile "Lego pieces."  
 
--  Organized, hosted and supervised local meetups.
--  Several "Employee of the month" nominations, Multiple "Best team" awards.
---------------------------------------------------
+- Organized, hosted and supervised local meetups.
+- Several "Employee of the month" nominations, Multiple "Best team" awards.
+---
 Company: Mobitor
 Job Title: Lead Frontend Developer
 Location: Walnut Creek, CA
@@ -92,10 +94,9 @@ From: 04/2015
 To: 02/2016
 Skills: angular, babel.js, bower, coffeescript, couchbase, docker, gulp.js, karma, node.js, postcss, protractor, rx.js
 Description:
- Mobitor was a startup specializing in Medical Equipment Logistics. 
-  Implemented a web portal for managing medical devices - orthopedic and spine surgery implants, and supplemental equipment. 
-  Used Angular, paired with a Node backend, which communicated with a .NET API in C# and MS SQL Server.
---------------------------------------------------
+Implemented a web portal for managing medical devices - orthopedic and spine surgery implants, and supplemental equipment. 
+ Used Angular, paired with a Node backend, which communicated with a .NET API in C# and MS SQL Server.
+---
 Company: Invitae
 Job Title: Lead Frontend Developer
 Location: San Francisco
@@ -103,9 +104,8 @@ From: 05/2014
 To: 04/2015
 Skills: angular, browserify, coffeescript, d3.js, django, elasticsearch, gulp, karma, node.js, protractor, python, ramda.js, rxjs, stylus-css
 Description:
- Invitae specializes in diagnostic DNA sequencing.
-  Designed and implemented an asset tracking/dashboard web app with various charts, graphs, and spreadsheets. Angular-based, written in Coffeescript and supported by a Django, Python backend.
---------------------------------------------------
+Designed and implemented an asset tracking/dashboard web app with various charts, graphs, and spreadsheets. Angular-based, written in Coffeescript and supported by a Django, Python backend.
+---
 Company: Vevo
 Job Title: Senior Software Developer
 Location: New York City/San Francisco
@@ -113,11 +113,10 @@ From: 01/2012
 To: 05/2014
 Skills: c#, f#, angular, asp.net, coffeescript, dynamo_db, javascript, ms_sql_server, node.js, s3, sqs, typescript
 Description:
- Vevo is the World's Leading Music Video Network.
- -   Designed and implemented a cloud-based, task-driven, concurrent, and scalable video encoding system.
-  Redesigned the entire system from scratch, making it vastly more efficient. Benchmarks showed a ten-fold increase in efficiency. 
+- Designed and implemented a cloud-based, task-driven, concurrent, and scalable video encoding system.
+ Redesigned the entire system from scratch, making it vastly more efficient. Benchmarks showed a ten-fold increase in efficiency. 
 
--  Led a group of developers in re-building Admin Web Site for partners and internal use. ASP.net, Angular.js. 
--  Implemented Chromecast integration for Google's partner pilot program, placing Vevo among the very first Chromecast-compatible apps in the world.
--  Built the very first Apple TV Vevo App.
--  Played major part in redesigning vevo.com.
+- Led a group of developers in re-building Admin Web Site for partners and internal use. ASP.net, Angular.js. 
+- Implemented Chromecast integration for Google's partner pilot program, placing Vevo among the very first Chromecast-compatible apps in the world.
+- Built the very first Apple TV Vevo App.
+- Played major part in redesigning vevo.com.
