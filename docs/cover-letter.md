@@ -1,33 +1,14 @@
 Dear Hiring Manager/Recruiter,
 
-My name is Ag. I am an accomplished software developer with over 15 years of diverse experience spanning multiple programming languages, industries, and system types. I'd like to give you a few reasons why you should consider hiring me.
+The pitch is straightforward. I'm a full-stack engineer, 20+ years in, across Cybersec (Cisco and Command Zero), Fintech (Funding Circle and Dividend), Genomics (Invitae), Video (Vevo), ETL Pipelines/massive data (Qlik). Clojure, Python, Javascript, various Lisps are my daily languages. I can name every programming language and database you've heard of and a few you haven't.
 
-- Would you like to hire someone who hardcodes plaintext passwords and API secrets directly into the codebase, then commits them to a public repo?
-- Someone whose mobile UI looks perfect on their own laptop screen and completely falls apart on everything else?
-- Who responds to performance complaints by adding more RAM to the production server?
-- Who solves database bottlenecks by removing the indexes?
-- Who builds third-party integrations by copy-pasting Stack Overflow answers from 2014, then leaves when it breaks?
-- Who writes mobile apps that request access to your camera, contacts, microphone, and location — just to show a to-do list?
-- Who scrapes websites by clicking through them manually and copy-pasting into Excel?
-- Whose CI/CD pipeline is a shell script named deploy_FINAL_v3_USE_THIS_ONE.sh?
-- Who "containerizes" things by zipping the project folder and emailing it?
-- Who responds to a DDoS attack by Googling "what is DDoS"?
-- Who logs everything to console.log and calls it observability?
-- Who writes end-to-end tests after the app ships, then deletes them when they fail?
-- Who leverages AI tools by asking ChatGPT to do their code reviews and blindly merging whatever it says?
-- Who leads a team by forwarding every decision to the group chat and waiting?
-- Whose open-source contribution history is one README typo fix from 2019?
-- Who hosted one meetup, ran out of pizza in 20 minutes, and never did it again?
-- Who communicates in multiple languages - all of them passive-aggressively?
-- Whose sense of humor consists entirely of "Have you tried turning it off and on again?"
+That's the resume part. Here's the part that might make this letter worth reading.
 
-If that's what you're looking for, then I am not your person.
+The thing I'm most proud of in any given year is usually something nobody asked me to build. An Emacs package for chasing etymologies. A modal keyboard layers for macOS and Linux. A harness for AI coding tools. Complex CLI tool for E2E testing & debugging. None of it was assigned work. Someone on the team eventually starts using one of them, then someone else does, and that's how I end up being the toolsmith on every team I join.
 
-But if you'd like the opposite of all of the above - I'm confident I can meet and exceed your expectations. My diverse industry experience and passion for embracing new technologies can significantly enhance your team's capabilities and contribute positively to your company's success. 
-
-I look forward to the opportunity to discuss how I can be a valuable asset to your organization.
+If that reads as a warning sign, we're probably not a fit and I respect your time. If it reads as "this is who we want when the cluster catches fire at 3am and the runbook is out of date" - we both may enjoy a
+conversation.
 
 Sincerely,
 Ag
-
 
